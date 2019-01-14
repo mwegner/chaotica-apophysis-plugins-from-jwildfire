@@ -1,0 +1,5 @@
+pRose3D.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pRose3D.cpp(123): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pRose3D.cpp(127): error C2065: 'Math': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pRose3D.cpp(128): error C2065: 'Math': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pRose3D.cpp(144): error C2065: 'pContext': undeclared identifier

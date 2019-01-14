@@ -1,0 +1,37 @@
+subflame_wf.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(54): error C2065: 'CM_OFF': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(66): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(68): error C2065: 'RESSOURCE_FLAME': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(68): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(69): error C2065: 'flameXML': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(69): error C2065: 'pValue': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(69): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(69): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(70): error C2065: 'flameXML': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(70): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(71): error C2065: 'flame_filename': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(71): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(73): error C2065: 'RESSOURCE_FLAME_FILENAME': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(73): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(74): error C2065: 'flame_filename': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(74): error C2065: 'pValue': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(74): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(74): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(76): error C2061: syntax error: identifier 'IllegalArgumentException'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(90): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(93): error C3861: 'parseFlame': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(94): error C2065: 'SEQ_CURVE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(94): error C2065: 'flame': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(95): error C2065: 'flame': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(95): error C2065: 'AnimationService': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(96): error C2065: 'sfContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(96): error C2061: syntax error: identifier 'FlameTransformationContext'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(97): error C2065: 'sfContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(97): error C2065: 'flame': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(98): error C3861: 'prefuseIter': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(105): error C3861: 'subflameIter': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(106): error C2065: 'q': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(107): error C2065: 'q': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(108): error C2065: 'q': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(110): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\subflame_wf.cpp(110): error C3861: 'setColor': identifier not found

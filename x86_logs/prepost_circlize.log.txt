@@ -1,0 +1,11 @@
+prepost_circlize.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(53): error C2144: syntax error: 'double' should be preceded by ','
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(59): error C3861: 'lerp': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(60): error C3861: 'lerp': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(63): error C2144: syntax error: 'double' should be preceded by ','
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(69): error C3861: 'lerp': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(70): error C3861: 'lerp': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(78): error C2660: 'uncirclize': function does not take 3 arguments
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(63): note: see declaration of 'uncirclize'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(101): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\prepost_circlize.cpp(103): error C2065: 'pVarTP': undeclared identifier

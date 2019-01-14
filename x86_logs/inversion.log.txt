@@ -1,0 +1,104 @@
+inversion.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(71): error C2065: 'CIRCLE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(71): error C2065: 'IGNORE_RING': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(71): error C2065: 'STANDARD': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(101): error C2061: syntax error: identifier 'boolean'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(103): error C2065: 'draw': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(106): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(106): error C2146: syntax error: missing ';' before identifier 'getDrawGuides'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(106): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(106): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(111): error C2061: syntax error: identifier 'XYZPoint'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(115): error C2760: syntax error: unexpected token ']', expected 'id-expression'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(115): error C2146: syntax error: missing ']' before identifier 'sampled_vals'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(115): error C2061: syntax error: identifier 'sampled_vals'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(116): error C2065: 'DST_DISTANCE_FROM_BOUNDARY': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(117): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(117): error C2065: 'curvePoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(118): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(118): error C2065: 'curvePoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(120): error C2065: 'SRC_DISTANCE_FROM_BOUNDARY': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(121): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(121): error C2065: 'curvePoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(122): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(122): error C2065: 'curvePoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(124): error C2065: 'DST_DISTANCE_FROM_SRC': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(125): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(125): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(126): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(126): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(128): error C2065: 'DST_RADIAL_DIFFERENCE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(131): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(133): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(134): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(135): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(162): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(165): error C2296: '%': illegal, left operand has type 'double'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(165): error C2297: '%': illegal, right operand has type 'double'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(167): error C2296: '%': illegal, left operand has type 'double'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(167): error C2297: '%': illegal, right operand has type 'double'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(170): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(171): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(172): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(174): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(175): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(178): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(179): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(180): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(181): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(183): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(184): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(198): error C2065: 'CIRCLE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(199): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(199): error C2061: syntax error: identifier 'Circle'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(200): error C2065: 'ELLIPSE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(201): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(201): error C2061: syntax error: identifier 'Ellipse'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(202): error C2065: 'HYPERBOLA': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(203): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(203): error C2061: syntax error: identifier 'Hyperbola'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(204): error C2065: 'REGULAR_POLYGON': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(205): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(205): error C2061: syntax error: identifier 'RegularPolygon'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(206): error C2065: 'RHODONEA': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(207): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(207): error C2061: syntax error: identifier 'Rhodonea'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(208): error C2065: 'SUPERSHAPE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(209): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(209): error C2061: syntax error: identifier 'SuperShape'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(210): error C2065: 'SUPERELLIPSE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(211): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(211): error C2061: syntax error: identifier 'SuperEllipse'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(213): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(213): error C2061: syntax error: identifier 'Circle'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(232): error C2065: 'XYZPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(232): error C2146: syntax error: missing ';' before identifier 'srcPoint'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(232): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(232): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(233): error C2065: 'srcPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(233): error C2065: 'pAffineTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(234): error C2065: 'dstPoint': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(234): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(239): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(242): error C2065: 'IGNORE_RING': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(243): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(243): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(244): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(245): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(248): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(248): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(249): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(250): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(270): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(271): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(271): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(272): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(273): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(298): error C2065: 'shape': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(298): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(299): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(300): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(301): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(302): error C2065: 'EXTERNAL_INVERSION_ONLY': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(305): error C2065: 'INTERNAL_INVERSION_ONLY': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\inversion.cpp(305): fatal error C1003: error count exceeds 100; stopping compilation

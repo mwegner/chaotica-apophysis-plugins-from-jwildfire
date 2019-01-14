@@ -1,0 +1,28 @@
+gosperisland_js.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(54): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(54): error C2061: syntax error: identifier 'Turtle'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(55): error C3861: 'gosper': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(56): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(57): error C3861: 'gosper': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(58): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(59): error C3861: 'gosper': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(60): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(61): error C3861: 'gosper': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(62): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(63): error C3861: 'gosper': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(64): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(65): error C3861: 'gosper': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(66): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(72): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(74): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(76): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(78): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(80): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(103): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(103): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(104): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(105): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(107): error C2065: 'turtle': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(107): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(108): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\gosperisland_js.cpp(109): error C2065: 'endpoint2': undeclared identifier

@@ -1,0 +1,12 @@
+hyperbolicellipse.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(63): error C2065: 'a': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(63): error C2065: 'y': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(63): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(63): error C2065: 'k': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(63): error C2065: 'x': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(64): error C2065: 'a': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(64): error C2065: 'y': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(64): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(64): error C2065: 'k': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(64): error C2065: 'x': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hyperbolicellipse.cpp(67): error C2065: 'xy': undeclared identifier

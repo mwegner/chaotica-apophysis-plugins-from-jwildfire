@@ -1,0 +1,9 @@
+pre_wave3D_wf.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_wave3D_wf.cpp(97): error C2065: 'VectorD': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_wave3D_wf.cpp(97): error C2146: syntax error: missing ';' before identifier 'd'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_wave3D_wf.cpp(97): error C2065: 'd': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_wave3D_wf.cpp(97): error C2061: syntax error: identifier 'VectorD'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_wave3D_wf.cpp(98): error C2065: 'd': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_wave3D_wf.cpp(99): error C2065: 'd': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_wave3D_wf.cpp(100): error C2065: 'd': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_wave3D_wf.cpp(101): error C2065: 'd': undeclared identifier

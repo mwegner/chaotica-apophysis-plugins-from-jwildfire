@@ -1,0 +1,14 @@
+iconattractor_js.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(37): error C2065: 'pdeg': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(37): error C2065: 'presetId': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(38): error C2065: 'pa': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(38): error C2065: 'presetId': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(39): error C2065: 'pb': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(39): error C2065: 'presetId': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(40): error C2065: 'pg': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(40): error C2065: 'presetId': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(41): error C2065: 'po': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(41): error C2065: 'presetId': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(42): error C2065: 'pl': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(42): error C2065: 'presetId': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\iconattractor_js.cpp(67): error C2065: 'pdeg': undeclared identifier

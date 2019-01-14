@@ -1,0 +1,74 @@
+colordomain.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(52): error C2061: syntax error: identifier 'Layer'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(54): error C2065: 'super': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(54): error C2065: 'pLayer': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(54): error C2065: 'pXForm': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(58): error C2065: 'cf_runner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(58): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(59): error C3861: 'compile': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(63): error C2146: syntax error: missing ';' before identifier 'dynamicParameterExpansion'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(63): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(63): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(68): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(68): error C2086: 'int boolean': redefinition
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(63): note: see declaration of 'boolean'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(68): error C2146: syntax error: missing ';' before identifier 'dynamicParameterExpansion'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(68): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(68): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(90): error C2065: 'cf_runner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(90): error C2065: 'ComplexFuncRunner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(90): error C2065: 'code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(91): error C2061: syntax error: identifier 'Throwable'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(91): error C2310: catch handlers must specify one type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(92): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(93): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(93): error C2065: 'ex': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(94): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(95): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(95): error C2065: 'code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(96): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(103): error C2065: 'code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(103): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(104): error C2065: 'ComplexFuncRunner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(104): error C2065: 'code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(106): error C2061: syntax error: identifier 'Throwable'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(106): error C2310: catch handlers must specify one type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(107): error C2061: syntax error: identifier 'RuntimeException'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(111): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(113): error C2065: 'RESSOURCE_CODE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(113): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(114): error C2065: 'code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(114): error C2065: 'pValue': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(114): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(114): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(116): error C2061: syntax error: identifier 'IllegalArgumentException'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(131): error C2065: 'cf_runner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(131): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(148): error C2065: 'Complex': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(148): error C2146: syntax error: missing ';' before identifier 'c'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(148): error C2065: 'c': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(148): error C2061: syntax error: identifier 'Complex'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(150): error C2065: 'Complex': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(152): error C2065: 'v': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(152): error C2065: 'cf_runner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(156): error C2065: 'v': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(156): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(157): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(158): error C2065: 'v': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(159): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(161): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(165): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(166): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(166): error C2661: 'pow': no overloaded function takes 1 arguments
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(167): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(168): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(169): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(170): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(170): error C2661: 'pow': no overloaded function takes 1 arguments
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(171): error C3688: invalid literal suffix 'D'; literal operator or literal operator template 'operator ""D' not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(172): error C3861: 'SetHSV': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(175): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(177): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(178): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\colordomain.cpp(179): error C2065: 'pVarTP': undeclared identifier

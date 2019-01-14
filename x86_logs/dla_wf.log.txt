@@ -1,0 +1,10 @@
+dla_wf.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(40): error C2065: 'point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(40): error C2923: 'std::vector': 'point' is not a valid template type argument for parameter '_Ty'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(40): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(60): error C2061: syntax error: identifier 'Layer'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(62): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(64): error C3861: 'getPoints': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(73): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(75): error C3861: 'getPoints': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\dla_wf.cpp(82): error C3861: 'getRandomPoint': identifier not found

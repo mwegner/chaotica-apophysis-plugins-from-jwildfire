@@ -1,0 +1,61 @@
+polylogarithm.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(67): error C2065: 'Riem': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(67): error C2061: syntax error: identifier 'RiemannInt'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(78): error C2065: 'Complex': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(78): error C2146: syntax error: missing ';' before identifier 'z'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(78): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(78): error C2061: syntax error: identifier 'Complex'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(79): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(80): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(81): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(82): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(83): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(87): error C2065: 'Complex': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(87): error C2146: syntax error: missing ';' before identifier 'LiN'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(87): error C2065: 'LiN': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(87): error C2061: syntax error: identifier 'Complex'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(89): error C2065: 'Complex': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(89): error C2146: syntax error: missing ';' before identifier 'T'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(89): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(89): error C2061: syntax error: identifier 'Complex'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(90): error C2065: 'Complex': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(92): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(94): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(94): error C2061: syntax error: identifier 'Complex'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(95): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(95): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(96): error C2065: 'LiN': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(96): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(97): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(99): error C2065: 'LiN': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(100): error C2065: 'LiN': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(105): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(106): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(107): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(110): error C2065: 'Riem': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(112): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(112): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(113): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(113): error C2065: 'cern': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(114): error C2065: 'LiN': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(114): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(117): error C2065: 'zPl1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(117): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(119): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(121): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(122): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(123): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(124): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(125): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(126): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(126): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(127): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(127): error C2065: 'zPl1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(128): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(128): error C2065: 'cern': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(129): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(129): error C2065: 'T': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(130): error C2065: 'LiN': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(130): error C2065: 'z': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(131): error C2065: 'LiN': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\polylogarithm.cpp(132): error C2065: 'LiN': undeclared identifier

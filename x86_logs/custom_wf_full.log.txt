@@ -1,0 +1,112 @@
+custom_wf_full.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(46): error C2065: 'full_variation': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(46): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(47): error C2065: 'full_variation': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(47): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(51): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(53): error C2065: 'full_variation': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(53): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(54): error C2065: 'full_variation': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(54): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(60): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(62): error C2065: 'DEBUG': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(63): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(63): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(65): error C2065: 'RESSOURCE_CODE': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(65): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(66): error C2065: 'pValue': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(66): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(67): error C2065: 'DEBUG': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(68): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(70): error C2065: 'filtered_code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(71): error C2065: 'full_variation': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(71): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(74): error C2065: 'String': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(74): error C2146: syntax error: missing ';' before identifier 'new_code'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(74): error C2065: 'new_code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(74): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(75): error C2065: 'new_code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(75): error C2065: 'code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(76): error C2065: 'DEBUG': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(77): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(81): error C2065: 'code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(81): error C2065: 'new_code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(82): error C2065: 'StringBuffer': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(82): error C2146: syntax error: missing ';' before identifier 'bufcode'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(82): error C2065: 'bufcode': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(82): error C2061: syntax error: identifier 'StringBuffer'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(83): error C2065: 'Scanner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(85): error C2065: 'codescanner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(86): error C2065: 'String': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(86): error C2146: syntax error: missing ';' before identifier 'line'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(86): error C2065: 'line': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(86): error C2065: 'codescanner': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(88): error C2065: 'line': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(89): error C2065: 'DEBUG': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(90): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(90): error C2065: 'line': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(94): error C2065: 'line': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(94): error C2065: 'classDeclRegex': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(96): error C2065: 'Matcher': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(96): error C2146: syntax error: missing ';' before identifier 'mtch'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(96): error C2065: 'mtch': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(96): error C2065: 'classDecl': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(96): error C2065: 'line': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(97): error C2065: 'String': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(97): error C2146: syntax error: missing ';' before identifier 'modline'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(97): error C2065: 'modline': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(97): error C2065: 'line': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(98): error C2065: 'mtch': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(99): error C2065: 'String': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(99): error C2146: syntax error: missing ';' before identifier 'funcClass'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(99): error C2065: 'funcClass': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(99): error C2065: 'mtch': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(100): error C2065: 'String': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(100): error C2146: syntax error: missing ';' before identifier 'remainder'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(100): error C2065: 'mtch': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(101): error C2065: 'DEBUG': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(102): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(102): error C2065: 'line': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(103): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(103): error C2065: 'funcClass': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(104): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(104): error C2563: mismatch in formal parameter list
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(104): error C2568: '+': unable to resolve function overload
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(104): note: could be 'conditional<_Test,_Ty1,_Ty2>::type remainder(_Ty1,_Ty2)'
+        with
+        [
+            _Ty1=long double,
+            _Ty2=conditional<_Test,float,double>::type
+        ]
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(104): note: or       'long double remainder(long double,long double) noexcept'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(104): note: or       'float remainder(float,float) noexcept'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(104): note: or       'double remainder(double,double)'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(106): error C2065: 'builtin_variations': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(106): error C2065: 'funcClass': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(106): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(107): error C2065: 'String': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(107): error C2146: syntax error: missing ';' before identifier 'newClassName'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(107): error C2065: 'newClassName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(107): error C2065: 'funcClass': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(108): error C2065: 'modline': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(108): error C2065: 'newClassName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(109): error C2065: 'DEBUG': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(110): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(110): error C2065: 'Class': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(110): error C2146: syntax error: missing ')' before identifier 'builtin_variations'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(111): error C2065: 'System': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(111): error C2065: 'modline': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(115): error C2065: 'bufcode': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(115): error C2065: 'modline': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(116): error C2065: 'bufcode': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(118): error C2065: 'bufcode': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(118): error C2065: 'line': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(119): error C2065: 'bufcode': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(122): error C2065: 'filtered_code': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(122): error C2065: 'bufcode': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(123): error C3861: 'validate': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(125): error C2065: 'full_variation': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(125): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(126): error C2065: 'full_variation': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(126): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\custom_wf_full.cpp(126): fatal error C1003: error count exceeds 100; stopping compilation

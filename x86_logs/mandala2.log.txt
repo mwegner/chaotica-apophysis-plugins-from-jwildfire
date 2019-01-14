@@ -1,0 +1,117 @@
+mandala2.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C2143: syntax error: missing ')' before '->'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C3928: '->': trailing return type is not allowed after a parenthesized declarator
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C2082: redefinition of formal parameter 'vp'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C2146: syntax error: missing ';' before identifier 'var'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C2065: 'var': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C2059: syntax error: ')'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C2065: 'r': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(77): error C2065: 'gr': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(79): error C2065: 'Color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(79): error C2146: syntax error: missing ';' before identifier 'color'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(79): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(79): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(81): error C2065: 'colors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(81): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(85): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(85): error C2065: 'Color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(88): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(89): error C2065: 'r': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(90): error C2065: 'gr': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(91): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(91): error C2061: syntax error: identifier 'Color'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(95): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(96): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(99): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(99): error C2065: 'Color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(103): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(104): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(106): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(106): error C2065: 'Color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(106): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(107): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(107): error C2065: 'Color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(109): error C2065: 'b': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(110): error C2065: 'r': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(111): error C2065: 'gr': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(112): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(112): error C2061: syntax error: identifier 'Color'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(116): error C2065: 'colors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(116): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(126): error C2540: non-constant expression as array bound
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(126): error C2440: '=': cannot convert from 'int (*)[1]' to 'int'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(126): note: There is no context in which this conversion is possible
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(134): error C2039: 'getX': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(135): error C2039: 'getY': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(139): error C2039: 'setX': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(140): error C2039: 'setY': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(143): error C2061: syntax error: identifier 'boolean'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(190): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(191): error C3861: 'adjust_skew_maps': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(202): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(205): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(212): error C2440: '=': cannot convert from 'int *' to 'int'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(212): note: There is no context in which this conversion is possible
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(213): error C2440: '=': cannot convert from 'int *' to 'int'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(213): note: There is no context in which this conversion is possible
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(214): error C2440: '=': cannot convert from 'int *' to 'int'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(214): note: There is no context in which this conversion is possible
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(226): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(227): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(228): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(232): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(240): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(241): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(255): error C2061: syntax error: identifier 'Layer'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(257): error C2065: 'super': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(257): error C2065: 'pLayer': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(257): error C2065: 'pXForm': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(270): error C2065: 'skew_dat': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(272): error C3861: 'drawMap': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(275): error C2061: syntax error: identifier 'boolean'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(286): error C2660: 'set_up_skews': function does not take 5 arguments
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(143): note: see declaration of 'set_up_skews'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(294): error C2065: 'colors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(294): error C2061: syntax error: identifier 'Color'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(298): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(304): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(306): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(308): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(328): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(331): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(334): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(336): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(338): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(351): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(351): error C2146: syntax error: missing ';' before identifier 'inrange'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(351): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(351): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(359): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(359): error C2086: 'int boolean': redefinition
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(351): note: see declaration of 'boolean'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(359): error C2146: syntax error: missing ';' before identifier 'dynamicParameterExpansion'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(359): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(359): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(364): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(364): error C2086: 'int boolean': redefinition
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(351): note: see declaration of 'boolean'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(364): error C2146: syntax error: missing ';' before identifier 'dynamicParameterExpansion'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(364): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(364): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(405): error C2065: 'Color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(405): error C2146: syntax error: missing ';' before identifier 'col'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(405): error C2065: 'col': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(411): error C2661: 'Point::Point': no overloaded function takes 2 arguments
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(412): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(413): error C2065: 'col': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(413): error C2065: 'colors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(413): error C2109: subscript requires array or pointer type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(415): error C3861: 'inrange': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(416): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandala2.cpp(416): fatal error C1003: error count exceeds 100; stopping compilation

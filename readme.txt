@@ -27,39 +27,57 @@ On the build tools install, I just used default C/C++ selection, and it worked o
 batch file to use other VS environments.
 
 
-USAGE:
-------
+BUILD AUTOMATION:
+-----------------
 
 Run build.cmd with no arguments to compile all variations in the "sources" folder.  It drops 64-bit/32-bit versions into
-x64/x32 folders.
+x64/x86 folders.  Logs with warnings/errors go into x64/x86.
 
 You can also invoke build.cmd with the name of a variation, without extension, like:  "build.cmd twoface"
 
 
+JWILDFIRE:
+----------
+
+Initially, I built this automation to make it easier to hand-port some of the JWildfire variations that I favor. I've been
+using JW more and more for structure work, with Chaotica as my final render step.
+
+If you completely normalize the variable names, you can paste directly into Chaotica, to avoid having to use the old JW 2.50
+Chaotica Bridge integration.  The problem is, lots of plugins aren't named well for this.  JW saves out "plugin_variable", and
+Chaotica wants this to match *exactly*.  Lots of plugins don't prefix.
+
+So one night, I started work on a quick-and-dirty PHP script to automatically convert the Java files into the C/C++ template.
+I go to a few hundred variations compiling in a few hours over night, so poked it a few times over the next few days.
+
+Currently, 500 of the possible 549 variations are compiling.  The ones that aren't either have some complicated classes doing things,
+or are maybe using JW-specific features like layers.
+
+I have no idea how many are failing to render correctly (or even crashing).  I'll try to automate testing them soon.
+
+If this fits your workflow, and you hit some problems, feel free to raise an issue here!
+
+The conversion script is included here, if you want to shake your head at a total ball of tangled regular expression yarn.
+
+I don't think it'll be hard to go from Chaotica _back_ to JWildfire intact, which will be my next tool.  I regularly decide things
+could use major structural changes after coloring/tweaking, but that's hard with the UI in Chao, unfortunately.
+
+The conversion process has an "overrides" folder.  It copies those contents into the output after conversion.  Some of these are
+the original Apophysis plugin C source, when a variation came from there, and some are just hand-tweaked files that hit a corner
+case on my parsing.  It's very sloppy parsing.
+
 NOTES:
 ------
 
-C/C++ is absolutely not my thing, so feel free to suggest improvements or changes!
+If you want the basic plugin template, check the first revision here.  I modified things pretty heavily during the JW port project.
 
-In particular, I'm not catching any errors/failures, because I wanted to keep things simple.  That sort of stuff would
-be better suited to a "real" scripting language handling the build.  I guess PowerShell ships out with Windows 10 these
-days, but I've never touched it.
+Specifically, there are some extra helpers for bringing in an instance of a better random number generator.  Currently it's a library
+doing SIMD-accelerate Mersenne Twister, but I'm not sure offhand is there's a better option.
 
-Some modifications:
+Some of the 32-bit DLLs aren't compiling, I think from the complex number library I brought in to help some things.  I don't think
+anyone really uses 32-bit anything anymore, though?
 
-- Switched to <cmath> instead of <math.h> to fix some ambigious abs() calls (or can update to use fabs)
-
-- Added missing VAR_REAL_NONZERO macro
-
-- I did a gross thing in plugin_var.h to work around variadic macros with an empty APO_VARIABLES().  Comments in
-- plugin_var.h
-
-
-And things that seem to break, I think from Visual Studio compiler differences:
-
-- Some plugins use a d literal suffix, which is uneeded (i.e. 0.9999999d)
-
-- Inline functions inside of other functions won't compile.  Just move outside of a function definition block
+Sorry for the mess.  C/C++ is absolutely NOT my thing.  I think this is the most C code I've ever written in my whole life, and I've
+been a full-time programming in some sense for awhile now.
 
 
 ME:

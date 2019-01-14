@@ -1,0 +1,2 @@
+mandelbrot.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\mandelbrot.cpp(112): warning C4018: '>=': signed/unsigned mismatch

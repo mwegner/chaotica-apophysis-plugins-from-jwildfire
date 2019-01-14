@@ -1,0 +1,6 @@
+circleTrans1.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleTrans1.cpp(76): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleTrans1.cpp(77): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleTrans1.cpp(107): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleTrans1.cpp(108): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleTrans1.cpp(101): warning C4101: 'Z': unreferenced local variable

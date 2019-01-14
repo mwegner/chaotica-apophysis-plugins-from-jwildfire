@@ -1,0 +1,24 @@
+sphtiling3v2.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(27): error C2059: syntax error: 'constant'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(75): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(75): error C2065: 'xy': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(77): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(83): error C2065: 'xy': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(84): error C2065: 'xy': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(85): error C2065: 'spherical': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(85): error C2065: 'pXForm': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(85): error C2065: 'xy': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(85): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(86): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(87): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(89): error C2065: 'spherical': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(89): error C2065: 'pXForm': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(89): error C2065: 'xy': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(89): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(90): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(91): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(92): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(101): error C2065: 'xy': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(101): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(103): error C2065: 'uv': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphtiling3v2.cpp(104): error C2065: 'uv': undeclared identifier

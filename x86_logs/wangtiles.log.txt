@@ -1,0 +1,105 @@
+wangtiles.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(72): error C2061: syntax error: identifier 'XForm'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(74): error C2065: 'pInputX': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(75): error C2065: 'pInputY': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(78): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(79): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(81): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(82): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(105): error C2065: 'colorMap': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(105): error C2146: syntax error: missing ')' before identifier 'instanceof'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(105): error C2065: 'instanceof': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(105): error C2146: syntax error: missing ';' before identifier 'SimpleImage'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(105): error C2059: syntax error: ')'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(105): error C2065: 'SimpleImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(106): error C2059: syntax error: 'if'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(106): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(107): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(108): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(109): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(109): error C2065: 'SimpleImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(109): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(111): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(112): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(113): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(114): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(114): error C2065: 'SimpleImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(114): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(116): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(117): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(118): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(119): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(119): error C2065: 'SimpleImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(119): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(121): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(122): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(123): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(124): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(124): error C2065: 'SimpleImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(124): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(126): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(127): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(128): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(129): error C2065: 'GfxMathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(130): error C2065: 'GfxMathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(131): error C2065: 'GfxMathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(132): error C2181: illegal else without matching if
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(133): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(133): error C2065: 'SimpleImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(133): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(135): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(136): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(137): error C2065: 'toolPixel': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(140): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(141): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(142): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(143): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(147): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(148): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(150): error C2065: 'SimpleHDRImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(150): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(151): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(152): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(153): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(154): error C2065: 'SimpleHDRImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(154): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(155): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(156): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(157): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(158): error C2065: 'SimpleHDRImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(158): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(159): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(160): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(161): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(162): error C2065: 'SimpleHDRImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(162): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(163): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(164): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(165): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(166): error C2065: 'GfxMathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(167): error C2065: 'GfxMathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(168): error C2065: 'GfxMathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(170): error C2065: 'SimpleHDRImage': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(170): error C2146: syntax error: missing ')' before identifier 'colorMap'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(171): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(172): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(173): error C2065: 'rgbArray': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(176): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(177): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(178): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(179): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(182): error C2059: syntax error: 'else'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(182): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(182): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(191): error C2065: 'vp': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(192): error C2059: syntax error: 'if'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(192): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(192): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(196): error C2059: syntax error: 'if'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(196): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(196): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(198): error C2059: syntax error: 'else'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(198): error C2143: syntax error: missing ';' before '{'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(198): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(201): error C2059: syntax error: 'if'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wangtiles.cpp(201): fatal error C1003: error count exceeds 100; stopping compilation

@@ -1,0 +1,13 @@
+maurer_rose.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(78): error C2061: syntax error: identifier 'DoublePoint2D'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(81): error C2065: 'result': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(82): error C2065: 'result': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(123): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(124): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(125): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(126): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(127): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(128): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(181): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(182): error C2065: 'curve_point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\maurer_rose.cpp(183): error C2065: 'curve_point': undeclared identifier

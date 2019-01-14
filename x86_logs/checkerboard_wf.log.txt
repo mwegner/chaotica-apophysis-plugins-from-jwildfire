@@ -1,0 +1,2 @@
+checkerboard_wf.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\checkerboard_wf.cpp(87): warning C4244: '=': conversion from 'double' to 'int', possible loss of data

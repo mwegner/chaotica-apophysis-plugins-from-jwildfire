@@ -1,0 +1,7 @@
+wallpaper_js.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wallpaper_js.cpp(54): error C2065: 'Flame': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wallpaper_js.cpp(54): error C2146: syntax error: missing ';' before identifier 'flame'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wallpaper_js.cpp(54): error C2065: 'flame': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wallpaper_js.cpp(54): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wallpaper_js.cpp(55): error C2065: 'flame': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\wallpaper_js.cpp(65): error C2065: 'Integer': undeclared identifier

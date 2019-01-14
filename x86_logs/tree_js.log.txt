@@ -1,0 +1,29 @@
+tree_js.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(78): error C2065: 'xpoints': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(79): error C2065: 'ypoints': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(80): error C2065: 'xpoints': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(81): error C2065: 'ypoints': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(92): error C2061: syntax error: identifier 'DoublePoint2D'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(94): error C2065: 'result': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(94): error C2065: 'xpoints': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(95): error C2065: 'result': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(95): error C2065: 'ypoints': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(97): error C2065: 'xpoints': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(132): error C2065: 'DoublePoint2D': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(132): error C2146: syntax error: missing ';' before identifier 'out'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(132): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(132): error C2061: syntax error: identifier 'DoublePoint2D'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(134): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(135): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(136): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(137): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(138): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(139): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(144): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(144): error C3861: 'plotLine': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(146): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(146): error C3861: 'plotPoint': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(148): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(149): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(151): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\tree_js.cpp(152): error C2065: 'out': undeclared identifier

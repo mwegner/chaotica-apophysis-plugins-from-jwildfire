@@ -1,0 +1,13 @@
+rhodonea.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(88): error C2296: '%': illegal, left operand has type 'double'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(89): error C2296: '%': illegal, left operand has type 'double'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(99): error C2296: '%': illegal, left operand has type 'double'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(104): error C2065: 'BigInteger': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(104): error C2146: syntax error: missing ';' before identifier 'bigkn'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(104): error C2065: 'bigkn': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(105): error C2065: 'BigInteger': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(105): error C2146: syntax error: missing ';' before identifier 'bigkd'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(105): error C2065: 'bigkd': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(106): error C2065: 'bigkn': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(106): error C2065: 'bigkd': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\rhodonea.cpp(117): error C2296: '%': illegal, left operand has type 'double'

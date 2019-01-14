@@ -1,0 +1,71 @@
+plane_wf.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(66): error C2065: 'displacementMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(67): error C2065: 'displacementMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(68): error C2065: 'displacementMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(69): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(70): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(71): error C2065: 'displacementMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(76): error C2061: syntax error: identifier 'XYZPoint'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(81): error C2065: 'v': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(84): error C2065: 'v': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(84): error C2065: 'u': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(87): error C2065: 'u': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(87): error C2065: 'colorMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(88): error C2065: 'v': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(88): error C2065: 'colorMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(89): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(90): error C2065: 'MathLib': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(91): error C2065: 'colorMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(91): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(93): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(93): error C3861: 'getUVColorIdx': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(99): error C2065: 'u': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(108): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(112): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(114): error C2065: 'RESSOURCE_COLORMAP_FILENAME': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(114): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(115): error C2065: 'colorMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(115): error C2065: 'pValue': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(115): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(115): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(116): error C2065: 'RESSOURCE_DISPL_MAP_FILENAME': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(116): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(117): error C2065: 'displacementMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(117): error C2065: 'pValue': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(117): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(117): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(119): error C2061: syntax error: identifier 'IllegalArgumentException'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(124): error C2065: 'RenderColor': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(124): error C2146: syntax error: missing ';' before identifier 'pColor'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(124): error C2065: 'pColor': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(124): error C2061: syntax error: identifier 'RenderColor'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(125): error C2065: 'Double': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(126): error C2065: 'res': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(126): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(129): error C2065: 'RenderColor': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(129): error C2146: syntax error: missing ';' before identifier 'color'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(129): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(129): error C2065: 'uvColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(131): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(132): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(133): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(135): error C2065: 'uvColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(136): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(136): error C2065: 'uvColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(137): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(138): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(139): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(146): error C2065: 'res': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(146): error C2065: 'uvColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(147): error C2065: 'uvIdxMap': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(147): error C2065: 'pColor': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(147): error C2065: 'res': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(149): error C2065: 'res': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(156): error C2065: 'colorMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(157): error C2065: 'uvColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(157): error C2065: 'pLayer': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(157): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(158): error C2065: 'displacementMapHolder': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(171): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(179): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\plane_wf.cpp(187): error C2065: 'pVarTP': undeclared identifier

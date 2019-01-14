@@ -1,0 +1,19 @@
+hilbert_js.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(90): error C2065: 'DoublePoint2D': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(90): error C2146: syntax error: missing ';' before identifier 'out'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(90): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(90): error C2061: syntax error: identifier 'DoublePoint2D'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(92): error C2065: 'hilbert': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(92): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(93): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(94): error C2065: 'endpoint1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(95): error C2065: 'hilbert': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(95): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(96): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(97): error C2065: 'endpoint2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(102): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(102): error C3861: 'plotLine': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(104): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(104): error C3861: 'plotPoint': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(106): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hilbert_js.cpp(107): error C2065: 'out': undeclared identifier

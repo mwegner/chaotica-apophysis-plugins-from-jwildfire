@@ -1,0 +1,62 @@
+svg_wf.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(41): error C2065: 'point': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(41): error C2923: 'std::vector': 'point' is not a valid template type argument for parameter '_Ty'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(41): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(68): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(70): error C2065: 'RESSOURCE_SVG': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(70): error C2065: 'pName': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(71): error C2065: 'svg': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(71): error C2065: 'pValue': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(71): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(71): error C2061: syntax error: identifier 'String'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(72): error C2065: 'null': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(74): error C2061: syntax error: identifier 'IllegalArgumentException'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(83): error C2065: 'RenderColor': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(83): error C2146: syntax error: missing ';' before identifier 'color'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(83): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(83): error C2065: 'renderColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(85): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(86): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(87): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(89): error C2065: 'renderColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(90): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(90): error C2065: 'renderColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(91): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(92): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(93): error C2065: 'color': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(100): error C2065: 'renderColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(114): error C2065: 'renderColors': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(114): error C2065: 'pLayer': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(114): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(116): error C2065: 'pContext': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(134): error C2065: 'List': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(134): error C2275: 'Point': illegal use of this type as an expression
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(11): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(134): error C2065: 'points': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(134): error C3861: 'getPoints': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(135): error C2065: 'points': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(136): error C2065: 'points': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(136): error C2660: 'CRandomSFMT::IRandom': function does not take 1 arguments
+c:\users\matthew\clionprojects\chaoticaplugins\plugin_include\sfmt.cpp(294): note: see declaration of 'CRandomSFMT::IRandom'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(148): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(149): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(149): error C2039: 'r': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(150): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(150): error C2039: 'g': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(151): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(151): error C2039: 'b': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(153): error C2039: 'r': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(153): error C2039: 'g': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(153): error C2039: 'b': is not a member of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_include\datahelpers.h(7): note: see declaration of 'Point'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(153): error C2660: 'getColorIdx': function does not take 1 arguments
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(77): note: see declaration of 'getColorIdx'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(157): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(158): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(159): error C2065: 'pVarTP': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\svg_wf.cpp(160): error C2065: 'pVarTP': undeclared identifier

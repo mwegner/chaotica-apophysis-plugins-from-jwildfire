@@ -1,0 +1,22 @@
+brownian_js.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(92): error C2065: 'DoublePoint2D': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(92): error C2146: syntax error: missing ';' before identifier 'p1'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(92): error C2065: 'p1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(92): error C2061: syntax error: identifier 'DoublePoint2D'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(93): error C2065: 'DoublePoint2D': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(95): error C2065: 'DoublePoint2D': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(95): error C2146: syntax error: missing ';' before identifier 'out'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(95): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(95): error C2061: syntax error: identifier 'DoublePoint2D'
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(97): error C2065: 'canvas': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(97): error C2065: 'p1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(97): error C2065: 'p2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(101): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(101): error C2065: 'p1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(101): error C2065: 'p2': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(101): error C3861: 'pLine': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(103): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(103): error C2065: 'p1': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(103): error C3861: 'pDot': identifier not found
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(105): error C2065: 'out': undeclared identifier
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\brownian_js.cpp(106): error C2065: 'out': undeclared identifier

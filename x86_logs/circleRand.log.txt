@@ -1,0 +1,5 @@
+circleRand.cpp
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleRand.cpp(79): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleRand.cpp(80): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleRand.cpp(71): warning C4101: 'V': unreferenced local variable
+C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\circleRand.cpp(71): warning C4101: 'Z': unreferenced local variable
