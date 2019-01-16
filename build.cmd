@@ -21,7 +21,7 @@ call "%VSPATH%\VsDevCmd.bat" -arch=amd64 -host_arch=amd64
 mkdir temp
 cd temp
 
-CL.exe /std:c++17e /c /Zi /W3 /WX- /Ox /O2 /Oi /GL /D NO_ASM /D X64 /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Gd /TP /errorReport:queue /FS ../plugin_include/c8lib.cpp
+CL.exe /std:c++17 /c /Zi /W3 /WX- /Ox /O2 /Oi /GL /D NO_ASM /D X64 /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Gd /TP /errorReport:queue /FS ../plugin_include/c8lib.cpp
 
 for /R ..\plugin_source %%f in (%SEARCH%.c*) do (
   echo Building X64: %%f
@@ -49,7 +49,7 @@ call "%VSPATH%\VsDevCmd.bat" -arch=x86 -host_arch=x86
 mkdir temp
 cd temp
 
-CL.exe /std:c++17e /c /Zi /W3 /WX- /Ox /O2 /Oi /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Gd /TP /errorReport:queue /FS ../plugin_include/c8lib.cpp
+CL.exe /std:c++17 /c /Zi /W3 /WX- /Ox /O2 /Oi /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Gd /TP /errorReport:queue /FS ../plugin_include/c8lib.cpp
 
 for /R ..\plugin_source %%f in (%SEARCH%.c*) do (   
 
