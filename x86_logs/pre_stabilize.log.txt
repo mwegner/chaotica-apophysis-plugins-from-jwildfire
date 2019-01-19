@@ -1,2 +1,0 @@
-pre_stabilize.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\pre_stabilize.cpp(49): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion

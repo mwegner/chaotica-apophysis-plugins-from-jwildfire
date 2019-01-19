@@ -1,3 +1,0 @@
-anamorphcyl.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\anamorphcyl.cpp(63): error C2065: 'k': undeclared identifier
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\anamorphcyl.cpp(64): error C2065: 'k': undeclared identifier

@@ -1,2 +1,0 @@
-cubicLattice_3D.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\cubicLattice_3D.cpp(95): warning C4244: '=': conversion from 'double' to 'int', possible loss of data

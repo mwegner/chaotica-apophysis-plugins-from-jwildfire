@@ -1,2 +1,0 @@
-sphericalN.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\sphericalN.cpp(56): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data

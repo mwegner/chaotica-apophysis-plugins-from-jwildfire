@@ -1,4 +1,0 @@
-arctanh.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\arctanh.cpp(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\arctanh.cpp(46): error C2039: 'goodRandom': is not a member of 'Variables'
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\arctanh.cpp(21): note: see declaration of 'Variables'

@@ -1,2 +1,0 @@
-nBlur.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\nBlur.cpp(129): warning C4553: '==': result of expression not used; did you intend '='?

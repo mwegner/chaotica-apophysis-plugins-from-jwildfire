@@ -1,4 +1,0 @@
-hexaplay3D.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hexaplay3D.cpp(66): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hexaplay3D.cpp(103): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hexaplay3D.cpp(108): warning C4244: '=': conversion from 'double' to 'int', possible loss of data

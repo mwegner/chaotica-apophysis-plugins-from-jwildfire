@@ -1,6 +1,0 @@
-hexnix3D.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hexnix3D.cpp(76): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hexnix3D.cpp(113): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hexnix3D.cpp(118): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hexnix3D.cpp(208): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\hexnix3D.cpp(223): warning C4244: '=': conversion from 'double' to 'int', possible loss of data

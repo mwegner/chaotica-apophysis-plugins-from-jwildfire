@@ -1,2 +1,0 @@
-cubic3D.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\cubic3D.cpp(118): warning C4244: '=': conversion from 'double' to 'int', possible loss of data

@@ -1,3 +1,0 @@
-xtrb.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\xtrb.cpp(268): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\xtrb.cpp(270): warning C4244: '=': conversion from 'double' to 'int', possible loss of data

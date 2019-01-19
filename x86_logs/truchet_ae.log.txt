@@ -1,2 +1,0 @@
-truchet_ae.cpp
-C:\Users\Matthew\CLionProjects\ChaoticaPlugins\plugin_source\truchet_ae.cpp(96): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data

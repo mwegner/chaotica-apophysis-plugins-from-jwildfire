@@ -1,31 +1,7 @@
-INTRO:
-------
-
-There are a few different templates for Apophysis plugin compilation out there, but I hadn't seen one that automates
-compilation.
-
-This takes the [plugin development template by DarkBeam and bezo97](https://bezo97.tk/plugins/development),
-
-And automates compilation with a batch file.  It expects to find Visual Studio 2017 Build Tools, [which are free to download](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15).
-
-On the build tools install, I just used default C/C++ selection, and it worked out. You should be able to update the
-batch file to use other VS environments.
-
-
-BUILD AUTOMATION:
------------------
-
-Run **build.cmd** with no arguments to compile all variations in the "sources" folder.  It drops 64-bit/32-bit versions into
-x64/x86 folders.  Logs with warnings/errors go into x64/x86.
-
-You can also invoke build.cmd with the name of a variation, without extension, like:  "build.cmd twoface"
-
-
 JWILDFIRE:
 ----------
 
-Initially, I built this automation to make it easier to hand-port some of the JWildfire variations that I favor. I've been
-using JW more and more for structure work, with Chaotica as my final render step.
+I've been using JW more and more for structure work, with Chaotica as my final render step.
 
 If you completely normalize the variable names, you can paste directly into Chaotica, to avoid having to use the old JW 2.50
 Chaotica Bridge integration.  The problem is, lots of plugins aren't named well for this.  JW saves out `plugin_variable`, and
@@ -33,8 +9,7 @@ Chaotica wants this to match *exactly*.  Lots of plugins don't prefix.
 
 So one night, I started work on a quick-and-dirty PHP script to automatically convert the Java files into the C/C++ template.  I got to a few hundred variations compiling in a few hours over night, so poked it a few times over the next few days.
 
-Currently, 500 of the possible 549 variations are compiling.  The ones that aren't either have some complicated classes doing things,
-or are maybe using JW-specific features like layers.
+Currently, 500 of the possibly-compatible 549 variations are compiling.  The ones that aren't either have some complicated classes doing things, or are maybe using JW-specific features like layers.
 
 I have no idea how many are failing to render correctly (or even crashing).  I'll try to automate testing them soon.
 
@@ -50,11 +25,11 @@ case on my parsing.  It's very sloppy parsing.
 NOTES:
 ------
 
-* If you want the basic plugin template, check the first revision here.  I modified things pretty heavily during the JW port project.
+* The basic plugin is now in a seperate repository!  See here: [URL]
 
-* Specifically, there are some extra helpers for bringing in an instance of a better random number generator.  Currently it's a library doing SIMD-accelerate Mersenne Twister, but I'm not sure offhand is there's a better option.
+* I've now tagged all of these plugins with a dummy variable warning it's a JW modification.  Hopefully this will prevent these DLLs from intermingling over time, in case they have subtle changes.
 
-* Some of the 32-bit DLLs aren't compiling, I think from the complex number library I brought in to help some things.  I don't think anyone really uses 32-bit anything anymore, though?
+* If a plugin fails to compile, I bring in a shim plugin.  This plugin does nothing, but keeps all variable names.  This prevents Chaotica from sometimes-crashing, but also keeps the variation in the save file going forward.
 
 * Sorry for the mess.  C/C++ is absolutely NOT my thing.  I think this is the most C code I've ever written in my whole life, and I've been a full-time programming in some sense for awhile now.
 
