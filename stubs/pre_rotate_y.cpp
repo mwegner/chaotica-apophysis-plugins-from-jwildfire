@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("pre_rotate_y");
 APO_VARIABLES(
 
+
 );
 
 

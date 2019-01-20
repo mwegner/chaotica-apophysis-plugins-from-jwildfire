@@ -32,7 +32,6 @@ typedef struct
 	double c;
 	double d;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "barycentroid_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(a, 1.0),
 	VAR_REAL(b, 0.0),
 	VAR_REAL(c, 0.0),
-	VAR_REAL(d, 1.0),
+	VAR_REAL(d, 1.0)
 
 );
 

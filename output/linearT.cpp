@@ -30,7 +30,6 @@ typedef struct
 	double powX;
 	double powY;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "linearT_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("linearT");
 APO_VARIABLES(
 	VAR_REAL(powX, 1.2),
-	VAR_REAL(powY, 1.2),
+	VAR_REAL(powY, 1.2)
 
 );
 

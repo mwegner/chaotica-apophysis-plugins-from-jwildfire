@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("eScale");
 APO_VARIABLES(
 	VAR_REAL(scale, 1.0),
-	VAR_REAL(angle, 0.0),
+	VAR_REAL(angle, 0.0)
 
 );
 

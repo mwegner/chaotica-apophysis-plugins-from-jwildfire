@@ -59,7 +59,6 @@ typedef struct
 	double _im_min = 0.0; // -3.2
 	double _im_max = 0.8;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "ducks_"
@@ -67,6 +66,7 @@ typedef struct
 
 APO_PLUGIN("ducks");
 APO_VARIABLES(
+
 
 );
 

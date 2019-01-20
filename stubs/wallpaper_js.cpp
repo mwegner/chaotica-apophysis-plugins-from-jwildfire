@@ -37,6 +37,7 @@ typedef struct
 APO_PLUGIN("wallpaper_js");
 APO_VARIABLES(
 
+
 );
 
 

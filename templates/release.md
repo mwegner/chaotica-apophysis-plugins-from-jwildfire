@@ -8,5 +8,15 @@ Most are converted automatically.  Where automatic conversion fails, and no orig
 
 Some JW variations won't come across, probably ever--things using layers, heavy 3D features, etc.
 
+Total:  **%WORKING% functional plugins**
+
+| Count | Origin |
+|--|--|
+%COUNTS%
+
+---
+
+
 |Plugin  | Origin  |
 |--|--|
+%PLUGINS%

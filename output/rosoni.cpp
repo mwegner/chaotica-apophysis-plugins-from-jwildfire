@@ -37,7 +37,6 @@ typedef struct
 	double _sina;
 	double _cosa;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "rosoni_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(cutoff, 1.0),
 	VAR_REAL(radius, 0.4),
 	VAR_REAL(dx, 0.6),
-	VAR_REAL(dy, 0.0),
+	VAR_REAL(dy, 0.0)
 
 );
 

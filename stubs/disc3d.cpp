@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("disc3d");
 APO_VARIABLES(
-	VAR_REAL(pi, M_PI),
+	VAR_REAL(pi, M_PI)
 
 );
 

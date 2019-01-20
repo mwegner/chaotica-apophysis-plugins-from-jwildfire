@@ -31,7 +31,6 @@ typedef struct
 	double b;
 	double c;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "ennepers2_"
@@ -41,7 +40,7 @@ APO_PLUGIN("ennepers2");
 APO_VARIABLES(
 	VAR_REAL(a, 1.0),
 	VAR_REAL(b, 0.3333),
-	VAR_REAL(c, 0.075),
+	VAR_REAL(c, 0.075)
 
 );
 

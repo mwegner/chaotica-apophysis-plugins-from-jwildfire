@@ -34,7 +34,6 @@ typedef struct
 	double _ka;
 	double _ka_kn;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "collideoscope_"
@@ -43,7 +42,7 @@ typedef struct
 APO_PLUGIN("collideoscope");
 APO_VARIABLES(
 	VAR_REAL(a, 0.20),
-	VAR_INTEGER(num, 1),
+	VAR_INTEGER(num, 1)
 
 );
 

@@ -47,6 +47,7 @@ typedef struct
 APO_PLUGIN("mandala");
 APO_VARIABLES(
 
+
 );
 
 

@@ -42,7 +42,7 @@ typedef struct
 
 APO_PLUGIN("glsl_hoshi");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 100000),
+	VAR_INTEGER(Seed, 100000)
 
 );
 

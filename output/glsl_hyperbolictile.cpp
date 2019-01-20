@@ -31,7 +31,6 @@ typedef struct
 	int _resolutionY; // resolutionX
 	int _gradient;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_hyperbolictile_"
@@ -39,6 +38,7 @@ typedef struct
 
 APO_PLUGIN("glsl_hyperbolictile");
 APO_VARIABLES(
+
 
 );
 

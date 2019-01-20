@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(separation, 1.00),
 	VAR_REAL(frequency, M_PI),
 	VAR_REAL(amplitude, 1.0),
-	VAR_REAL(damping, 0.0),
+	VAR_REAL(damping, 0.0)
 
 );
 

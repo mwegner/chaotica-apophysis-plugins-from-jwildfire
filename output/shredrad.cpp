@@ -31,7 +31,6 @@ typedef struct
 	double width;
 	double _alpha;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "shredrad_"
@@ -40,7 +39,7 @@ typedef struct
 APO_PLUGIN("shredrad");
 APO_VARIABLES(
 	VAR_REAL(n, 4.0),
-	VAR_REAL(width, 0.5),
+	VAR_REAL(width, 0.5)
 
 );
 

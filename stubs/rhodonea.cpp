@@ -67,7 +67,7 @@ APO_VARIABLES(
 	VAR_REAL(cycle_offset, 0),
 	VAR_REAL(metacycle_expansion, 0),
 	VAR_REAL(metacycles, 1),
-	VAR_REAL(fill, 0),
+	VAR_REAL(fill, 0)
 
 );
 

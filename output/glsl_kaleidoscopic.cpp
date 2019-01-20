@@ -38,7 +38,6 @@ typedef struct
 	int _gradient;
 	double _KA = 0.0; // Math.PI / sides
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_kaleidoscopic_"
@@ -46,7 +45,7 @@ typedef struct
 
 APO_PLUGIN("glsl_kaleidoscopic");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 10000),
+	VAR_INTEGER(Seed, 10000)
 
 );
 

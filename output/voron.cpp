@@ -33,7 +33,6 @@ typedef struct
 	int xseed;
 	int yseed;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "voron_"
@@ -45,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(step, 0.25),
 	VAR_INTEGER(num, 1),
 	VAR_INTEGER(xseed, 3),
-	VAR_INTEGER(yseed, 7),
+	VAR_INTEGER(yseed, 7)
 
 );
 

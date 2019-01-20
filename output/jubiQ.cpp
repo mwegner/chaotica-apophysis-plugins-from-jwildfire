@@ -54,7 +54,6 @@ typedef struct
 	int _absN;
 	double _cN;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "jubiQ_"
@@ -85,7 +84,7 @@ APO_VARIABLES(
 	VAR_REAL(qdt, 1.0),
 	VAR_REAL(qdx, 0.0),
 	VAR_REAL(qdy, 0.0),
-	VAR_REAL(qdz, 0.0),
+	VAR_REAL(qdz, 0.0)
 
 );
 

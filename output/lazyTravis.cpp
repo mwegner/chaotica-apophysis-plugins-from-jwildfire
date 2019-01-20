@@ -33,7 +33,6 @@ typedef struct
 	double _spin_in;
 	double _spin_out;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "lazyTravis_"
@@ -43,7 +42,7 @@ APO_PLUGIN("lazyTravis");
 APO_VARIABLES(
 	VAR_REAL(spin_in, 1.0),
 	VAR_REAL(spin_out, 0.5),
-	VAR_REAL(space, M_PI / 2),
+	VAR_REAL(space, M_PI / 2)
 
 );
 

@@ -33,7 +33,6 @@ typedef struct
 	double _time = 0.0;
 	int _gradient;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_mandelbox2D_"
@@ -41,6 +40,7 @@ typedef struct
 
 APO_PLUGIN("glsl_mandelbox2D");
 APO_VARIABLES(
+
 
 );
 

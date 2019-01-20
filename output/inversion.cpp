@@ -60,7 +60,6 @@ typedef struct
 	double color_low_threshold;
 	double color_high_threshold;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "inversion_"
@@ -92,7 +91,7 @@ APO_VARIABLES(
 	VAR_INTEGER(color_gradient, COLORMAP_CLAMP),
 	VAR_INTEGER(color_measure, NONE),
 	VAR_REAL(color_low_threshold, 0),
-	VAR_REAL(color_high_threshold, 1.0),
+	VAR_REAL(color_high_threshold, 1.0)
 
 );
 

@@ -38,7 +38,7 @@ APO_PLUGIN("popcorn2");
 APO_VARIABLES(
 	VAR_REAL(x, 1.0),
 	VAR_REAL(y, 0.5),
-	VAR_REAL(c, 1.5),
+	VAR_REAL(c, 1.5)
 
 );
 

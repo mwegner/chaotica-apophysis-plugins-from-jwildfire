@@ -48,7 +48,7 @@ APO_VARIABLES(
 	VAR_REAL(phi1, 110.0),
 	VAR_REAL(thickness, 0.1),
 	VAR_REAL(pow, 1.5),
-	VAR_REAL(contrast, 0.5),
+	VAR_REAL(contrast, 0.5)
 
 );
 

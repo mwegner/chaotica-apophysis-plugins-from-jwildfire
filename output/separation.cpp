@@ -32,7 +32,6 @@ typedef struct
 	double y;
 	double yinside;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "separation_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(x, 0.5),
 	VAR_REAL(xinside, 0.05),
 	VAR_REAL(y, 0.25),
-	VAR_REAL(yinside, 0.025),
+	VAR_REAL(yinside, 0.025)
 
 );
 

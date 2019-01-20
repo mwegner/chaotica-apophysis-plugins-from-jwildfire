@@ -37,7 +37,6 @@ typedef struct
 	double B2;
 	double C2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "projective_"
@@ -53,7 +52,7 @@ APO_VARIABLES(
 	VAR_REAL(C1, 0.0),
 	VAR_REAL(A2, 0.0),
 	VAR_REAL(B2, 1.0),
-	VAR_REAL(C2, 0.0),
+	VAR_REAL(C2, 0.0)
 
 );
 

@@ -40,7 +40,6 @@ typedef struct
 	double _coeff;
 	double _full_spread;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "cpow3_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(r, 1.0),
 	VAR_REAL(d, 1.0),
 	VAR_REAL(divisor, 1),
-	VAR_REAL(spread, 1),
+	VAR_REAL(spread, 1)
 
 );
 

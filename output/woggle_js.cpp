@@ -31,7 +31,6 @@ typedef struct
 	double _a[25];
 	double _b[25];
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "woggle_js_"
@@ -39,6 +38,7 @@ typedef struct
 
 APO_PLUGIN("woggle_js");
 APO_VARIABLES(
+
 
 );
 

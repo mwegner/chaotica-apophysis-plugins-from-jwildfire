@@ -30,7 +30,6 @@ typedef struct
 	double frequency;
 	double width;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "helix_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("helix");
 APO_VARIABLES(
 	VAR_REAL(frequency, 1.0),
-	VAR_REAL(width, 0.5),
+	VAR_REAL(width, 0.5)
 
 );
 

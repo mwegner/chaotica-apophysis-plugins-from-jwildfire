@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("eSwirl");
 APO_VARIABLES(
 	VAR_REAL(in, 1.2),
-	VAR_REAL(out, 0.2),
+	VAR_REAL(out, 0.2)
 
 );
 

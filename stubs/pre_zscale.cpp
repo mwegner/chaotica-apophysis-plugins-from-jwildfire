@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("pre_zscale");
 APO_VARIABLES(
 
+
 );
 
 

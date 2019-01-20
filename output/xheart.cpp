@@ -33,7 +33,6 @@ typedef struct
 	double _cosa;
 	double _sina;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "xheart_"
@@ -42,7 +41,7 @@ typedef struct
 APO_PLUGIN("xheart");
 APO_VARIABLES(
 	VAR_REAL(angle, 0.0),
-	VAR_REAL(ratio, 0.0),
+	VAR_REAL(ratio, 0.0)
 
 );
 

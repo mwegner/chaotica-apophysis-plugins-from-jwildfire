@@ -38,7 +38,6 @@ typedef struct
 	double centre_y;
 	double centre_z;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pre_wave3D_wf_"
@@ -52,7 +51,7 @@ APO_VARIABLES(
 	VAR_REAL(damping, 0.01),
 	VAR_REAL(centre_x, 0.0),
 	VAR_REAL(centre_y, 0.0),
-	VAR_REAL(centre_z, 0.0),
+	VAR_REAL(centre_z, 0.0)
 
 );
 

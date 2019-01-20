@@ -30,7 +30,6 @@ typedef struct
 	double _sinr = 0.0;
 	double _cosr = 0.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "arch_"
@@ -38,6 +37,7 @@ typedef struct
 
 APO_PLUGIN("arch");
 APO_VARIABLES(
+
 
 );
 

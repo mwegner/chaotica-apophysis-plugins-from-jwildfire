@@ -33,7 +33,6 @@ typedef struct
 	int type;
 	double scale;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "szubieta_"
@@ -44,7 +43,7 @@ APO_VARIABLES(
 	VAR_INTEGER(width, 128),
 	VAR_INTEGER(height, 128),
 	VAR_INTEGER(type, 0),
-	VAR_REAL(scale, 0.5),
+	VAR_REAL(scale, 0.5)
 
 );
 

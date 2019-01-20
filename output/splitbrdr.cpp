@@ -32,7 +32,6 @@ typedef struct
 	double px;
 	double py;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "splitbrdr_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(x, 0.25),
 	VAR_REAL(y, 0.25),
 	VAR_REAL(px, 0.0),
-	VAR_REAL(py, 0.0),
+	VAR_REAL(py, 0.0)
 
 );
 

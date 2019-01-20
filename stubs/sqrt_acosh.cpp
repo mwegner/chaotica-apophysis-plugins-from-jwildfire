@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("sqrt_acosh");
 APO_VARIABLES(
 
+
 );
 
 

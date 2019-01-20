@@ -38,7 +38,7 @@ APO_PLUGIN("hypercrop");
 APO_VARIABLES(
 	VAR_INTEGER(n, 4),
 	VAR_REAL(rad, 1.0),
-	VAR_REAL(zero, 0.0),
+	VAR_REAL(zero, 0.0)
 
 );
 

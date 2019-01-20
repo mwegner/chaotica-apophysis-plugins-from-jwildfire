@@ -59,7 +59,6 @@ typedef struct
 	double _cosTheta = 0.0;
 	vector <dla3dwffuncpoint> _points;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "dla3d_wf_"
@@ -89,7 +88,7 @@ APO_VARIABLES(
 	VAR_INTEGER(junct_sdiv_smooth_passes, 12),
 	VAR_REAL(junct_sdiv_smooth_lambda, 0.42),
 	VAR_REAL(junct_sdiv_smooth_mu, -0.45),
-	VAR_REAL(junct_mesh_scale, 1.0),
+	VAR_REAL(junct_mesh_scale, 1.0)
 
 );
 

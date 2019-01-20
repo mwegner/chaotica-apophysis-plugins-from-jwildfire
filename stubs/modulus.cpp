@@ -38,7 +38,7 @@ typedef struct
 APO_PLUGIN("modulus");
 APO_VARIABLES(
 	VAR_REAL(x, 0.20),
-	VAR_REAL(y, 0.50),
+	VAR_REAL(y, 0.50)
 
 );
 

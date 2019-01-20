@@ -47,7 +47,6 @@ typedef struct
 	double o;
 	double p;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "hamid_js_"
@@ -71,7 +70,7 @@ APO_VARIABLES(
 	VAR_REAL(m, 1.0),
 	VAR_REAL(n, 1.0),
 	VAR_REAL(o, 1.0),
-	VAR_REAL(p, 1.0),
+	VAR_REAL(p, 1.0)
 
 );
 

@@ -45,7 +45,7 @@ APO_VARIABLES(
 	VAR_REAL(x1, 1.0),
 	VAR_REAL(factor, 1.0),
 	VAR_INTEGER(overwrite, 1),
-	VAR_INTEGER(clamp, 0),
+	VAR_INTEGER(clamp, 0)
 
 );
 

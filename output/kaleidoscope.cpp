@@ -39,7 +39,6 @@ typedef struct
 	double _t;
 	double _i;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "kaleidoscope_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(rotate, 1.0),
 	VAR_REAL(line_up, 1.0),
 	VAR_REAL(x, 0.0),
-	VAR_REAL(y, 0.0),
+	VAR_REAL(y, 0.0)
 
 );
 

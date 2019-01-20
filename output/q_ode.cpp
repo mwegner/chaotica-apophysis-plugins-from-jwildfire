@@ -40,7 +40,6 @@ typedef struct
 	double q_ode11; // 1.0 - 2.0 * random01()
 	double q_ode12; // 1.0 - 2.0 * random01()
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "q_ode_"
@@ -59,7 +58,7 @@ APO_VARIABLES(
 	VAR_REAL(q_ode09, 0),
 	VAR_REAL(q_ode10, 0),
 	VAR_REAL(q_ode11, 0),
-	VAR_REAL(q_ode12, 0),
+	VAR_REAL(q_ode12, 0)
 
 );
 

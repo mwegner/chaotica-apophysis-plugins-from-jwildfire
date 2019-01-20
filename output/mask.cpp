@@ -33,7 +33,6 @@ typedef struct
 	double _xscale = 1.0;
 	double _yscale = 1.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "mask_"
@@ -41,6 +40,7 @@ typedef struct
 
 APO_PLUGIN("mask");
 APO_VARIABLES(
+
 
 );
 

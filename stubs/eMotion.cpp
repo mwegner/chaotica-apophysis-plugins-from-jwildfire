@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("eMotion");
 APO_VARIABLES(
 	VAR_REAL(move, 0.0),
-	VAR_REAL(rotate, 0.0),
+	VAR_REAL(rotate, 0.0)
 
 );
 

@@ -29,7 +29,6 @@ typedef struct
 {
 	int filled;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "cloverleaf_wf_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("cloverleaf_wf");
 APO_VARIABLES(
-	VAR_INTEGER(filled, 1),
+	VAR_INTEGER(filled, 1)
 
 );
 

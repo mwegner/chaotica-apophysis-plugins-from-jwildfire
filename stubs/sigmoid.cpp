@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("sigmoid");
 APO_VARIABLES(
 	VAR_REAL(shiftx, 1.0),
-	VAR_REAL(shifty, 1.0),
+	VAR_REAL(shifty, 1.0)
 
 );
 

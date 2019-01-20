@@ -35,7 +35,6 @@ typedef struct
 	double _multiplier2 = 0.0001;
 	double _multiplier3 = 0.1;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "stwin_"
@@ -46,7 +45,7 @@ APO_VARIABLES(
 	VAR_REAL(distort, 1.0),
 	VAR_REAL(offset_xy, 0.0),
 	VAR_REAL(offset_x2, 0.0),
-	VAR_REAL(offset_y2, 0.0),
+	VAR_REAL(offset_y2, 0.0)
 
 );
 

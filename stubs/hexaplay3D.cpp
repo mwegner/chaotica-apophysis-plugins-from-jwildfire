@@ -45,7 +45,7 @@ APO_PLUGIN("hexaplay3D");
 APO_VARIABLES(
 	VAR_REAL(majp, 1.0),
 	VAR_REAL(scale, 0.25),
-	VAR_REAL(zlift, 0.25),
+	VAR_REAL(zlift, 0.25)
 
 );
 

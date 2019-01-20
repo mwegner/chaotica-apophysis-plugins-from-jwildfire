@@ -34,7 +34,6 @@ typedef struct
 	double _ipwx = 1.0;
 	double _ipwy = 1.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pressure_wave_"
@@ -43,7 +42,7 @@ typedef struct
 APO_PLUGIN("pressure_wave");
 APO_VARIABLES(
 	VAR_REAL(x_freq, 1.0),
-	VAR_REAL(y_freq, 1.0),
+	VAR_REAL(y_freq, 1.0)
 
 );
 

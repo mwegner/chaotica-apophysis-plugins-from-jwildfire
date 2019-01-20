@@ -31,7 +31,6 @@ typedef struct
 	double rotation;
 	double thickness;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pie_"
@@ -41,7 +40,7 @@ APO_PLUGIN("pie");
 APO_VARIABLES(
 	VAR_REAL(slices, 6.0),
 	VAR_REAL(rotation, 0.0),
-	VAR_REAL(thickness, 0.5),
+	VAR_REAL(thickness, 0.5)
 
 );
 

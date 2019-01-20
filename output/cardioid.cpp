@@ -29,7 +29,6 @@ typedef struct
 {
 	double a;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "cardioid_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("cardioid");
 APO_VARIABLES(
-	VAR_REAL(a, 1.0),
+	VAR_REAL(a, 1.0)
 
 );
 

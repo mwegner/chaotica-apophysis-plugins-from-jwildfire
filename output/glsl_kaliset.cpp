@@ -36,7 +36,6 @@ typedef struct
 	double _shifty = 0.0; // -0.21
 	int _gradient;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_kaliset_"
@@ -44,7 +43,7 @@ typedef struct
 
 APO_PLUGIN("glsl_kaliset");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 10000),
+	VAR_INTEGER(Seed, 10000)
 
 );
 

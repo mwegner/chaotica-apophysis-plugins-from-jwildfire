@@ -32,7 +32,6 @@ typedef struct
 	double mp;
 	double _v;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "blocky_"
@@ -42,7 +41,7 @@ APO_PLUGIN("blocky");
 APO_VARIABLES(
 	VAR_REAL(x, 1.0),
 	VAR_REAL(y, 1.0),
-	VAR_REAL(mp, 4.0),
+	VAR_REAL(mp, 4.0)
 
 );
 

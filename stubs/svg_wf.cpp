@@ -54,7 +54,7 @@ APO_VARIABLES(
 	VAR_REAL(offset_x, 0.0),
 	VAR_REAL(offset_y, 0.0),
 	VAR_INTEGER(true_color, 1),
-	VAR_INTEGER(pre_antialias, 1),
+	VAR_INTEGER(pre_antialias, 1)
 
 );
 

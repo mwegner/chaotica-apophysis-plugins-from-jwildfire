@@ -30,7 +30,6 @@ typedef struct
 	double _gauss_rnd[4];
 	int _gauss_N;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "zblur_"
@@ -38,6 +37,7 @@ typedef struct
 
 APO_PLUGIN("zblur");
 APO_VARIABLES(
+
 
 );
 

@@ -40,7 +40,6 @@ typedef struct
 	int _iB = 1;
 	int _gradient;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_mandala_"
@@ -48,6 +47,7 @@ typedef struct
 
 APO_PLUGIN("glsl_mandala");
 APO_VARIABLES(
+
 
 );
 

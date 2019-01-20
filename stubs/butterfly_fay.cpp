@@ -58,7 +58,7 @@ APO_VARIABLES(
 	VAR_REAL(outer_spread_ratio, 1),
 	VAR_REAL(inner_spread_ratio, 1),
 	VAR_REAL(spread_split, 1),
-	VAR_REAL(fill, 0),
+	VAR_REAL(fill, 0)
 
 );
 

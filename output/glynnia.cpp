@@ -29,7 +29,6 @@ typedef struct
 {
 	double _vvar2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glynnia_"
@@ -37,6 +36,7 @@ typedef struct
 
 APO_PLUGIN("glynnia");
 APO_VARIABLES(
+
 
 );
 

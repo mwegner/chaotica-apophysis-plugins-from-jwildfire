@@ -38,6 +38,7 @@ typedef struct
 APO_PLUGIN("glsl_code");
 APO_VARIABLES(
 
+
 );
 
 

@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("rays3");
 APO_VARIABLES(
 
+
 );
 
 

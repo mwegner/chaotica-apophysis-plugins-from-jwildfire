@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("boarders");
 APO_VARIABLES(
 
+
 );
 
 

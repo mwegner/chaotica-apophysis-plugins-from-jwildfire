@@ -38,7 +38,7 @@ APO_PLUGIN("ho");
 APO_VARIABLES(
 	VAR_REAL(xpow, 3.0),
 	VAR_REAL(ypow, 3.0),
-	VAR_REAL(zpow, 3.0),
+	VAR_REAL(zpow, 3.0)
 
 );
 

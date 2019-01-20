@@ -29,7 +29,6 @@ typedef struct
 {
 	double spread;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "flux_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("flux");
 APO_VARIABLES(
-	VAR_REAL(spread, 0.30),
+	VAR_REAL(spread, 0.30)
 
 );
 

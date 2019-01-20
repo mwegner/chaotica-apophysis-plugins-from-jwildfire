@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("fan2");
 APO_VARIABLES(
 	VAR_REAL(x, 0.5),
-	VAR_REAL(y, 1.2),
+	VAR_REAL(y, 1.2)
 
 );
 

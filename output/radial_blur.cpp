@@ -31,7 +31,6 @@ typedef struct
 	int _gauss_N;
 	double angle;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "radial_blur_"
@@ -39,7 +38,7 @@ typedef struct
 
 APO_PLUGIN("radial_blur");
 APO_VARIABLES(
-	VAR_REAL(angle, 0.5),
+	VAR_REAL(angle, 0.5)
 
 );
 

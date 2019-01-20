@@ -31,7 +31,6 @@ typedef struct
 	double y;
 	double z;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bubble2_"
@@ -41,7 +40,7 @@ APO_PLUGIN("bubble2");
 APO_VARIABLES(
 	VAR_REAL(x, 1.0),
 	VAR_REAL(y, 1.0),
-	VAR_REAL(z, 0.0),
+	VAR_REAL(z, 0.0)
 
 );
 

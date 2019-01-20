@@ -67,7 +67,7 @@ APO_VARIABLES(
 	VAR_REAL(color1, 0),
 	VAR_REAL(color2, 1),
 	VAR_REAL(speed1, 0),
-	VAR_REAL(speed2, 0),
+	VAR_REAL(speed2, 0)
 
 );
 

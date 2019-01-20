@@ -47,7 +47,7 @@ APO_VARIABLES(
 	VAR_REAL(majp, 1.0),
 	VAR_REAL(scale, 0.25),
 	VAR_REAL(zlift, 0.0),
-	VAR_REAL(3side, 0.67),
+	VAR_REAL(3side, 0.67)
 
 );
 

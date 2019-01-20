@@ -38,7 +38,7 @@ typedef struct
 APO_PLUGIN("julian");
 APO_VARIABLES(
 	VAR_INTEGER(power, 0),
-	VAR_REAL(dist, 1),
+	VAR_REAL(dist, 1)
 
 );
 

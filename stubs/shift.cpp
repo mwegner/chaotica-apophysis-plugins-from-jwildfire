@@ -38,7 +38,7 @@ APO_PLUGIN("shift");
 APO_VARIABLES(
 	VAR_REAL(shift_x, 0.0),
 	VAR_REAL(shift_y, 0.0),
-	VAR_REAL(angle, 0.0),
+	VAR_REAL(angle, 0.0)
 
 );
 

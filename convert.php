@@ -424,6 +424,9 @@ foreach($files as $file)
         }
     }
 
+    // eat the last comma, whoops
+    $variables = substr($variables, 0, -2) . "\n";
+
      // find all of our functions
     $function_names = array();
     if(preg_match_all('/^\s\s(?:private\s)?(?:public\s)?(\bvoid\b|\bdouble\b|\bint\b|\bboolean\b)\s(\w+)\((.*)\)\s{(.*)\s\s}/msU', $java, $matches, PREG_SET_ORDER))

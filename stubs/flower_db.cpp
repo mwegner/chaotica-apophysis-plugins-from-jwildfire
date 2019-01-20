@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(stem_thickness, 1),
 	VAR_REAL(stem_length, 0),
 	VAR_REAL(petal_fold_strength, 0),
-	VAR_REAL(petal_fold_radius, 1),
+	VAR_REAL(petal_fold_radius, 1)
 
 );
 

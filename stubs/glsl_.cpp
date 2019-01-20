@@ -37,6 +37,7 @@ typedef struct
 APO_PLUGIN("glsl_");
 APO_VARIABLES(
 
+
 );
 
 

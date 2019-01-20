@@ -30,7 +30,6 @@ typedef struct
 	double in;
 	double out;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bSwirl_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("bSwirl");
 APO_VARIABLES(
 	VAR_REAL(in, 0.0),
-	VAR_REAL(out, 0.0),
+	VAR_REAL(out, 0.0)
 
 );
 

@@ -37,7 +37,7 @@ typedef struct
 APO_PLUGIN("spherical3D_wf");
 APO_VARIABLES(
 	VAR_INTEGER(invert, 0),
-	VAR_REAL(exponent, 2.0),
+	VAR_REAL(exponent, 2.0)
 
 );
 

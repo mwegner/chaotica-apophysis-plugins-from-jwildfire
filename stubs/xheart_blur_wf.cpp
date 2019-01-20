@@ -39,7 +39,7 @@ typedef struct
 APO_PLUGIN("xheart_blur_wf");
 APO_VARIABLES(
 	VAR_REAL(angle, 0.0),
-	VAR_REAL(ratio, 0.0),
+	VAR_REAL(ratio, 0.0)
 
 );
 

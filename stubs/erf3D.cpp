@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("erf3D");
 APO_VARIABLES(
 
+
 );
 
 

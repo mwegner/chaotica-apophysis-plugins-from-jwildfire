@@ -32,7 +32,6 @@ typedef struct
 	double count;
 	double angle;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "wedge_julia_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(power, 7.00),
 	VAR_REAL(dist, 0.20),
 	VAR_REAL(count, 2.0),
-	VAR_REAL(angle, 0.30),
+	VAR_REAL(angle, 0.30)
 
 );
 

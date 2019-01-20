@@ -56,7 +56,7 @@ APO_VARIABLES(
 	VAR_REAL(pow, 1.0),
 	VAR_REAL(outerradius, 1.0),
 	VAR_REAL(scatter_area, 0.0),
-	VAR_INTEGER(hide_outer, 1),
+	VAR_INTEGER(hide_outer, 1)
 
 );
 

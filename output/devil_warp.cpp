@@ -34,7 +34,6 @@ typedef struct
 	double rmin; // -0.24
 	double rmax;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "devil_warp_"
@@ -47,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(effect, 1.0),
 	VAR_REAL(warp, 0.5),
 	VAR_REAL(rmin, -0.24),
-	VAR_REAL(rmax, 100),
+	VAR_REAL(rmax, 100)
 
 );
 

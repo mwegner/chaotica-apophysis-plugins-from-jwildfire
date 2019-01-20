@@ -37,7 +37,6 @@ typedef struct
 	double ymin; // -1.0
 	double ymax;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "spirograph_"
@@ -53,7 +52,7 @@ APO_VARIABLES(
 	VAR_REAL(tmin, -1.0),
 	VAR_REAL(tmax, 1.0),
 	VAR_REAL(ymin, -1.0),
-	VAR_REAL(ymax, 1.0),
+	VAR_REAL(ymax, 1.0)
 
 );
 

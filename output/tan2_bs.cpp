@@ -32,7 +32,6 @@ typedef struct
 	double y1;
 	double y2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "tan2_bs_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(x1, 2.0),
 	VAR_REAL(x2, 2.0),
 	VAR_REAL(y1, 2.0),
-	VAR_REAL(y2, 2.0),
+	VAR_REAL(y2, 2.0)
 
 );
 

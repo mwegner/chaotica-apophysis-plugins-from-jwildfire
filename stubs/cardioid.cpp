@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("cardioid");
 APO_VARIABLES(
-	VAR_REAL(a, 1.0),
+	VAR_REAL(a, 1.0)
 
 );
 

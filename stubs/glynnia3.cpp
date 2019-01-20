@@ -41,7 +41,7 @@ APO_VARIABLES(
 	VAR_REAL(rscale, 1.0),
 	VAR_REAL(dscale, 1.0),
 	VAR_REAL(rthresh, 0.0),
-	VAR_REAL(ythresh, 0.0),
+	VAR_REAL(ythresh, 0.0)
 
 );
 

@@ -38,7 +38,7 @@ APO_PLUGIN("juliac");
 APO_VARIABLES(
 	VAR_REAL(re, 0),
 	VAR_REAL(im, 0.0),
-	VAR_REAL(dist, 1.0),
+	VAR_REAL(dist, 1.0)
 
 );
 

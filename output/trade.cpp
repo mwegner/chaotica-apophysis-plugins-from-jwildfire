@@ -34,7 +34,6 @@ typedef struct
 	double _c1;
 	double _c2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "trade_"
@@ -45,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(r1, 1.0),
 	VAR_REAL(d1, 1.0),
 	VAR_REAL(r2, 1.0),
-	VAR_REAL(d2, 1.0),
+	VAR_REAL(d2, 1.0)
 
 );
 

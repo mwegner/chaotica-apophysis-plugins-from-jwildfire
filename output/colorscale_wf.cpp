@@ -33,7 +33,6 @@ typedef struct
 	double offset_z;
 	double reset_z;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "colorscale_wf_"
@@ -45,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(scale_y, 0.0),
 	VAR_REAL(scale_z, 0.5),
 	VAR_REAL(offset_z, 0.0),
-	VAR_REAL(reset_z, 0.0),
+	VAR_REAL(reset_z, 0.0)
 
 );
 

@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("eRotate");
 APO_VARIABLES(
-	VAR_REAL(rotate, 0.0),
+	VAR_REAL(rotate, 0.0)
 
 );
 

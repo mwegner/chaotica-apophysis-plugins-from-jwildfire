@@ -30,7 +30,6 @@ typedef struct
 	double centre_x;
 	double centre_y;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "onion_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("onion");
 APO_VARIABLES(
 	VAR_REAL(centre_x, 0.0),
-	VAR_REAL(centre_y, 0.0),
+	VAR_REAL(centre_y, 0.0)
 
 );
 

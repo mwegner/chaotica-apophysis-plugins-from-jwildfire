@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("conic");
 APO_VARIABLES(
 	VAR_REAL(eccentricity, 1.0),
-	VAR_REAL(holes, 0.0),
+	VAR_REAL(holes, 0.0)
 
 );
 

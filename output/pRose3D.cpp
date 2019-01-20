@@ -47,7 +47,6 @@ typedef struct
 	double _optDir;
 	double _petalsSign;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pRose3D_"
@@ -70,7 +69,7 @@ APO_VARIABLES(
 	VAR_REAL(srvsc, 0.0),
 	VAR_REAL(f, 3.0),
 	VAR_REAL(wigsc, 0.0),
-	VAR_REAL(offset, 0),
+	VAR_REAL(offset, 0)
 
 );
 

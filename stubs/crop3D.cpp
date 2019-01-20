@@ -57,7 +57,7 @@ APO_VARIABLES(
 	VAR_REAL(bottom, 1.0),
 	VAR_REAL(ceiling, 1.0),
 	VAR_REAL(scatter_area, 0.0),
-	VAR_INTEGER(zero, 0),
+	VAR_INTEGER(zero, 0)
 
 );
 

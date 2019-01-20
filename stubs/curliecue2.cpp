@@ -42,6 +42,7 @@ typedef struct
 APO_PLUGIN("curliecue2");
 APO_VARIABLES(
 
+
 );
 
 

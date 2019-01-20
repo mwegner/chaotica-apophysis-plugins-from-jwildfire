@@ -67,7 +67,7 @@ APO_VARIABLES(
 	VAR_REAL(bottom, 1.0),
 	VAR_INTEGER(blur, 1),
 	VAR_REAL(ratioBlur, 0.05),
-	VAR_REAL(directBlur, 2.0),
+	VAR_REAL(directBlur, 2.0)
 
 );
 

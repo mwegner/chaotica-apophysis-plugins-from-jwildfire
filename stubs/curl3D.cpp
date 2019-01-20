@@ -42,7 +42,7 @@ APO_PLUGIN("curl3D");
 APO_VARIABLES(
 	VAR_REAL(cx, 0),
 	VAR_REAL(cy, 0.05),
-	VAR_REAL(cz, 0.05),
+	VAR_REAL(cz, 0.05)
 
 );
 

@@ -36,7 +36,6 @@ typedef struct
 	double _fill = 0.0;
 	int invert;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "sunflower_"
@@ -49,7 +48,7 @@ APO_VARIABLES(
 	VAR_REAL(scale, 0.02),
 	VAR_REAL(angle, 180.0),
 	VAR_REAL(color, 0),
-	VAR_INTEGER(invert, 0),
+	VAR_INTEGER(invert, 0)
 
 );
 

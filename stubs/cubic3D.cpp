@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("cubic3D");
 APO_VARIABLES(
 	VAR_REAL(xpand, 0.25),
-	VAR_REAL(style, 0.0),
+	VAR_REAL(style, 0.0)
 
 );
 

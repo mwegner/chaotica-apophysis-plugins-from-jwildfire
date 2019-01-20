@@ -29,7 +29,6 @@ typedef struct
 {
 	double pi; // M_PI
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pre_disc3d_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("pre_disc3d");
 APO_VARIABLES(
-	VAR_REAL(pi, M_PI),
+	VAR_REAL(pi, M_PI)
 
 );
 

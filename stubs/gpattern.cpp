@@ -54,7 +54,7 @@ APO_VARIABLES(
 	VAR_REAL(angle, 0.0),
 	VAR_REAL(randPos, 0.0),
 	VAR_REAL(randSize, 0.0),
-	VAR_INTEGER(ouline, 0),
+	VAR_INTEGER(ouline, 0)
 
 );
 

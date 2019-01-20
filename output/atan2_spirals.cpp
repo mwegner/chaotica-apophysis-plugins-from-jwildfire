@@ -42,7 +42,6 @@ typedef struct
 	double _r_power = 0.5;
 	double _x2y2_pow = 1;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "atan2_spirals_"
@@ -50,6 +49,7 @@ typedef struct
 
 APO_PLUGIN("atan2_spirals");
 APO_VARIABLES(
+
 
 );
 

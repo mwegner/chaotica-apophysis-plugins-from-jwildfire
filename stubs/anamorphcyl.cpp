@@ -37,6 +37,7 @@ typedef struct
 APO_PLUGIN("anamorphcyl");
 APO_VARIABLES(
 
+
 );
 
 

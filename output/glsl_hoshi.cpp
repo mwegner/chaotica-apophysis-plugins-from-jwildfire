@@ -37,7 +37,6 @@ typedef struct
 	double _scale = 0.0; // sc
 	int _gradient;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_hoshi_"
@@ -45,7 +44,7 @@ typedef struct
 
 APO_PLUGIN("glsl_hoshi");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 100000),
+	VAR_INTEGER(Seed, 100000)
 
 );
 

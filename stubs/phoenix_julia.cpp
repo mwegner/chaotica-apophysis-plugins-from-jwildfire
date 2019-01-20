@@ -43,7 +43,7 @@ APO_VARIABLES(
 	VAR_REAL(power, 0),
 	VAR_REAL(dist, 1.0),
 	VAR_REAL(x_distort, -0.5),
-	VAR_REAL(y_distort, 0.0),
+	VAR_REAL(y_distort, 0.0)
 
 );
 

@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("wdisc");
 APO_VARIABLES(
 
+
 );
 
 

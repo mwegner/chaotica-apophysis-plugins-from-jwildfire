@@ -48,7 +48,7 @@ APO_PLUGIN("poincare3D");
 APO_VARIABLES(
 	VAR_REAL(r, 0),
 	VAR_REAL(a, 0),
-	VAR_REAL(b, 0),
+	VAR_REAL(b, 0)
 
 );
 

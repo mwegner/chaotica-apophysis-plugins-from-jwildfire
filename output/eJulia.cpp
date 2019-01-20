@@ -30,7 +30,6 @@ typedef struct
 	int power;
 	int _sign;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "eJulia_"
@@ -38,7 +37,7 @@ typedef struct
 
 APO_PLUGIN("eJulia");
 APO_VARIABLES(
-	VAR_INTEGER(power, 2),
+	VAR_INTEGER(power, 2)
 
 );
 

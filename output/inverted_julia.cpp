@@ -37,7 +37,6 @@ typedef struct
 	double center;
 	double _x2y2_add;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "inverted_julia_"
@@ -46,7 +45,7 @@ typedef struct
 APO_PLUGIN("inverted_julia");
 APO_VARIABLES(
 	VAR_REAL(power, 0.25),
-	VAR_REAL(center, 3.14),
+	VAR_REAL(center, 3.14)
 
 );
 

@@ -30,7 +30,6 @@ typedef struct
 	double _vvar;
 	double _vvar_2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "unpolar_"
@@ -38,6 +37,7 @@ typedef struct
 
 APO_PLUGIN("unpolar");
 APO_VARIABLES(
+
 
 );
 

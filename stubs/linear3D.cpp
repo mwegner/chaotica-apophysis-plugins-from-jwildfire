@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("linear3D");
 APO_VARIABLES(
 
+
 );
 
 

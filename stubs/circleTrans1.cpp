@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(Dens, 0.5),
 	VAR_REAL(X, 10.0),
 	VAR_REAL(Y, 10.0),
-	VAR_INTEGER(Seed, 0),
+	VAR_INTEGER(Seed, 0)
 
 );
 

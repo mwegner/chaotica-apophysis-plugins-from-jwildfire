@@ -43,7 +43,6 @@ typedef struct
 	double _s;
 	double _c;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bubbleT3D_"
@@ -56,7 +55,7 @@ APO_VARIABLES(
 	VAR_REAL(angle_of_hole, 0.0),
 	VAR_REAL(exponent_z, 1.0),
 	VAR_INTEGER(symmetry_z, 0),
-	VAR_INTEGER(modus_blur, 0),
+	VAR_INTEGER(modus_blur, 0)
 
 );
 

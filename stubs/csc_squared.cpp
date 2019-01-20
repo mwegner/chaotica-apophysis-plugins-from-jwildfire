@@ -41,6 +41,7 @@ typedef struct
 APO_PLUGIN("csc_squared");
 APO_VARIABLES(
 
+
 );
 
 

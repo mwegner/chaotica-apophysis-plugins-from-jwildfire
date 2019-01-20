@@ -36,7 +36,6 @@ typedef struct
 	double _r[4];
 	int _n;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "farblur_"
@@ -49,7 +48,7 @@ APO_VARIABLES(
 	VAR_REAL(z, 1.0),
 	VAR_REAL(x_origin, 0.0),
 	VAR_REAL(y_origin, 0.0),
-	VAR_REAL(z_origin, 0.0),
+	VAR_REAL(z_origin, 0.0)
 
 );
 

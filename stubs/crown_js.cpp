@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("crown_js");
 APO_VARIABLES(
 
+
 );
 
 

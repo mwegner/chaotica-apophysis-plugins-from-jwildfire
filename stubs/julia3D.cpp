@@ -38,7 +38,7 @@ typedef struct
 
 APO_PLUGIN("julia3D");
 APO_VARIABLES(
-	VAR_INTEGER(power, 0),
+	VAR_INTEGER(power, 0)
 
 );
 

@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("sin");
 APO_VARIABLES(
 
+
 );
 
 

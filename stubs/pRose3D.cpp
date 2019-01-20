@@ -67,7 +67,7 @@ APO_VARIABLES(
 	VAR_REAL(srvsc, 0.0),
 	VAR_REAL(f, 3.0),
 	VAR_REAL(wigsc, 0.0),
-	VAR_REAL(offset, 0),
+	VAR_REAL(offset, 0)
 
 );
 

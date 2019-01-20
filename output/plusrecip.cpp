@@ -30,7 +30,6 @@ typedef struct
 	double ar;
 	double ai;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "plusrecip_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("plusrecip");
 APO_VARIABLES(
 	VAR_REAL(ar, 4.0),
-	VAR_REAL(ai, 0.0),
+	VAR_REAL(ai, 0.0)
 
 );
 

@@ -38,7 +38,7 @@ APO_PLUGIN("epispiral");
 APO_VARIABLES(
 	VAR_REAL(n, 6.0),
 	VAR_REAL(thickness, 0.0),
-	VAR_REAL(holes, 1.0),
+	VAR_REAL(holes, 1.0)
 
 );
 

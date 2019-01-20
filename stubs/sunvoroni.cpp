@@ -45,7 +45,7 @@ APO_VARIABLES(
 	VAR_INTEGER(Iters, 3),
 	VAR_REAL(angle, 180.0),
 	VAR_INTEGER(outline, 0),
-	VAR_INTEGER(fill, 1),
+	VAR_INTEGER(fill, 1)
 
 );
 

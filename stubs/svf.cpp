@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("svf");
 APO_VARIABLES(
-	VAR_REAL(n, 2.0),
+	VAR_REAL(n, 2.0)
 
 );
 

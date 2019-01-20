@@ -30,7 +30,6 @@ typedef struct
 	double move;
 	double rotate;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "eMotion_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("eMotion");
 APO_VARIABLES(
 	VAR_REAL(move, 0.0),
-	VAR_REAL(rotate, 0.0),
+	VAR_REAL(rotate, 0.0)
 
 );
 

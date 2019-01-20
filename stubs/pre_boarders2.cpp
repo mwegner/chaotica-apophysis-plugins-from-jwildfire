@@ -41,7 +41,7 @@ APO_PLUGIN("pre_boarders2");
 APO_VARIABLES(
 	VAR_REAL(c, 0.4),
 	VAR_REAL(left, 0.65),
-	VAR_REAL(right, 0.35),
+	VAR_REAL(right, 0.35)
 
 );
 

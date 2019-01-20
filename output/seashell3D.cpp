@@ -32,7 +32,6 @@ typedef struct
 	double _c = 0.0;
 	int _n = 5;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "seashell3D_"
@@ -40,6 +39,7 @@ typedef struct
 
 APO_PLUGIN("seashell3D");
 APO_VARIABLES(
+
 
 );
 

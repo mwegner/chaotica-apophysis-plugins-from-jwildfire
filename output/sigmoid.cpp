@@ -30,7 +30,6 @@ typedef struct
 	double shiftx;
 	double shifty;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "sigmoid_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("sigmoid");
 APO_VARIABLES(
 	VAR_REAL(shiftx, 1.0),
-	VAR_REAL(shifty, 1.0),
+	VAR_REAL(shifty, 1.0)
 
 );
 

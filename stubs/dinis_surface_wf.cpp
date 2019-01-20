@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("dinis_surface_wf");
 APO_VARIABLES(
 	VAR_REAL(a, 0.8),
-	VAR_REAL(b, 0.2),
+	VAR_REAL(b, 0.2)
 
 );
 

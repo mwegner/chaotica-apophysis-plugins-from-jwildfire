@@ -30,7 +30,6 @@ typedef struct
 	double x;
 	double y;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "rectangles_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("rectangles");
 APO_VARIABLES(
 	VAR_REAL(x, 0),
-	VAR_REAL(y, 0),
+	VAR_REAL(y, 0)
 
 );
 

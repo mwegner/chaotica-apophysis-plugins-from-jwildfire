@@ -40,7 +40,6 @@ typedef struct
 	int _gradient;
 	double _S; // (101.0 + glow) * intensity
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_circuits_"
@@ -48,6 +47,7 @@ typedef struct
 
 APO_PLUGIN("glsl_circuits");
 APO_VARIABLES(
+
 
 );
 

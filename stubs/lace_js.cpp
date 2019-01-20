@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("lace_js");
 APO_VARIABLES(
 
+
 );
 
 

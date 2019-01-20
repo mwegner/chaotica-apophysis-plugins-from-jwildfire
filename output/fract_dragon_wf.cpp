@@ -30,7 +30,6 @@ typedef struct
 	double xseed;
 	double yseed;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "fract_dragon_wf_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("fract_dragon_wf");
 APO_VARIABLES(
 	VAR_REAL(xseed, 0),
-	VAR_REAL(yseed, 0),
+	VAR_REAL(yseed, 0)
 
 );
 

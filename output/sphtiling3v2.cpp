@@ -1,4 +1,5 @@
 #define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
+#define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
 /*
     Apophysis Plugin: sphtiling3v2
 
@@ -23,21 +24,20 @@
 
 #include "datahelpers.h"
 
-const double M_SQRT3_2 = 0.86602540378443864676372317075249;
-
 typedef struct
 {
-	double a;
-	double b;
-	double c;
-	double d;
-	double e;
-	double f;
-	int dc;
-	double dc1;
-	double dc2;
+  double a;
+  double b;
+  double c;
+  double d;
+  double e;
+  double f;
+  int dc;
+  double dc1;
+  double dc2;
 
-    int ___warning;
+  Point xy;
+  Point uv;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "sphtiling3v2_"
@@ -45,19 +45,24 @@ typedef struct
 
 APO_PLUGIN("sphtiling3v2");
 APO_VARIABLES(
-	VAR_REAL(a, 0.5),
-	VAR_REAL(b, 1.0),
-	VAR_REAL(c, 1.0),
-	VAR_REAL(d, 0.5),
-	VAR_REAL(e, 1.0),
-	VAR_REAL(f, 0.5),
-	VAR_INTEGER(dc, 1),
-	VAR_REAL(dc1, 0.3),
-	VAR_REAL(dc2, 0.5),
+  VAR_REAL(a, 0.5),
+  VAR_REAL(b, 1.0),
+  VAR_REAL(c, 1.0),
+  VAR_REAL(d, 0.5),
+  VAR_REAL(e, 1.0),
+  VAR_REAL(f, 0.5),
+  VAR_INTEGER(dc, 1),
+  VAR_REAL(dc1, 0.3),
+  VAR_REAL(dc2, 0.5)
 
 );
 
-
+void SphericalInternal(double R02,double XIn,double YIn,double *XOut,double *YOut)
+{
+     double r2=sqr(XIn)+sqr(YIn);//+ 1E-6;
+     *XOut=R02/r2*XIn;
+     *YOut=R02/r2*YIn;
+}
 
 int PluginVarPrepare(Variation* vp)
 {
@@ -70,24 +75,22 @@ int PluginVarCalc(Variation* vp)
     // sphTiling3 by Alexey Ermushev, http://eralex61.deviantart.com/art/Controlled-IFS-beyond-chaos-257891160 transcribed by Rick Sidwell and variables added by Brad Stefanov
 
     double w = GOODRAND_01();
-    uv.assign(xy);
-    /* uv.invalidate(); */
-    uv.x = uv.y = uv.z = 0;
+    VAR(uv).x = VAR(uv).y = VAR(uv).z = 0;
     if (w < VAR(a)) {
       double n = floor(3 * GOODRAND_01());
       double r = VAR(b) / M_SQRT3_2;
       double x0 = r * cos(n * M_2PI / 3);
       double y0 = r * sin(n * M_2PI / 3);
-      xy.x -= x0;
-      xy.y -= y0;
-      spherical.transform(vp, pXForm, xy, uv, VAR(c));
-      uv.x += x0;
-      uv.y += y0;
+      VAR(xy).x -= x0;
+      VAR(xy).y -= y0;
+      SphericalInternal(VAR(c), VAR(xy).x, VAR(xy).y, &VAR(xy).x, &VAR(xy).y);
+      VAR(uv).x += x0;
+      VAR(uv).y += y0;
     } else {
-      spherical.transform(vp, pXForm, xy, uv, VAR(e));
-      double t = 0.0411259 * (uv.x * VAR(f) - uv.y * M_SQRT3_2);
-      uv.y = 0.0411259 * (uv.x * M_SQRT3_2 + uv.y * VAR(d));
-      uv.x = t;
+      SphericalInternal(VAR(e), VAR(xy).x, VAR(xy).y, &VAR(xy).x, &VAR(xy).y);
+      double t = 0.0411259 * (VAR(uv).x * VAR(f) - VAR(uv).y * M_SQRT3_2);
+      VAR(uv).y = 0.0411259 * (VAR(uv).x * M_SQRT3_2 + VAR(uv).y * VAR(d));
+      VAR(uv).x = t;
     }
     if (VAR(dc) == 1) {
       if (FTx < 0) {
@@ -96,10 +99,11 @@ int PluginVarCalc(Variation* vp)
         TC = VAR(dc1);
       }
     }
-    xy.assign(uv);
 
-    FPx += VVAR * uv.x;
-    FPy += VVAR * uv.y;
+    VAR(xy).x = VAR(uv).x; VAR(xy).y = VAR(uv).y; VAR(xy).z = VAR(uv).z;
+
+    FPx += VVAR * VAR(uv).x;
+    FPy += VVAR * VAR(uv).y;
     if (true /* pContext\.isPreserveZCoordinate() */) FPz += VVAR * FTz;
 
 

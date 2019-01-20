@@ -35,7 +35,7 @@ typedef struct
 
 APO_PLUGIN("circus");
 APO_VARIABLES(
-	VAR_REAL(scale, 1.0),
+	VAR_REAL(scale, 1.0)
 
 );
 

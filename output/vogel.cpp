@@ -34,7 +34,6 @@ typedef struct
 	int n;
 	double scale;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "vogel_"
@@ -43,7 +42,7 @@ typedef struct
 APO_PLUGIN("vogel");
 APO_VARIABLES(
 	VAR_INTEGER(n, 20),
-	VAR_REAL(scale, 1.0),
+	VAR_REAL(scale, 1.0)
 
 );
 

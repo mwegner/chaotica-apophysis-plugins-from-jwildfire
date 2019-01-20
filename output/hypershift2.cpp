@@ -30,7 +30,6 @@ typedef struct
 	int p;
 	int q;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "hypershift2_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("hypershift2");
 APO_VARIABLES(
 	VAR_INTEGER(p, 3),
-	VAR_INTEGER(q, 7),
+	VAR_INTEGER(q, 7)
 
 );
 

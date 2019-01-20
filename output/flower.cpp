@@ -30,7 +30,6 @@ typedef struct
 	double holes;
 	double petals;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "flower_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("flower");
 APO_VARIABLES(
 	VAR_REAL(holes, 0.40),
-	VAR_REAL(petals, 7.0),
+	VAR_REAL(petals, 7.0)
 
 );
 

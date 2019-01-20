@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("whorl");
 APO_VARIABLES(
 	VAR_REAL(inside, 0.10),
-	VAR_REAL(outside, 0.20),
+	VAR_REAL(outside, 0.20)
 
 );
 

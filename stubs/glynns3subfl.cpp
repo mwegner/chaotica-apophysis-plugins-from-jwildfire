@@ -57,7 +57,7 @@ APO_VARIABLES(
 	VAR_REAL(pow, 1.5),
 	VAR_INTEGER(type, 0),
 	VAR_REAL(phi1, 0.0),
-	VAR_REAL(phi2, 360.0),
+	VAR_REAL(phi2, 360.0)
 
 );
 

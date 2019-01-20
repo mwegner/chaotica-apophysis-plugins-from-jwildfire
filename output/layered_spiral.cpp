@@ -29,7 +29,6 @@ typedef struct
 {
 	double radius;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "layered_spiral_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("layered_spiral");
 APO_VARIABLES(
-	VAR_REAL(radius, 1.0),
+	VAR_REAL(radius, 1.0)
 
 );
 

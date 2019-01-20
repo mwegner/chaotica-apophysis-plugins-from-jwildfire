@@ -35,7 +35,7 @@ typedef struct
 
 APO_PLUGIN("loq");
 APO_VARIABLES(
-	VAR_REAL(base, M_E),
+	VAR_REAL(base, M_E)
 
 );
 

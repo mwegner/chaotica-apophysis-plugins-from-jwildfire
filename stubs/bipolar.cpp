@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("bipolar");
 APO_VARIABLES(
-	VAR_REAL(shift, 0.0),
+	VAR_REAL(shift, 0.0)
 
 );
 

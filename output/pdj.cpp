@@ -32,7 +32,6 @@ typedef struct
 	double c;
 	double d;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pdj_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(a, 1),
 	VAR_REAL(b, 2),
 	VAR_REAL(c, 3),
-	VAR_REAL(d, 4),
+	VAR_REAL(d, 4)
 
 );
 

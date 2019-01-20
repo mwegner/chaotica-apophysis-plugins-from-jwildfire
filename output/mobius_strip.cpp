@@ -49,7 +49,6 @@ typedef struct
 	double _rotySin;
 	double _rotyCos;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "mobius_strip_"
@@ -59,7 +58,7 @@ APO_PLUGIN("mobius_strip");
 APO_VARIABLES(
 	VAR_REAL(radius, 1),
 	VAR_REAL(width, 1),
-	VAR_REAL(twists, 1),
+	VAR_REAL(twists, 1)
 
 );
 

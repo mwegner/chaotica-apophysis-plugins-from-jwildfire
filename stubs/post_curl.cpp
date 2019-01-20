@@ -39,7 +39,7 @@ typedef struct
 APO_PLUGIN("post_curl");
 APO_VARIABLES(
 	VAR_REAL(c1, 0),
-	VAR_REAL(c2, 0),
+	VAR_REAL(c2, 0)
 
 );
 

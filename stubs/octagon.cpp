@@ -38,7 +38,7 @@ APO_PLUGIN("octagon");
 APO_VARIABLES(
 	VAR_REAL(x, 0.0),
 	VAR_REAL(y, 0.0),
-	VAR_REAL(z, 0.0),
+	VAR_REAL(z, 0.0)
 
 );
 

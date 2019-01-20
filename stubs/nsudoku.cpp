@@ -43,7 +43,7 @@ APO_VARIABLES(
 	VAR_REAL(thickness, 0.5),
 	VAR_REAL(size, 0.5),
 	VAR_REAL(angle, 0.0),
-	VAR_INTEGER(type, 4),
+	VAR_INTEGER(type, 4)
 
 );
 

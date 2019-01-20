@@ -29,7 +29,6 @@ typedef struct
 {
 	double width;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "tile_hlp_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("tile_hlp");
 APO_VARIABLES(
-	VAR_REAL(width, 1.0),
+	VAR_REAL(width, 1.0)
 
 );
 

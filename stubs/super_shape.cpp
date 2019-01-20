@@ -44,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(n1, 1.0),
 	VAR_REAL(n2, 1.0),
 	VAR_REAL(n3, 1.0),
-	VAR_REAL(holes, 0.0),
+	VAR_REAL(holes, 0.0)
 
 );
 

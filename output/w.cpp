@@ -49,7 +49,6 @@ typedef struct
 	double _super_m;
 	double _super_n1;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "w_"
@@ -70,7 +69,7 @@ APO_VARIABLES(
 	VAR_REAL(super_m, 1.0),
 	VAR_REAL(super_n1, 1.0),
 	VAR_REAL(super_n2, 1.0),
-	VAR_REAL(super_n3, 0),
+	VAR_REAL(super_n3, 0)
 
 );
 

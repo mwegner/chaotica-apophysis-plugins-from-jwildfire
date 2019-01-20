@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("bi_linear");
 APO_VARIABLES(
 
+
 );
 
 

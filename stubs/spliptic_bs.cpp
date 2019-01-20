@@ -37,7 +37,7 @@ typedef struct
 APO_PLUGIN("spliptic_bs");
 APO_VARIABLES(
 	VAR_REAL(x, 0.05),
-	VAR_REAL(y, 0.05),
+	VAR_REAL(y, 0.05)
 
 );
 

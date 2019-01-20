@@ -30,7 +30,6 @@ typedef struct
 	double val;
 	double _dx;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "rings2_"
@@ -38,7 +37,7 @@ typedef struct
 
 APO_PLUGIN("rings2");
 APO_VARIABLES(
-	VAR_REAL(val, 0),
+	VAR_REAL(val, 0)
 
 );
 

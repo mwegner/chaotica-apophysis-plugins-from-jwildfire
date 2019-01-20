@@ -228,7 +228,6 @@ typedef struct
 	double _sampled_speeds[1];
 	double _sampled_thetas[1];
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "maurer_lines_"
@@ -271,7 +270,7 @@ APO_VARIABLES(
 	VAR_REAL(meta_max_step, 45),
 	VAR_INTEGER(cosets_mode, 0),
 	VAR_REAL(irrationalize, 0),
-	VAR_INTEGER(randomize, 1),
+	VAR_INTEGER(randomize, 1)
 
 );
 

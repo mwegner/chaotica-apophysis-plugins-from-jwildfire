@@ -45,7 +45,6 @@ typedef struct
 	double _phi20;
 	double _delta;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glynns3subfl_"
@@ -60,7 +59,7 @@ APO_VARIABLES(
 	VAR_REAL(pow, 1.5),
 	VAR_INTEGER(type, 0),
 	VAR_REAL(phi1, 0.0),
-	VAR_REAL(phi2, 360.0),
+	VAR_REAL(phi2, 360.0)
 
 );
 

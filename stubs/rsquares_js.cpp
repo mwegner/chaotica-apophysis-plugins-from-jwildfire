@@ -48,7 +48,7 @@ APO_VARIABLES(
 	VAR_INTEGER(show_lines, 1),
 	VAR_REAL(line_thickness, 0.5),
 	VAR_INTEGER(show_points, 0),
-	VAR_REAL(point_thickness, 3.0),
+	VAR_REAL(point_thickness, 3.0)
 
 );
 

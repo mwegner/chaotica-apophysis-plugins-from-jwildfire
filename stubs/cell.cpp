@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("cell");
 APO_VARIABLES(
-	VAR_REAL(size, 0.60),
+	VAR_REAL(size, 0.60)
 
 );
 

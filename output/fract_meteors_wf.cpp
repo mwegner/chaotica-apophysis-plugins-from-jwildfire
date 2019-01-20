@@ -28,7 +28,6 @@
 typedef struct
 {
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "fract_meteors_wf_"
@@ -36,6 +35,7 @@ typedef struct
 
 APO_PLUGIN("fract_meteors_wf");
 APO_VARIABLES(
+
 
 );
 

@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("custom_wf_full");
 APO_VARIABLES(
 
+
 );
 
 

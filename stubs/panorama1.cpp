@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("panorama1");
 APO_VARIABLES(
 
+
 );
 
 

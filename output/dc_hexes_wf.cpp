@@ -30,7 +30,6 @@ typedef struct
 	double color_scale;
 	double color_offset;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "dc_hexes_wf_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("dc_hexes_wf");
 APO_VARIABLES(
 	VAR_REAL(color_scale, 0.5),
-	VAR_REAL(color_offset, 0.0),
+	VAR_REAL(color_offset, 0.0)
 
 );
 

@@ -29,7 +29,6 @@ typedef struct
 {
 	int effect;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "funnel_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("funnel");
 APO_VARIABLES(
-	VAR_INTEGER(effect, 8),
+	VAR_INTEGER(effect, 8)
 
 );
 

@@ -35,7 +35,6 @@ typedef struct
 	double d;
 	double e;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "lissajous_"
@@ -49,7 +48,7 @@ APO_VARIABLES(
 	VAR_REAL(b, 2.0),
 	VAR_REAL(c, 0.0),
 	VAR_REAL(d, 0.0),
-	VAR_REAL(e, 0.0),
+	VAR_REAL(e, 0.0)
 
 );
 

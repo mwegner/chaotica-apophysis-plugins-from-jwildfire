@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(cellsize, 1.0),
 	VAR_REAL(power, 1.0),
 	VAR_REAL(rotate, 0.166),
-	VAR_REAL(scale, 1.0),
+	VAR_REAL(scale, 1.0)
 
 );
 

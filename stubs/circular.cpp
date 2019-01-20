@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("circular");
 APO_VARIABLES(
 	VAR_REAL(angle, 90.0),
-	VAR_REAL(seed, 0.0),
+	VAR_REAL(seed, 0.0)
 
 );
 

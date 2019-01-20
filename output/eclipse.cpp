@@ -29,7 +29,6 @@ typedef struct
 {
 	double shift;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "eclipse_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("eclipse");
 APO_VARIABLES(
-	VAR_REAL(shift, 0.0),
+	VAR_REAL(shift, 0.0)
 
 );
 

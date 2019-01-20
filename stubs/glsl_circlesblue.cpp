@@ -40,7 +40,7 @@ typedef struct
 
 APO_PLUGIN("glsl_circlesblue");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 10000),
+	VAR_INTEGER(Seed, 10000)
 
 );
 

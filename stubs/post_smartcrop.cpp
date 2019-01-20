@@ -62,7 +62,7 @@ APO_VARIABLES(
 	VAR_REAL(scatter, 0.0),
 	VAR_REAL(offset, 0.0),
 	VAR_INTEGER(cropmode, 1),
-	VAR_INTEGER(static, 2),
+	VAR_INTEGER(static, 2)
 
 );
 

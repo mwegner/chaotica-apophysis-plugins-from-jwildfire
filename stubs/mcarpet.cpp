@@ -40,7 +40,7 @@ APO_VARIABLES(
 	VAR_REAL(x, 1.0),
 	VAR_REAL(y, 1.0),
 	VAR_REAL(twist, 0.0),
-	VAR_REAL(tilt, 0.0),
+	VAR_REAL(tilt, 0.0)
 
 );
 

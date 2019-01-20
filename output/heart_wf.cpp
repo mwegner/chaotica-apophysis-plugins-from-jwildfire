@@ -33,7 +33,6 @@ typedef struct
 	double scale_r_left;
 	double scale_r_right;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "heart_wf_"
@@ -45,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(scale_t, 1.0),
 	VAR_REAL(shift_t, 0.0),
 	VAR_REAL(scale_r_left, 1.0),
-	VAR_REAL(scale_r_right, 1.0),
+	VAR_REAL(scale_r_right, 1.0)
 
 );
 

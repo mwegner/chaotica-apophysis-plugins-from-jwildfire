@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("zblur");
 APO_VARIABLES(
 
+
 );
 
 

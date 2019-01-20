@@ -32,7 +32,6 @@ typedef struct
 	double count;
 	double swirl;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "wedge_sph_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(angle, 0.20),
 	VAR_REAL(hole, 0.20),
 	VAR_REAL(count, 2.0),
-	VAR_REAL(swirl, 0.30),
+	VAR_REAL(swirl, 0.30)
 
 );
 

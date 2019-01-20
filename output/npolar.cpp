@@ -36,7 +36,6 @@ typedef struct
 	double _cn;
 	double _absn;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "npolar_"
@@ -45,7 +44,7 @@ typedef struct
 APO_PLUGIN("npolar");
 APO_VARIABLES(
 	VAR_INTEGER(parity, 0),
-	VAR_INTEGER(n, 1),
+	VAR_INTEGER(n, 1)
 
 );
 

@@ -29,7 +29,6 @@ typedef struct
 {
 	double d_spher_weight;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "d_spherical_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("d_spherical");
 APO_VARIABLES(
-	VAR_REAL(d_spher_weight, 0.5),
+	VAR_REAL(d_spher_weight, 0.5)
 
 );
 

@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(width2, 0.5),
 	VAR_REAL(scale, 10.0),
 	VAR_REAL(seed, 50.0),
-	VAR_INTEGER(inverse, 0),
+	VAR_INTEGER(inverse, 0)
 
 );
 

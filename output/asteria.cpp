@@ -31,7 +31,6 @@ typedef struct
 	double _sina;
 	double _cosa;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "asteria_"
@@ -39,7 +38,7 @@ typedef struct
 
 APO_PLUGIN("asteria");
 APO_VARIABLES(
-	VAR_REAL(alpha, 0.0),
+	VAR_REAL(alpha, 0.0)
 
 );
 

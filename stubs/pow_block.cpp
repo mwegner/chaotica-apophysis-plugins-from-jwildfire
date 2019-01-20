@@ -44,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(denominator, 0),
 	VAR_REAL(correctn, 1.0),
 	VAR_REAL(correctd, 1.0),
-	VAR_REAL(root, 1.0),
+	VAR_REAL(root, 1.0)
 
 );
 

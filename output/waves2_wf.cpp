@@ -38,7 +38,6 @@ typedef struct
 	double _dampingX;
 	double _dampingY;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "waves2_wf_"
@@ -53,7 +52,7 @@ APO_VARIABLES(
 	VAR_INTEGER(use_cos_x, 1),
 	VAR_INTEGER(use_cos_y, 0),
 	VAR_REAL(dampx, 0.0),
-	VAR_REAL(dampy, 0.0),
+	VAR_REAL(dampy, 0.0)
 
 );
 

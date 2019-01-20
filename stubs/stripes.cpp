@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("stripes");
 APO_VARIABLES(
 	VAR_REAL(space, 0.20),
-	VAR_REAL(warp, 0.60),
+	VAR_REAL(warp, 0.60)
 
 );
 

@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("cosh");
 APO_VARIABLES(
 
+
 );
 
 

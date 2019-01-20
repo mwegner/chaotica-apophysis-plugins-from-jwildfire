@@ -31,7 +31,6 @@ typedef struct
 	double im;
 	double dist;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "juliac_"
@@ -41,7 +40,7 @@ APO_PLUGIN("juliac");
 APO_VARIABLES(
 	VAR_REAL(re, 0),
 	VAR_REAL(im, 0.0),
-	VAR_REAL(dist, 1.0),
+	VAR_REAL(dist, 1.0)
 
 );
 

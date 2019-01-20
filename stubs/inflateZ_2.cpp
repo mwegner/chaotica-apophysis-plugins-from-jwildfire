@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("inflateZ_2");
 APO_VARIABLES(
 
+
 );
 
 

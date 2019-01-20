@@ -34,7 +34,6 @@ typedef struct
 	double _bCa_bCn;
 	double _pi_bCn;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bCollide_"
@@ -43,7 +42,7 @@ typedef struct
 APO_PLUGIN("bCollide");
 APO_VARIABLES(
 	VAR_INTEGER(num, 1),
-	VAR_REAL(a, 0.0),
+	VAR_REAL(a, 0.0)
 
 );
 

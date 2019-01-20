@@ -31,7 +31,6 @@ typedef struct
 	double _b = 0.0; // -0.28
 	double _c = 21.288;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "wallpaper_js_"
@@ -39,6 +38,7 @@ typedef struct
 
 APO_PLUGIN("wallpaper_js");
 APO_VARIABLES(
+
 
 );
 

@@ -31,7 +31,6 @@ typedef struct
 	double powY;
 	double powZ;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "linearT3D_"
@@ -41,7 +40,7 @@ APO_PLUGIN("linearT3D");
 APO_VARIABLES(
 	VAR_REAL(powX, 1.2),
 	VAR_REAL(powY, 1.2),
-	VAR_REAL(powZ, 1.2),
+	VAR_REAL(powZ, 1.2)
 
 );
 

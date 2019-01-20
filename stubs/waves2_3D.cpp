@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("waves2_3D");
 APO_VARIABLES(
 	VAR_REAL(freq, 2.0),
-	VAR_REAL(scale, 1.0),
+	VAR_REAL(scale, 1.0)
 
 );
 

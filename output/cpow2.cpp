@@ -39,7 +39,6 @@ typedef struct
 	double _inv_range;
 	double _full_range;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "cpow2_"
@@ -50,7 +49,7 @@ APO_VARIABLES(
 	VAR_REAL(r, 1.0),
 	VAR_REAL(a, 0.0),
 	VAR_REAL(divisor, 1),
-	VAR_INTEGER(range, 1),
+	VAR_INTEGER(range, 1)
 
 );
 

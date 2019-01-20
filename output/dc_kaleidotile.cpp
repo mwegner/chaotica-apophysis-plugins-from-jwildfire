@@ -54,7 +54,6 @@ typedef struct
 	double _oldColor;
 	double _newColor;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "dc_kaleidotile_"
@@ -70,7 +69,7 @@ APO_VARIABLES(
 	VAR_REAL(color1, 0),
 	VAR_REAL(color2, 1),
 	VAR_REAL(speed1, 0),
-	VAR_REAL(speed2, 0),
+	VAR_REAL(speed2, 0)
 
 );
 

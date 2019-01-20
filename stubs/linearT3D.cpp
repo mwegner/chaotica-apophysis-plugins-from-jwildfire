@@ -38,7 +38,7 @@ APO_PLUGIN("linearT3D");
 APO_VARIABLES(
 	VAR_REAL(powX, 1.2),
 	VAR_REAL(powY, 1.2),
-	VAR_REAL(powZ, 1.2),
+	VAR_REAL(powZ, 1.2)
 
 );
 

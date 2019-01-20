@@ -39,7 +39,6 @@ typedef struct
 	double _ex;
 	double _ey;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "corners_"
@@ -48,7 +47,7 @@ typedef struct
 APO_PLUGIN("corners");
 APO_VARIABLES(
 	VAR_REAL(x, 1.0),
-	VAR_REAL(y, 1.0),
+	VAR_REAL(y, 1.0)
 
 );
 

@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("post_spin_z");
 APO_VARIABLES(
 
+
 );
 
 

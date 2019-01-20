@@ -38,7 +38,7 @@ APO_PLUGIN("cpow");
 APO_VARIABLES(
 	VAR_REAL(r, 1.0),
 	VAR_REAL(i, 0.1),
-	VAR_REAL(power, 1.5),
+	VAR_REAL(power, 1.5)
 
 );
 

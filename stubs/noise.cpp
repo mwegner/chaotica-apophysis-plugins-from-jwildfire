@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("noise");
 APO_VARIABLES(
 
+
 );
 
 

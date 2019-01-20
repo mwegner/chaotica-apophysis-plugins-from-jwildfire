@@ -34,7 +34,6 @@ typedef struct
 	int inside;
 	int shape;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "hole2_"
@@ -47,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(c, 1.0),
 	VAR_REAL(d, 1.0),
 	VAR_INTEGER(inside, 0),
-	VAR_INTEGER(shape, 0),
+	VAR_INTEGER(shape, 0)
 
 );
 

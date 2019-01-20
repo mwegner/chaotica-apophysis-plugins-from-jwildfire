@@ -38,7 +38,7 @@ APO_PLUGIN("splits3D");
 APO_VARIABLES(
 	VAR_REAL(x, 0.1),
 	VAR_REAL(y, 0.3),
-	VAR_REAL(z, 0.2),
+	VAR_REAL(z, 0.2)
 
 );
 

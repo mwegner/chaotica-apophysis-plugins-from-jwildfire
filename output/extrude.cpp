@@ -29,7 +29,6 @@ typedef struct
 {
 	double root_face;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "extrude_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("extrude");
 APO_VARIABLES(
-	VAR_REAL(root_face, 0.5),
+	VAR_REAL(root_face, 0.5)
 
 );
 

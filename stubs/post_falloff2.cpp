@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("post_falloff2");
 APO_VARIABLES(
 
+
 );
 
 

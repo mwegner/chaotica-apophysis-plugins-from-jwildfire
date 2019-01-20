@@ -39,6 +39,7 @@ typedef struct
 APO_PLUGIN("mask");
 APO_VARIABLES(
 
+
 );
 
 

@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("arcsinh");
 APO_VARIABLES(
 
+
 );
 
 

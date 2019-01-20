@@ -48,6 +48,7 @@ typedef struct
 APO_PLUGIN("atan2_spirals");
 APO_VARIABLES(
 
+
 );
 
 

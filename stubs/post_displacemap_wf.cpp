@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("post_displacemap_wf");
 APO_VARIABLES(
 
+
 );
 
 

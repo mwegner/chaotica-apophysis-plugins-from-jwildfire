@@ -39,7 +39,7 @@ APO_PLUGIN("blocky");
 APO_VARIABLES(
 	VAR_REAL(x, 1.0),
 	VAR_REAL(y, 1.0),
-	VAR_REAL(mp, 4.0),
+	VAR_REAL(mp, 4.0)
 
 );
 

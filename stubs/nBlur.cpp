@@ -64,7 +64,7 @@ APO_VARIABLES(
 	VAR_INTEGER(adjustToLinear, 1),
 	VAR_INTEGER(equalBlur, 1),
 	VAR_INTEGER(exactCalc, 0),
-	VAR_REAL(highlightEdges, 1.0),
+	VAR_REAL(highlightEdges, 1.0)
 
 );
 

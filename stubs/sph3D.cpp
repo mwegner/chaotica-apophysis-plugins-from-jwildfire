@@ -38,7 +38,7 @@ APO_PLUGIN("sph3D");
 APO_VARIABLES(
 	VAR_REAL(x, 1.0),
 	VAR_REAL(y, 1.0),
-	VAR_REAL(z, 1.0),
+	VAR_REAL(z, 1.0)
 
 );
 

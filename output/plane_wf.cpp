@@ -41,7 +41,6 @@ typedef struct
 	int calc_color_idx;
 	int receive_only_shadows;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "plane_wf_"
@@ -55,7 +54,7 @@ APO_VARIABLES(
 	VAR_INTEGER(direct_color, 1),
 	VAR_INTEGER(color_mode, CM_UV),
 	VAR_INTEGER(calc_color_idx, 0),
-	VAR_INTEGER(receive_only_shadows, 0),
+	VAR_INTEGER(receive_only_shadows, 0)
 
 );
 

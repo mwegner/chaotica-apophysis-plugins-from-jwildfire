@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(damping, 0.01),
 	VAR_REAL(centre_x, 0.0),
 	VAR_REAL(centre_y, 0.0),
-	VAR_REAL(centre_z, 0.0),
+	VAR_REAL(centre_z, 0.0)
 
 );
 

@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(scale_t, 1.0),
 	VAR_REAL(shift_t, 0.0),
 	VAR_REAL(scale_r_left, 1.0),
-	VAR_REAL(scale_r_right, 1.0),
+	VAR_REAL(scale_r_right, 1.0)
 
 );
 

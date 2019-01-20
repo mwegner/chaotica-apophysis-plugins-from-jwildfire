@@ -31,7 +31,6 @@ typedef struct
 	double shift_y;
 	double angle;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "shift_"
@@ -41,7 +40,7 @@ APO_PLUGIN("shift");
 APO_VARIABLES(
 	VAR_REAL(shift_x, 0.0),
 	VAR_REAL(shift_y, 0.0),
-	VAR_REAL(angle, 0.0),
+	VAR_REAL(angle, 0.0)
 
 );
 

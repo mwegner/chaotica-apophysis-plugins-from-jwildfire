@@ -40,7 +40,6 @@ typedef struct
 	double h;
 	double _v;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "elliptic2_"
@@ -58,7 +57,7 @@ APO_VARIABLES(
 	VAR_REAL(e, 0.5),
 	VAR_REAL(f, 1.0),
 	VAR_REAL(g, 1.0),
-	VAR_REAL(h, 2.0),
+	VAR_REAL(h, 2.0)
 
 );
 

@@ -35,7 +35,6 @@ typedef struct
 	double color_offset;
 	int direct_color;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "waveblur_wf_"
@@ -49,7 +48,7 @@ APO_VARIABLES(
 	VAR_REAL(damping_z, 0.0),
 	VAR_REAL(color_scale, 0.5),
 	VAR_REAL(color_offset, 0.0),
-	VAR_INTEGER(direct_color, 0),
+	VAR_INTEGER(direct_color, 0)
 
 );
 

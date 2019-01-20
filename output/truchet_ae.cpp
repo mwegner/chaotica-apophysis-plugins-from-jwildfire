@@ -56,7 +56,6 @@ typedef struct
 	double _sinang;
 	double _cosang;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "truchet_ae_"
@@ -85,7 +84,7 @@ APO_VARIABLES(
 	VAR_REAL(K31A, 0.5),
 	VAR_REAL(K32A, 0.5),
 	VAR_REAL(K31B, 0.5),
-	VAR_REAL(K32B, 0.5),
+	VAR_REAL(K32B, 0.5)
 
 );
 

@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("stripfit");
 APO_VARIABLES(
-	VAR_REAL(dx, 1.00),
+	VAR_REAL(dx, 1.00)
 
 );
 

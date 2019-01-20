@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("circlesplit");
 APO_VARIABLES(
 	VAR_REAL(cs_radius, 1.0),
-	VAR_REAL(cs_split, 0.5),
+	VAR_REAL(cs_split, 0.5)
 
 );
 

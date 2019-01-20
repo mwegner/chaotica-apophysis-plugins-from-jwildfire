@@ -41,6 +41,7 @@ typedef struct
 APO_PLUGIN("starfractal");
 APO_VARIABLES(
 
+
 );
 
 

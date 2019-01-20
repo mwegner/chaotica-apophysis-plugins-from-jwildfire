@@ -45,7 +45,7 @@ APO_VARIABLES(
 	VAR_INTEGER(n, 4),
 	VAR_REAL(spin, M_PI),
 	VAR_REAL(space, 0.0),
-	VAR_INTEGER(corner, 1),
+	VAR_INTEGER(corner, 1)
 
 );
 

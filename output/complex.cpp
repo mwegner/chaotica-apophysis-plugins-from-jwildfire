@@ -92,7 +92,6 @@ typedef struct
 	double tanhy1;
 	double tanhy2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "complex_"
@@ -163,7 +162,7 @@ APO_VARIABLES(
 	VAR_REAL(tanhx1, 2.0),
 	VAR_REAL(tanhx2, 2.0),
 	VAR_REAL(tanhy1, 2.0),
-	VAR_REAL(tanhy2, 2.0),
+	VAR_REAL(tanhy2, 2.0)
 
 );
 

@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("flux");
 APO_VARIABLES(
-	VAR_REAL(spread, 0.30),
+	VAR_REAL(spread, 0.30)
 
 );
 

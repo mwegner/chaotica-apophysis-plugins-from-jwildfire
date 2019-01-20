@@ -44,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(b_re, 2),
 	VAR_REAL(b_im, 0),
 	VAR_INTEGER(recipe, GRANDMA_STANDARD),
-	VAR_INTEGER(avoid_reversal, 1),
+	VAR_INTEGER(avoid_reversal, 1)
 
 );
 

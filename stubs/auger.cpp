@@ -40,7 +40,7 @@ APO_VARIABLES(
 	VAR_REAL(freq, 1.00),
 	VAR_REAL(weight, 0.5),
 	VAR_REAL(sym, 0.1),
-	VAR_REAL(scale, 0.9),
+	VAR_REAL(scale, 0.9)
 
 );
 

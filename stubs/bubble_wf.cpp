@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("bubble_wf");
 APO_VARIABLES(
 
+
 );
 
 

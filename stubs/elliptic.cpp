@@ -35,6 +35,7 @@ typedef struct
 APO_PLUGIN("elliptic");
 APO_VARIABLES(
 
+
 );
 
 

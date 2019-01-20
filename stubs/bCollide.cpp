@@ -40,7 +40,7 @@ typedef struct
 APO_PLUGIN("bCollide");
 APO_VARIABLES(
 	VAR_INTEGER(num, 1),
-	VAR_REAL(a, 0.0),
+	VAR_REAL(a, 0.0)
 
 );
 

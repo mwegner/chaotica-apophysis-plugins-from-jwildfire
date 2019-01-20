@@ -30,7 +30,6 @@ typedef struct
 	double _x = 0.0;
 	double _y = 0.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bsplit_"
@@ -38,6 +37,7 @@ typedef struct
 
 APO_PLUGIN("bsplit");
 APO_VARIABLES(
+
 
 );
 

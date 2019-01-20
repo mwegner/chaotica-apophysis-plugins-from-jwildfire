@@ -66,7 +66,7 @@ APO_VARIABLES(
 	VAR_REAL(show_curve, 0.05),
 	VAR_REAL(line_thickness, 0.5),
 	VAR_REAL(point_thickness, 3.0),
-	VAR_REAL(curve_thickness, 1.0),
+	VAR_REAL(curve_thickness, 1.0)
 
 );
 

@@ -37,6 +37,7 @@ typedef struct
 APO_PLUGIN("idisc");
 APO_VARIABLES(
 
+
 );
 
 

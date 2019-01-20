@@ -23,7 +23,7 @@
 // Must define this structure before we include apoplugin.h
 typedef struct
 {
-    double circleLinear_Sc, crcleLinear_K,circleLinear_Reverse,circleLinear_Dens1,circleLinear_Dens2;
+    double circleLinear_Sc, circleLinear_K,circleLinear_Reverse,circleLinear_Dens1,circleLinear_Dens2;
     double circleLinear_X,circleLinear_Y;
     int circleLinear_Seed;
     

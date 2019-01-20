@@ -31,7 +31,6 @@ typedef struct
 	double _b[13];
 	int _m = 10;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "sattractor_js_"
@@ -39,6 +38,7 @@ typedef struct
 
 APO_PLUGIN("sattractor_js");
 APO_VARIABLES(
+
 
 );
 

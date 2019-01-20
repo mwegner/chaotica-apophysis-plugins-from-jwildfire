@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("invtree_js");
 APO_VARIABLES(
 
+
 );
 
 

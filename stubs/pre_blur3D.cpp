@@ -40,6 +40,7 @@ typedef struct
 APO_PLUGIN("pre_blur3D");
 APO_VARIABLES(
 
+
 );
 
 

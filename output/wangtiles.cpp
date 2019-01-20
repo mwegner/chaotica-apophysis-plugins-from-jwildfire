@@ -44,7 +44,6 @@ typedef struct
 	int _imgWidth;
 	int _imgHeight;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "wangtiles_"
@@ -63,7 +62,7 @@ APO_VARIABLES(
 	VAR_REAL(offset_z, 0.0),
 	VAR_INTEGER(tile_x, 1),
 	VAR_INTEGER(tile_y, 1),
-	VAR_INTEGER(reset_z, 1),
+	VAR_INTEGER(reset_z, 1)
 
 );
 

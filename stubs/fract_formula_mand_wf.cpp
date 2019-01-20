@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("fract_formula_mand_wf");
 APO_VARIABLES(
-	VAR_INTEGER(power, 0),
+	VAR_INTEGER(power, 0)
 
 );
 

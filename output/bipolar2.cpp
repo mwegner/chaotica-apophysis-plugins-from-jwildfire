@@ -37,7 +37,6 @@ typedef struct
 	double g1;
 	double h;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bipolar2_"
@@ -53,7 +52,7 @@ APO_VARIABLES(
 	VAR_REAL(e, 2.0),
 	VAR_REAL(f1, 0.25),
 	VAR_REAL(g1, 1.0),
-	VAR_REAL(h, 1.0),
+	VAR_REAL(h, 1.0)
 
 );
 

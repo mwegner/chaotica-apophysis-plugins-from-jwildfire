@@ -31,7 +31,6 @@ typedef struct
 	double high;
 	double waves;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "blob_"
@@ -41,7 +40,7 @@ APO_PLUGIN("blob");
 APO_VARIABLES(
 	VAR_REAL(low, 0.3),
 	VAR_REAL(high, 1.2),
-	VAR_REAL(waves, 6),
+	VAR_REAL(waves, 6)
 
 );
 

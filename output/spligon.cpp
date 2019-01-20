@@ -34,7 +34,6 @@ typedef struct
 	double _th;
 	double _thi;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "spligon_"
@@ -43,7 +42,7 @@ typedef struct
 APO_PLUGIN("spligon");
 APO_VARIABLES(
 	VAR_REAL(sides, 3),
-	VAR_REAL(i, 1),
+	VAR_REAL(i, 1)
 
 );
 

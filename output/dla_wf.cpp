@@ -39,7 +39,6 @@ typedef struct
 	vector <point> _points;
 	int _max_iter;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "dla_wf_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_INTEGER(max_iter, 6000),
 	VAR_INTEGER(seed, 666),
 	VAR_REAL(scale, 10.0),
-	VAR_REAL(jitter, 0.01),
+	VAR_REAL(jitter, 0.01)
 
 );
 

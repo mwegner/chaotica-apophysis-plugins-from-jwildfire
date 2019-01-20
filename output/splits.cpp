@@ -34,7 +34,6 @@ typedef struct
 	double ushear;
 	double dshear;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "splits_"
@@ -47,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(lshear, 0.00),
 	VAR_REAL(rshear, 0.00),
 	VAR_REAL(ushear, 0.00),
-	VAR_REAL(dshear, 0.00),
+	VAR_REAL(dshear, 0.00)
 
 );
 

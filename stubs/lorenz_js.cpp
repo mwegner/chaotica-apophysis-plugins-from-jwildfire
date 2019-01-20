@@ -43,7 +43,7 @@ APO_PLUGIN("lorenz_js");
 APO_VARIABLES(
 	VAR_REAL(centerx, 0.0),
 	VAR_REAL(centery, 0.0),
-	VAR_REAL(scale, 1000.0),
+	VAR_REAL(scale, 1000.0)
 
 );
 

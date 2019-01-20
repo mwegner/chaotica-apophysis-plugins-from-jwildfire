@@ -42,6 +42,7 @@ typedef struct
 APO_PLUGIN("fdisc");
 APO_VARIABLES(
 
+
 );
 
 

@@ -44,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(lshear, 0.00),
 	VAR_REAL(rshear, 0.00),
 	VAR_REAL(ushear, 0.00),
-	VAR_REAL(dshear, 0.00),
+	VAR_REAL(dshear, 0.00)
 
 );
 

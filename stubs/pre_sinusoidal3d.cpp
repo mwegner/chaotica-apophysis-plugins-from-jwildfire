@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("pre_sinusoidal3d");
 APO_VARIABLES(
 
+
 );
 
 

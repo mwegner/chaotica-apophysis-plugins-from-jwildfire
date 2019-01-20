@@ -93,8 +93,12 @@ ksort($plugins);
 
 // make release notes
 $release = file_get_contents(__DIR__ . "/templates/release.md");
+$list = "";
+$totals = array();
 foreach($plugins as $plugin => $origin)
 {
+	@$totals[$origin]++;
+
 	if($origin == "empty_stub")
 		$plugin = "~~{$plugin}~~";
 
@@ -106,8 +110,32 @@ foreach($plugins as $plugin => $origin)
 	
 	$origin = "*{$origin}*";
 
-	$release .= "\n| {$plugin} | {$origin} |";
+	$list .= "| {$plugin} | {$origin} |\n";
 }
+
+$working = $totals['auto_convert'] + $totals['manual_convert'] + $totals['original'] + $totals['verbatim'];
+
+arsort($totals);
+$counts = "";
+
+foreach($totals as $origin => $total)
+{
+	if($origin == "empty_stub")
+		$origin = "~~{$origin}~~";
+
+	if($origin == "original")
+		$origin = "**{$origin}**";
+
+	if($origin == "missing")
+		$origin = "*~~{$origin}~~*";
+
+	$counts .= "| {$total} | {$origin} |\n";
+}
+
+$release = str_replace("%WORKING%", $working, $release);
+$release = str_replace("%COUNTS%", $counts, $release);
+$release = str_replace("%PLUGINS%", $list, $release);
+
 file_put_contents("release.md", $release);
 
 function CollectPlugins($platform)
@@ -198,6 +226,7 @@ function CollectPlugins($platform)
 	{
 		$list .= "$type\t$plugin\r\n";
 	}
+	
 	file_put_contents("{$platform}/_list.txt", $list);
 
 	`RD /S /Q {$platform}_first`;

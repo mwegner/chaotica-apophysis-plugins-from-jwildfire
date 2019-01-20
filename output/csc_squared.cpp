@@ -35,7 +35,6 @@ typedef struct
 	double _csc_add = 0.25;
 	double _scaley = 1;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "csc_squared_"
@@ -43,6 +42,7 @@ typedef struct
 
 APO_PLUGIN("csc_squared");
 APO_VARIABLES(
+
 
 );
 

@@ -34,7 +34,6 @@ typedef struct
 	double w2r_null;
 	double w2r_distance;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "waves2_radial_"
@@ -47,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(w2r_freqx, 7),
 	VAR_REAL(w2r_freqy, 13),
 	VAR_REAL(w2r_null, 2),
-	VAR_REAL(w2r_distance, 10),
+	VAR_REAL(w2r_distance, 10)
 
 );
 

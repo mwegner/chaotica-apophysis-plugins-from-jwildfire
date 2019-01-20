@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("spherical3D");
 APO_VARIABLES(
 
+
 );
 
 

@@ -30,7 +30,6 @@ typedef struct
 	int power;
 	double _inv_power;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "squish_"
@@ -38,7 +37,7 @@ typedef struct
 
 APO_PLUGIN("squish");
 APO_VARIABLES(
-	VAR_INTEGER(power, 2),
+	VAR_INTEGER(power, 2)
 
 );
 

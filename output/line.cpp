@@ -30,7 +30,6 @@ typedef struct
 	double _delta = 0.0;
 	double _phi = 0.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "line_"
@@ -38,6 +37,7 @@ typedef struct
 
 APO_PLUGIN("line");
 APO_VARIABLES(
+
 
 );
 

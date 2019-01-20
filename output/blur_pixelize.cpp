@@ -32,7 +32,6 @@ typedef struct
 	double _inv_size;
 	double _v;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "blur_pixelize_"
@@ -41,7 +40,7 @@ typedef struct
 APO_PLUGIN("blur_pixelize");
 APO_VARIABLES(
 	VAR_REAL(size, 0.1),
-	VAR_REAL(scale, 1.0),
+	VAR_REAL(scale, 1.0)
 
 );
 

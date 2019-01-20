@@ -45,7 +45,6 @@ typedef struct
 	int depth2; // (int) (random01() * 4)
 	double _alfa;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "dc_triTile_"
@@ -68,7 +67,7 @@ APO_VARIABLES(
 	VAR_INTEGER(eq2, 0),
 	VAR_INTEGER(depth, 0),
 	VAR_INTEGER(depth1, 0),
-	VAR_INTEGER(depth2, 0),
+	VAR_INTEGER(depth2, 0)
 
 );
 

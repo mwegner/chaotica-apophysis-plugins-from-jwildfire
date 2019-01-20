@@ -33,7 +33,6 @@ typedef struct
 	double _sinadd = 0.0;
 	double _cosadd = 0.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "disc2_"
@@ -42,7 +41,7 @@ typedef struct
 APO_PLUGIN("disc2");
 APO_VARIABLES(
 	VAR_REAL(rot, 2.0),
-	VAR_REAL(twist, 0.50),
+	VAR_REAL(twist, 0.50)
 
 );
 

@@ -32,7 +32,6 @@ typedef struct
 	double _c = 1.4;
 	double _d = 0.0; // -6.56
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "svensson_js_"
@@ -40,6 +39,7 @@ typedef struct
 
 APO_PLUGIN("svensson_js");
 APO_VARIABLES(
+
 
 );
 

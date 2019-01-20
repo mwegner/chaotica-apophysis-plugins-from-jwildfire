@@ -59,7 +59,6 @@ typedef struct
 	double _wrap_range;
 	int _extra_hskew;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "mandala2_"
@@ -67,6 +66,7 @@ typedef struct
 
 APO_PLUGIN("mandala2");
 APO_VARIABLES(
+
 
 );
 

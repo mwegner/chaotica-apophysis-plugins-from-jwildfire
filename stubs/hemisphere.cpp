@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("hemisphere");
 APO_VARIABLES(
 
+
 );
 
 

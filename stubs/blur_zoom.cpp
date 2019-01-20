@@ -38,7 +38,7 @@ APO_PLUGIN("blur_zoom");
 APO_VARIABLES(
 	VAR_REAL(length, 0.0),
 	VAR_REAL(x, 0.0),
-	VAR_REAL(y, 0.0),
+	VAR_REAL(y, 0.0)
 
 );
 

@@ -54,7 +54,6 @@ typedef struct
 	double _rho_pi;
 	double _phi_pi;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "superShape3d_"
@@ -77,7 +76,7 @@ APO_VARIABLES(
 	VAR_REAL(n3_1, 1.0),
 	VAR_REAL(n3_2, 1.0),
 	VAR_REAL(spiral, 0.0),
-	VAR_INTEGER(toroidmap, 0),
+	VAR_INTEGER(toroidmap, 0)
 
 );
 

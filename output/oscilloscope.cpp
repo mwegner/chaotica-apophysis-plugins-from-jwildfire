@@ -34,7 +34,6 @@ typedef struct
 	double _tpf;
 	bool _noDamping;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "oscilloscope_"
@@ -45,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(separation, 1.00),
 	VAR_REAL(frequency, M_PI),
 	VAR_REAL(amplitude, 1.0),
-	VAR_REAL(damping, 0.0),
+	VAR_REAL(damping, 0.0)
 
 );
 

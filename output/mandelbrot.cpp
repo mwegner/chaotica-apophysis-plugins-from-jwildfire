@@ -49,7 +49,6 @@ typedef struct
 	double _y0;
 	double _z0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "mandelbrot_"
@@ -68,7 +67,7 @@ APO_VARIABLES(
 	VAR_REAL(cy, 0.0),
 	VAR_INTEGER(max_points, -1),
 	VAR_INTEGER(seed, 1234),
-	VAR_REAL(rnd_z_range, 0.0),
+	VAR_REAL(rnd_z_range, 0.0)
 
 );
 

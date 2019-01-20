@@ -46,6 +46,7 @@ typedef struct
 APO_PLUGIN("glsl_mandala");
 APO_VARIABLES(
 
+
 );
 
 

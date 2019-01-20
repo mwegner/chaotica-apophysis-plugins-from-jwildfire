@@ -39,7 +39,7 @@ APO_PLUGIN("target");
 APO_VARIABLES(
 	VAR_REAL(even, 0),
 	VAR_REAL(odd, 0),
-	VAR_REAL(size, 0),
+	VAR_REAL(size, 0)
 
 );
 

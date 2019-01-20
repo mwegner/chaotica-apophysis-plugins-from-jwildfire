@@ -35,7 +35,7 @@ typedef struct
 
 APO_PLUGIN("eJulia");
 APO_VARIABLES(
-	VAR_INTEGER(power, 2),
+	VAR_INTEGER(power, 2)
 
 );
 

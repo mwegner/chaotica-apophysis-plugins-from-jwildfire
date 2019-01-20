@@ -32,7 +32,6 @@ typedef struct
 	double _HSTerm;
 	double _N;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "polylogarithm_"
@@ -41,7 +40,7 @@ typedef struct
 APO_PLUGIN("polylogarithm");
 APO_VARIABLES(
 	VAR_INTEGER(n, 2),
-	VAR_REAL(zpow, 1.0),
+	VAR_REAL(zpow, 1.0)
 
 );
 

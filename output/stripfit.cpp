@@ -29,7 +29,6 @@ typedef struct
 {
 	double dx;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "stripfit_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("stripfit");
 APO_VARIABLES(
-	VAR_REAL(dx, 1.00),
+	VAR_REAL(dx, 1.00)
 
 );
 

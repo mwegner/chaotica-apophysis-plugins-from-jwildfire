@@ -40,7 +40,6 @@ typedef struct
 	double param_g;
 	double param_h;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "knots3D_"
@@ -59,7 +58,7 @@ APO_VARIABLES(
 	VAR_REAL(param_e, 1.0),
 	VAR_REAL(param_f, 1.0),
 	VAR_REAL(param_g, 1.0),
-	VAR_REAL(param_h, 1.0),
+	VAR_REAL(param_h, 1.0)
 
 );
 

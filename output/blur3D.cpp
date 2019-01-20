@@ -34,7 +34,6 @@ typedef struct
 	double _sinb = 0.0;
 	double _cosb = 0.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "blur3D_"
@@ -42,6 +41,7 @@ typedef struct
 
 APO_PLUGIN("blur3D");
 APO_VARIABLES(
+
 
 );
 

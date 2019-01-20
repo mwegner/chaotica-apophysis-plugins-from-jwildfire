@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("escher");
 APO_VARIABLES(
-	VAR_REAL(beta, 0.30),
+	VAR_REAL(beta, 0.30)
 
 );
 

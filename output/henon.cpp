@@ -31,7 +31,6 @@ typedef struct
 	double b;
 	double c;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "henon_"
@@ -41,7 +40,7 @@ APO_PLUGIN("henon");
 APO_VARIABLES(
 	VAR_REAL(a, 0.5),
 	VAR_REAL(b, 1.0),
-	VAR_REAL(c, 1.0),
+	VAR_REAL(c, 1.0)
 
 );
 

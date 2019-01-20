@@ -32,7 +32,6 @@ typedef struct
 	double power;
 	double sides;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "ngon_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(circle, 1),
 	VAR_REAL(corners, 2),
 	VAR_REAL(power, 3),
-	VAR_REAL(sides, 5),
+	VAR_REAL(sides, 5)
 
 );
 

@@ -50,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(f, 0.5),
 	VAR_INTEGER(dc, 1),
 	VAR_REAL(dc1, 0.3),
-	VAR_REAL(dc2, 0.5),
+	VAR_REAL(dc2, 0.5)
 
 );
 

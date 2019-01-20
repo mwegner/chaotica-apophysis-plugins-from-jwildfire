@@ -66,7 +66,7 @@ APO_VARIABLES(
 	VAR_REAL(width, 0.5),
 	VAR_REAL(dist, 1.0),
 	VAR_REAL(a, 1.0),
-	VAR_REAL(b, 1.0),
+	VAR_REAL(b, 1.0)
 
 );
 

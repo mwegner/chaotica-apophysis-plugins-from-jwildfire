@@ -47,7 +47,7 @@ APO_VARIABLES(
 	VAR_REAL(r, 1.0),
 	VAR_REAL(a, 0.0),
 	VAR_REAL(divisor, 1),
-	VAR_INTEGER(range, 1),
+	VAR_INTEGER(range, 1)
 
 );
 

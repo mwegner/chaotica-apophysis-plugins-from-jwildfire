@@ -33,7 +33,6 @@ typedef struct
 	double ythresh;
 	double _vvar2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glynnia3_"
@@ -44,7 +43,7 @@ APO_VARIABLES(
 	VAR_REAL(rscale, 1.0),
 	VAR_REAL(dscale, 1.0),
 	VAR_REAL(rthresh, 0.0),
-	VAR_REAL(ythresh, 0.0),
+	VAR_REAL(ythresh, 0.0)
 
 );
 

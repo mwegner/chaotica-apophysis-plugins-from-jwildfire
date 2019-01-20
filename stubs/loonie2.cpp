@@ -45,7 +45,7 @@ APO_PLUGIN("loonie2");
 APO_VARIABLES(
 	VAR_INTEGER(sides, 4),
 	VAR_REAL(star, 0.0),
-	VAR_REAL(circle, 0.0),
+	VAR_REAL(circle, 0.0)
 
 );
 

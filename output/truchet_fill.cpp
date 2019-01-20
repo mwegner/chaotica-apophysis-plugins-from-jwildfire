@@ -35,7 +35,6 @@ typedef struct
 	double _seed2 = 0.0;
 	double _onen = 0.5;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "truchet_fill_"
@@ -45,7 +44,7 @@ APO_PLUGIN("truchet_fill");
 APO_VARIABLES(
 	VAR_REAL(exponent, 0),
 	VAR_REAL(arc_width, 0),
-	VAR_REAL(seed, 0),
+	VAR_REAL(seed, 0)
 
 );
 

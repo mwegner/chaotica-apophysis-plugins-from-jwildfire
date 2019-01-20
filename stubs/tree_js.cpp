@@ -55,7 +55,7 @@ APO_VARIABLES(
 	VAR_REAL(point_thickness, 3.0),
 	VAR_REAL(bend_angle, 15.0),
 	VAR_REAL(branch_angle, 37.0),
-	VAR_REAL(branch_ratio, 0.65),
+	VAR_REAL(branch_ratio, 0.65)
 
 );
 

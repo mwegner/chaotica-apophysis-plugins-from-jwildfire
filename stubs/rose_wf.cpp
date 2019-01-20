@@ -38,7 +38,7 @@ APO_PLUGIN("rose_wf");
 APO_VARIABLES(
 	VAR_REAL(amp, 0.5),
 	VAR_INTEGER(waves, 4),
-	VAR_INTEGER(filled, 0),
+	VAR_INTEGER(filled, 0)
 
 );
 

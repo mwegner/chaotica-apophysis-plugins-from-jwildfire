@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("ztwister");
 APO_VARIABLES(
 	VAR_REAL(twist, 4.2),
-	VAR_REAL(base, 0),
+	VAR_REAL(base, 0)
 
 );
 

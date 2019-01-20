@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("handkerchief");
 APO_VARIABLES(
 
+
 );
 
 

@@ -60,7 +60,7 @@ APO_VARIABLES(
 	VAR_REAL(amps, 2.0),
 	VAR_REAL(freqs, 2.0),
 	VAR_REAL(z, 0.0),
-	VAR_INTEGER(select_bailout, 10),
+	VAR_INTEGER(select_bailout, 10)
 
 );
 

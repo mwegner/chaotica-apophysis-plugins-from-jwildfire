@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("arctanh");
 APO_VARIABLES(
 
+
 );
 
 

@@ -84,7 +84,7 @@ APO_VARIABLES(
 	VAR_INTEGER(junct_sdiv_smooth_passes, 12),
 	VAR_REAL(junct_sdiv_smooth_lambda, 0.42),
 	VAR_REAL(junct_sdiv_smooth_mu, -0.45),
-	VAR_REAL(junct_mesh_scale, 1.0),
+	VAR_REAL(junct_mesh_scale, 1.0)
 
 );
 

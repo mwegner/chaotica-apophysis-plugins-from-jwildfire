@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("dc_cracklep_wf");
 APO_VARIABLES(
-	VAR_INTEGER(preset, 0),
+	VAR_INTEGER(preset, 0)
 
 );
 

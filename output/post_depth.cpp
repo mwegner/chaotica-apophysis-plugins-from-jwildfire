@@ -29,7 +29,6 @@ typedef struct
 {
 	double power;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "post_depth_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("post_depth");
 APO_VARIABLES(
-	VAR_REAL(power, 1.0),
+	VAR_REAL(power, 1.0)
 
 );
 

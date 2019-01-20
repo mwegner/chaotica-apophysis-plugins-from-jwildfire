@@ -35,7 +35,7 @@ typedef struct
 
 APO_PLUGIN("rings2");
 APO_VARIABLES(
-	VAR_REAL(val, 0),
+	VAR_REAL(val, 0)
 
 );
 

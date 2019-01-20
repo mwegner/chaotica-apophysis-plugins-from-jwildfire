@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("cannabiscurve_wf");
 APO_VARIABLES(
-	VAR_INTEGER(filled, 1),
+	VAR_INTEGER(filled, 1)
 
 );
 

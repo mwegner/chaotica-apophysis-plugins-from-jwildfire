@@ -61,7 +61,7 @@ APO_VARIABLES(
 	VAR_REAL(loonie_chance, 0.50),
 	VAR_REAL(petals_chance, 0.50),
 	VAR_INTEGER(minpetals, 3),
-	VAR_INTEGER(maxpetals, 20),
+	VAR_INTEGER(maxpetals, 20)
 
 );
 

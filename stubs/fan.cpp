@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("fan");
 APO_VARIABLES(
 
+
 );
 
 

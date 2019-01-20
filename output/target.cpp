@@ -32,7 +32,6 @@ typedef struct
 	double size; // 0.5 + random01() * 0.75
 	double _t_size_2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "target_"
@@ -42,7 +41,7 @@ APO_PLUGIN("target");
 APO_VARIABLES(
 	VAR_REAL(even, 0),
 	VAR_REAL(odd, 0),
-	VAR_REAL(size, 0),
+	VAR_REAL(size, 0)
 
 );
 

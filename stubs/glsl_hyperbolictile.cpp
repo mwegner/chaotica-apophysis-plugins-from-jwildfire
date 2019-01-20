@@ -37,6 +37,7 @@ typedef struct
 APO_PLUGIN("glsl_hyperbolictile");
 APO_VARIABLES(
 
+
 );
 
 

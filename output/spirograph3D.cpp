@@ -36,7 +36,6 @@ typedef struct
 	int mode;
 	int direct_color;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "spirograph3D_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(tmax, 1000.0),
 	VAR_REAL(width, 0.0),
 	VAR_INTEGER(mode, 0),
-	VAR_INTEGER(direct_color, 0),
+	VAR_INTEGER(direct_color, 0)
 
 );
 

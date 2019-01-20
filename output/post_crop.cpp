@@ -40,7 +40,6 @@ typedef struct
 	double _w;
 	double _h;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "post_crop_"
@@ -53,7 +52,7 @@ APO_VARIABLES(
 	VAR_REAL(right, 1.0),
 	VAR_REAL(bottom, 1.0),
 	VAR_REAL(scatter_area, 0.0),
-	VAR_INTEGER(zero, 0),
+	VAR_INTEGER(zero, 0)
 
 );
 

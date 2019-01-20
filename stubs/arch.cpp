@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("arch");
 APO_VARIABLES(
 
+
 );
 
 

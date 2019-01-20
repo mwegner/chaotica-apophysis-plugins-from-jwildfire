@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("blur_circle");
 APO_VARIABLES(
 
+
 );
 
 

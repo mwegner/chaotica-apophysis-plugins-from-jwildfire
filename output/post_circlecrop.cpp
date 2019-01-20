@@ -34,7 +34,6 @@ typedef struct
 	int zero;
 	double _cA;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "post_circlecrop_"
@@ -46,7 +45,7 @@ APO_VARIABLES(
 	VAR_REAL(x, 0.0),
 	VAR_REAL(y, 0.0),
 	VAR_REAL(scatter_area, 0.0),
-	VAR_INTEGER(zero, 1),
+	VAR_INTEGER(zero, 1)
 
 );
 

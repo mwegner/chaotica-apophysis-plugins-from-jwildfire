@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("hypershift");
 APO_VARIABLES(
 	VAR_REAL(shift, 2.0),
-	VAR_REAL(stretch, 1.0),
+	VAR_REAL(stretch, 1.0)
 
 );
 

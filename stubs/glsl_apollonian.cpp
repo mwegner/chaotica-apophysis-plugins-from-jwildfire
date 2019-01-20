@@ -38,7 +38,7 @@ typedef struct
 
 APO_PLUGIN("glsl_apollonian");
 APO_VARIABLES(
-	VAR_INTEGER(seed, 10000),
+	VAR_INTEGER(seed, 10000)
 
 );
 

@@ -69,7 +69,7 @@ APO_VARIABLES(
 	VAR_REAL(shearYX, 0),
 	VAR_REAL(shearYZ, 0),
 	VAR_REAL(shearZX, 0),
-	VAR_REAL(shearZY, 0),
+	VAR_REAL(shearZY, 0)
 
 );
 

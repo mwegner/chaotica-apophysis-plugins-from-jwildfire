@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("d_spherical");
 APO_VARIABLES(
-	VAR_REAL(d_spher_weight, 0.5),
+	VAR_REAL(d_spher_weight, 0.5)
 
 );
 

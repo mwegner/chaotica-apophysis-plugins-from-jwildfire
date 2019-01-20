@@ -42,7 +42,7 @@ APO_PLUGIN("truchet_fill");
 APO_VARIABLES(
 	VAR_REAL(exponent, 0),
 	VAR_REAL(arc_width, 0),
-	VAR_REAL(seed, 0),
+	VAR_REAL(seed, 0)
 
 );
 

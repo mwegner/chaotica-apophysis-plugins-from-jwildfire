@@ -40,7 +40,7 @@ APO_VARIABLES(
 	VAR_REAL(angle, 90.0),
 	VAR_REAL(seed, 0.0),
 	VAR_REAL(xx, 12.9898),
-	VAR_REAL(yy, 78.233),
+	VAR_REAL(yy, 78.233)
 
 );
 

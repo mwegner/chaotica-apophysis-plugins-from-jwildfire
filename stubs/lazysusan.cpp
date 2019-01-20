@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(twist, 0.20),
 	VAR_REAL(spin, 0.10),
 	VAR_REAL(x, 0.10),
-	VAR_REAL(y, 0.20),
+	VAR_REAL(y, 0.20)
 
 );
 

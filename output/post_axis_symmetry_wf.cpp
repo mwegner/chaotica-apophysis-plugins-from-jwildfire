@@ -45,7 +45,6 @@ typedef struct
 	double _halve_dist;
 	bool _doRotate;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "post_axis_symmetry_wf_"
@@ -63,7 +62,7 @@ APO_VARIABLES(
 	VAR_REAL(z1colorshift, 0.0),
 	VAR_REAL(x2colorshift, 0.0),
 	VAR_REAL(y2colorshift, 0.0),
-	VAR_REAL(z2colorshift, 0.0),
+	VAR_REAL(z2colorshift, 0.0)
 
 );
 

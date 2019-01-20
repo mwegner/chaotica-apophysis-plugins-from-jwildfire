@@ -64,7 +64,7 @@ APO_VARIABLES(
 	VAR_REAL(speed1, 0),
 	VAR_REAL(speed2, 0),
 	VAR_REAL(angle, 45.0),
-	VAR_INTEGER(square, 1),
+	VAR_INTEGER(square, 1)
 
 );
 

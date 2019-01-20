@@ -38,7 +38,6 @@ typedef struct
 	double _sinc;
 	double _cosc;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "loonie2_"
@@ -48,7 +47,7 @@ APO_PLUGIN("loonie2");
 APO_VARIABLES(
 	VAR_INTEGER(sides, 4),
 	VAR_REAL(star, 0.0),
-	VAR_REAL(circle, 0.0),
+	VAR_REAL(circle, 0.0)
 
 );
 

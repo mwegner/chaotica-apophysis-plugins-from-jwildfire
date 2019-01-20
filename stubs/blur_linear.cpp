@@ -38,7 +38,7 @@ typedef struct
 APO_PLUGIN("blur_linear");
 APO_VARIABLES(
 	VAR_REAL(length, 1.0),
-	VAR_REAL(angle, 0.5),
+	VAR_REAL(angle, 0.5)
 
 );
 

@@ -36,7 +36,6 @@ typedef struct
 	double _r2;
 	double _rfactor;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pre_bwraps2_"
@@ -48,7 +47,7 @@ APO_VARIABLES(
 	VAR_REAL(space, 0.0),
 	VAR_REAL(gain, 2.0),
 	VAR_REAL(inner_twist, 0.0),
-	VAR_REAL(outer_twist, 0.0),
+	VAR_REAL(outer_twist, 0.0)
 
 );
 

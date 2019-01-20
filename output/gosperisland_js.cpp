@@ -31,7 +31,6 @@ typedef struct
 	double line_thickness;
 	double _line_thickness;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "gosperisland_js_"
@@ -40,7 +39,7 @@ typedef struct
 APO_PLUGIN("gosperisland_js");
 APO_VARIABLES(
 	VAR_INTEGER(level, 2),
-	VAR_REAL(line_thickness, 0.5),
+	VAR_REAL(line_thickness, 0.5)
 
 );
 

@@ -31,7 +31,6 @@ typedef struct
 	double xseed;
 	double yseed;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "fract_formula_julia_wf_"
@@ -41,7 +40,7 @@ APO_PLUGIN("fract_formula_julia_wf");
 APO_VARIABLES(
 	VAR_INTEGER(power, 0),
 	VAR_REAL(xseed, 0),
-	VAR_REAL(yseed, 0),
+	VAR_REAL(yseed, 0)
 
 );
 

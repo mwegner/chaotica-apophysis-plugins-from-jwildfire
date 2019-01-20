@@ -44,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(w2r_freqx, 7),
 	VAR_REAL(w2r_freqy, 13),
 	VAR_REAL(w2r_null, 2),
-	VAR_REAL(w2r_distance, 10),
+	VAR_REAL(w2r_distance, 10)
 
 );
 

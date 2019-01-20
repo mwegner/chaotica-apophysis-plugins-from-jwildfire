@@ -55,7 +55,7 @@ APO_VARIABLES(
 	VAR_REAL(y0, 0.0),
 	VAR_REAL(z0, 0.0),
 	VAR_INTEGER(invert, 0),
-	VAR_INTEGER(type, 0),
+	VAR_INTEGER(type, 0)
 
 );
 

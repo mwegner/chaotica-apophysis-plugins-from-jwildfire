@@ -42,6 +42,7 @@ typedef struct
 APO_PLUGIN("onion2");
 APO_VARIABLES(
 
+
 );
 
 

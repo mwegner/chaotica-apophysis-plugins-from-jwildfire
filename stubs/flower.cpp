@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("flower");
 APO_VARIABLES(
 	VAR_REAL(holes, 0.40),
-	VAR_REAL(petals, 7.0),
+	VAR_REAL(petals, 7.0)
 
 );
 

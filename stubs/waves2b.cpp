@@ -54,7 +54,7 @@ APO_VARIABLES(
 	VAR_REAL(scaley, 1.0),
 	VAR_REAL(scaleinfy, 1.0),
 	VAR_REAL(unity, 1.0),
-	VAR_REAL(jacok, 0.25),
+	VAR_REAL(jacok, 0.25)
 
 );
 

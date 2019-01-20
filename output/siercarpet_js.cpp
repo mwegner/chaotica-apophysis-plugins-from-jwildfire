@@ -32,7 +32,6 @@ typedef struct
 	int _m = 3;
 	int _d;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "siercarpet_js_"
@@ -40,6 +39,7 @@ typedef struct
 
 APO_PLUGIN("siercarpet_js");
 APO_VARIABLES(
+
 
 );
 

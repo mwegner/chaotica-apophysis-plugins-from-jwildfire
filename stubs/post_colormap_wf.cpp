@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("post_colormap_wf");
 APO_VARIABLES(
 
+
 );
 
 

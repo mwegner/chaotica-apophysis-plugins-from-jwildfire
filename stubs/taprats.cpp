@@ -48,7 +48,7 @@ APO_VARIABLES(
 	VAR_INTEGER(style, 2),
 	VAR_INTEGER(fill, 0),
 	VAR_REAL(width, 0.06),
-	VAR_REAL(gap, 0.08),
+	VAR_REAL(gap, 0.08)
 
 );
 

@@ -38,7 +38,6 @@ typedef struct
 	double _FB = 2.2;
 	int _gradient;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_squares_"
@@ -46,7 +45,7 @@ typedef struct
 
 APO_PLUGIN("glsl_squares");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 5000),
+	VAR_INTEGER(Seed, 5000)
 
 );
 

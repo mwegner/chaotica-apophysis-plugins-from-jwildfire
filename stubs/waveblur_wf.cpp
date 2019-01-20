@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(damping_z, 0.0),
 	VAR_REAL(color_scale, 0.5),
 	VAR_REAL(color_offset, 0.0),
-	VAR_INTEGER(direct_color, 0),
+	VAR_INTEGER(direct_color, 0)
 
 );
 

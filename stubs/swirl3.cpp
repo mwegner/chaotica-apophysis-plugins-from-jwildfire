@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("swirl3");
 APO_VARIABLES(
-	VAR_REAL(shift, 0.5),
+	VAR_REAL(shift, 0.5)
 
 );
 

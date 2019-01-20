@@ -102,7 +102,7 @@ APO_VARIABLES(
 	VAR_REAL(f_skew, 0.0),
 	VAR_REAL(f_frq, 1.0),
 	VAR_REAL(f_phs, 0.0),
-	VAR_INTEGER(f_layer, 0),
+	VAR_INTEGER(f_layer, 0)
 
 );
 

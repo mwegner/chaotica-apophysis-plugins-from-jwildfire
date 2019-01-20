@@ -35,7 +35,7 @@ typedef struct
 
 APO_PLUGIN("dc_carpet");
 APO_VARIABLES(
-	VAR_REAL(origin, 1.0),
+	VAR_REAL(origin, 1.0)
 
 );
 

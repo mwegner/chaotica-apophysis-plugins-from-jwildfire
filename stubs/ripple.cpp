@@ -56,7 +56,7 @@ APO_VARIABLES(
 	VAR_REAL(centery, 0.0),
 	VAR_REAL(phase, 0.0),
 	VAR_REAL(scale, 1.0),
-	VAR_INTEGER(fixed_dist_calc, 0),
+	VAR_INTEGER(fixed_dist_calc, 0)
 
 );
 

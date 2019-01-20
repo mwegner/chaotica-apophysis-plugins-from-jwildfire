@@ -34,7 +34,6 @@ typedef struct
 	double _dx;
 	double _dy;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pre_rect_wf_"
@@ -45,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(x0, -0.5),
 	VAR_REAL(x1, 0.5),
 	VAR_REAL(y0, -0.5),
-	VAR_REAL(y1, 0.5),
+	VAR_REAL(y1, 0.5)
 
 );
 

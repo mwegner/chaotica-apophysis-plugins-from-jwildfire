@@ -34,7 +34,6 @@ typedef struct
 	double _eCa_eCn;
 	double _pi_eCn;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "eCollide_"
@@ -43,7 +42,7 @@ typedef struct
 APO_PLUGIN("eCollide");
 APO_VARIABLES(
 	VAR_INTEGER(num, 1),
-	VAR_REAL(a, 0.0),
+	VAR_REAL(a, 0.0)
 
 );
 

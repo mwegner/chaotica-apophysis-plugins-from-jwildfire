@@ -44,7 +44,6 @@ typedef struct
 	double scale;
 	double _bdcs;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "iconattractor_js_"
@@ -54,7 +53,7 @@ APO_PLUGIN("iconattractor_js");
 APO_VARIABLES(
 	VAR_REAL(centerx, 0.0),
 	VAR_REAL(centery, 0.0),
-	VAR_REAL(scale, 5.0),
+	VAR_REAL(scale, 5.0)
 
 );
 

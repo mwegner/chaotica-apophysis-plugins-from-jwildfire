@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_INTEGER(direct_color, 1),
 	VAR_INTEGER(color_mode, CM_UV),
 	VAR_INTEGER(calc_color_idx, 0),
-	VAR_INTEGER(receive_only_shadows, 0),
+	VAR_INTEGER(receive_only_shadows, 0)
 
 );
 

@@ -30,7 +30,6 @@ typedef struct
 	int Mode;
 	double Stretch;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "atan_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("atan");
 APO_VARIABLES(
 	VAR_INTEGER(Mode, 0),
-	VAR_REAL(Stretch, 1.0),
+	VAR_REAL(Stretch, 1.0)
 
 );
 

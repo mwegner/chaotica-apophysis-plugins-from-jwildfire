@@ -37,7 +37,7 @@ typedef struct
 APO_PLUGIN("dc_triangle");
 APO_VARIABLES(
 	VAR_REAL(scatter_area, 0.0),
-	VAR_INTEGER(zero_edges, 0),
+	VAR_INTEGER(zero_edges, 0)
 
 );
 

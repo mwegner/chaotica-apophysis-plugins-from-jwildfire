@@ -36,7 +36,6 @@ typedef struct
 	double scale;
 	double _bdcs;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "lorenz_js_"
@@ -46,7 +45,7 @@ APO_PLUGIN("lorenz_js");
 APO_VARIABLES(
 	VAR_REAL(centerx, 0.0),
 	VAR_REAL(centery, 0.0),
-	VAR_REAL(scale, 1000.0),
+	VAR_REAL(scale, 1000.0)
 
 );
 

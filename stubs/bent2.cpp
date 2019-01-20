@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("bent2");
 APO_VARIABLES(
 	VAR_REAL(x, 1.0),
-	VAR_REAL(y, 1.0),
+	VAR_REAL(y, 1.0)
 
 );
 

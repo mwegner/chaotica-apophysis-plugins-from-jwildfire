@@ -38,7 +38,7 @@ typedef struct
 APO_PLUGIN("log_db");
 APO_VARIABLES(
 	VAR_REAL(base, 1.0),
-	VAR_REAL(fix_period, 1.0),
+	VAR_REAL(fix_period, 1.0)
 
 );
 

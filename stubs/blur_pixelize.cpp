@@ -38,7 +38,7 @@ typedef struct
 APO_PLUGIN("blur_pixelize");
 APO_VARIABLES(
 	VAR_REAL(size, 0.1),
-	VAR_REAL(scale, 1.0),
+	VAR_REAL(scale, 1.0)
 
 );
 

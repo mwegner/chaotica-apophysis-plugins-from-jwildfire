@@ -30,7 +30,6 @@ typedef struct
 	double space;
 	double warp;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "stripes_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("stripes");
 APO_VARIABLES(
 	VAR_REAL(space, 0.20),
-	VAR_REAL(warp, 0.60),
+	VAR_REAL(warp, 0.60)
 
 );
 

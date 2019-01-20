@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_INTEGER(slices, 6),
 	VAR_REAL(xthickness, 0.5),
 	VAR_REAL(ythickness, 0.5),
-	VAR_REAL(rotation, 0.0),
+	VAR_REAL(rotation, 0.0)
 
 );
 

@@ -34,7 +34,6 @@ typedef struct
 	double angle;
 	int type;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "nsudoku_"
@@ -46,7 +45,7 @@ APO_VARIABLES(
 	VAR_REAL(thickness, 0.5),
 	VAR_REAL(size, 0.5),
 	VAR_REAL(angle, 0.0),
-	VAR_INTEGER(type, 4),
+	VAR_INTEGER(type, 4)
 
 );
 

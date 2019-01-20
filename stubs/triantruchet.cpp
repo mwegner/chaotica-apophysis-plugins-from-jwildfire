@@ -45,7 +45,7 @@ APO_VARIABLES(
 	VAR_INTEGER(seed, 10000),
 	VAR_REAL(Size, 2.0),
 	VAR_INTEGER(TilesPerRow, 10),
-	VAR_INTEGER(TilesPerColumn, 10),
+	VAR_INTEGER(TilesPerColumn, 10)
 
 );
 

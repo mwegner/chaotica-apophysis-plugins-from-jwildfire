@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("secant2");
 APO_VARIABLES(
 
+
 );
 
 

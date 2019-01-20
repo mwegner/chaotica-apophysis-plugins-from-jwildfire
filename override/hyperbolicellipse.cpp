@@ -27,7 +27,7 @@
 
 typedef struct
 {
-	double _a = 1.0;
+	double a = 1.0;
 
 } Variables;
 
@@ -36,15 +36,12 @@ typedef struct
 
 APO_PLUGIN("hyperbolicellipse");
 APO_VARIABLES(
-
+    VAR_REAL(a, 1.0),
 );
-
 
 
 int PluginVarPrepare(Variation* vp)
 {
-    VAR(_a) = 1.0;
-
     return TRUE;
 }
 
@@ -55,16 +52,14 @@ int PluginVarCalc(Variation* vp)
      */
     double u;
     double v;
-    u = FTx;
-    v = FTy;
+    double x = FTx;
+    double y = FTy;
 
-    double xt = a * (y + b) * cos(k * x);
-    double yt = a * (y + b) * sin(k * x);
+    double xt = ((exp(x) - exp(-x)) / 2) * cos(VAR(a) * y);
+    double yt = ((exp(x) + exp(-x)) / 2) * sin(VAR(a) * y);
 
     FPx = xt * VVAR;
-    FPy = xy * VVAR;
-
-
+    FPy = yt * VVAR;
 
     return TRUE;
 }

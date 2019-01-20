@@ -34,7 +34,6 @@ typedef struct
 	double n3;
 	double holes;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "super_shape_"
@@ -47,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(n1, 1.0),
 	VAR_REAL(n2, 1.0),
 	VAR_REAL(n3, 1.0),
-	VAR_REAL(holes, 0.0),
+	VAR_REAL(holes, 0.0)
 
 );
 

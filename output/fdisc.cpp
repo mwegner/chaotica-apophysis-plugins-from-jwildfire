@@ -36,7 +36,6 @@ typedef struct
 	double _term3;
 	double _term4;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "fdisc_"
@@ -44,6 +43,7 @@ typedef struct
 
 APO_PLUGIN("fdisc");
 APO_VARIABLES(
+
 
 );
 

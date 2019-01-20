@@ -48,7 +48,7 @@ APO_VARIABLES(
 	VAR_REAL(Reverse, 1.0),
 	VAR_REAL(X, 10.0),
 	VAR_REAL(Y, 10.0),
-	VAR_INTEGER(Seed, 0),
+	VAR_INTEGER(Seed, 0)
 
 );
 

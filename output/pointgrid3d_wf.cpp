@@ -42,7 +42,6 @@ typedef struct
 	double _dy;
 	double _dz;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pointgrid3d_wf_"
@@ -60,7 +59,7 @@ APO_VARIABLES(
 	VAR_REAL(zmax, 1.0),
 	VAR_INTEGER(zcount, 10),
 	VAR_REAL(distortion, 2.3),
-	VAR_INTEGER(seed, 1234),
+	VAR_INTEGER(seed, 1234)
 
 );
 

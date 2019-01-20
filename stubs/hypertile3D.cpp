@@ -46,7 +46,7 @@ APO_PLUGIN("hypertile3D");
 APO_VARIABLES(
 	VAR_INTEGER(p, 3),
 	VAR_INTEGER(q, 7),
-	VAR_INTEGER(n, 0),
+	VAR_INTEGER(n, 0)
 
 );
 

@@ -46,7 +46,6 @@ typedef struct
 	double _br;
 	double _cr;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "post_heat_"
@@ -54,6 +53,7 @@ typedef struct
 
 APO_PLUGIN("post_heat");
 APO_VARIABLES(
+
 
 );
 

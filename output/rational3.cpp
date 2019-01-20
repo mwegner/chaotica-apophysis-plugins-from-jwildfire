@@ -36,7 +36,6 @@ typedef struct
 	double g;
 	double h;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "rational3_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(e, 0.0),
 	VAR_REAL(f, 1.0),
 	VAR_REAL(g, 0.0),
-	VAR_REAL(h, 1.0),
+	VAR_REAL(h, 1.0)
 
 );
 

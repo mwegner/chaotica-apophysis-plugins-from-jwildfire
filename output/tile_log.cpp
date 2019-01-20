@@ -29,7 +29,6 @@ typedef struct
 {
 	double spread;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "tile_log_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("tile_log");
 APO_VARIABLES(
-	VAR_REAL(spread, 1.0),
+	VAR_REAL(spread, 1.0)
 
 );
 

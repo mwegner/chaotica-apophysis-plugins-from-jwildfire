@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("circlize2");
 APO_VARIABLES(
-	VAR_REAL(hole, 0.0),
+	VAR_REAL(hole, 0.0)
 
 );
 

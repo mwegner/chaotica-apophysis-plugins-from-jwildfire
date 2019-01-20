@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(x0, -0.5),
 	VAR_REAL(x1, 0.5),
 	VAR_REAL(y0, -0.5),
-	VAR_REAL(y1, 0.5),
+	VAR_REAL(y1, 0.5)
 
 );
 

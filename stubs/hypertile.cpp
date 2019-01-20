@@ -40,7 +40,7 @@ APO_PLUGIN("hypertile");
 APO_VARIABLES(
 	VAR_INTEGER(p, 3),
 	VAR_INTEGER(q, 7),
-	VAR_INTEGER(n, 1),
+	VAR_INTEGER(n, 1)
 
 );
 

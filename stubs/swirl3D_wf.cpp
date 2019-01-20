@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("swirl3D_wf");
 APO_VARIABLES(
-	VAR_REAL(n, 0),
+	VAR_REAL(n, 0)
 
 );
 

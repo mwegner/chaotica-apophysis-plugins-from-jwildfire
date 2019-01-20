@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("fract_meteors_wf");
 APO_VARIABLES(
 
+
 );
 
 

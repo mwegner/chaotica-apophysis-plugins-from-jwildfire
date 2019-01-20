@@ -29,7 +29,6 @@ typedef struct
 {
 	double w;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "sintrange_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("sintrange");
 APO_VARIABLES(
-	VAR_REAL(w, 1.0),
+	VAR_REAL(w, 1.0)
 
 );
 

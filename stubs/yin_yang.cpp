@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(ang1, 0.0),
 	VAR_REAL(ang2, 0.0),
 	VAR_INTEGER(dual_t, 1),
-	VAR_INTEGER(outside, 0),
+	VAR_INTEGER(outside, 0)
 
 );
 

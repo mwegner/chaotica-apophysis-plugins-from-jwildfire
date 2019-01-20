@@ -44,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(effect, 1.0),
 	VAR_REAL(warp, 0.5),
 	VAR_REAL(rmin, -0.24),
-	VAR_REAL(rmax, 100),
+	VAR_REAL(rmax, 100)
 
 );
 

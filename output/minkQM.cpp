@@ -34,7 +34,6 @@ typedef struct
 	double e;
 	double f;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "minkQM_"
@@ -47,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(c, 1.0),
 	VAR_REAL(dd, 1.0),
 	VAR_REAL(e, 0.5),
-	VAR_REAL(f, 20.0),
+	VAR_REAL(f, 20.0)
 
 );
 

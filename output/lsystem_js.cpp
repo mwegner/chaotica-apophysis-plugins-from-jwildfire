@@ -42,7 +42,6 @@ typedef struct
 	double _line_threshold;
 	double _point_threshold;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "lsystem_js_"
@@ -58,7 +57,7 @@ APO_VARIABLES(
 	VAR_REAL(line_thickness, 0.5),
 	VAR_REAL(_line_thickness, 0),
 	VAR_INTEGER(show_points_param, 0),
-	VAR_REAL(point_thickness_param, 3.0),
+	VAR_REAL(point_thickness_param, 3.0)
 
 );
 

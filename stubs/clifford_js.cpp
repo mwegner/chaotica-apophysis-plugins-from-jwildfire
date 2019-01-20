@@ -38,6 +38,7 @@ typedef struct
 APO_PLUGIN("clifford_js");
 APO_VARIABLES(
 
+
 );
 
 

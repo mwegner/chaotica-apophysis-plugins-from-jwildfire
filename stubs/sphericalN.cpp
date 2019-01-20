@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("sphericalN");
 APO_VARIABLES(
 	VAR_REAL(power, 3.0),
-	VAR_REAL(dist, 1.0),
+	VAR_REAL(dist, 1.0)
 
 );
 

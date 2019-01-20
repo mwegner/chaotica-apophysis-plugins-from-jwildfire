@@ -28,7 +28,6 @@
 typedef struct
 {
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "secant2_"
@@ -36,6 +35,7 @@ typedef struct
 
 APO_PLUGIN("secant2");
 APO_VARIABLES(
+
 
 );
 

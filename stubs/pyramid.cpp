@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("pyramid");
 APO_VARIABLES(
 
+
 );
 
 

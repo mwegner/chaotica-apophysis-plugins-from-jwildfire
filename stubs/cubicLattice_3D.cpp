@@ -37,7 +37,7 @@ typedef struct
 APO_PLUGIN("cubicLattice_3D");
 APO_VARIABLES(
 	VAR_REAL(xpand, 0.2),
-	VAR_REAL(style, 1.0),
+	VAR_REAL(style, 1.0)
 
 );
 

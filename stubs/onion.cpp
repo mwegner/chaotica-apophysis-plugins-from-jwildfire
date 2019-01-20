@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("onion");
 APO_VARIABLES(
 	VAR_REAL(centre_x, 0.0),
-	VAR_REAL(centre_y, 0.0),
+	VAR_REAL(centre_y, 0.0)
 
 );
 

@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(d, 0.0),
 	VAR_REAL(e, 0.0),
 	VAR_REAL(f, 0.0),
-	VAR_REAL(g, 0.0),
+	VAR_REAL(g, 0.0)
 
 );
 

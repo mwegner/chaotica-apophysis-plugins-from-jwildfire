@@ -31,7 +31,6 @@ typedef struct
 	double _cosa = 0.0;
 	double _v;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "idisc_"
@@ -39,6 +38,7 @@ typedef struct
 
 APO_PLUGIN("idisc");
 APO_VARIABLES(
+
 
 );
 

@@ -34,7 +34,6 @@ typedef struct
 	double _M_SQRT5 = 2.2360679774997898;
 	double _M_PHI = 1.61803398874989484820;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "fibonacci2_"
@@ -43,7 +42,7 @@ typedef struct
 APO_PLUGIN("fibonacci2");
 APO_VARIABLES(
 	VAR_REAL(sc, 1.0),
-	VAR_REAL(sc2, 1.0),
+	VAR_REAL(sc2, 1.0)
 
 );
 

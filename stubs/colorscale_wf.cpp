@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(scale_y, 0.0),
 	VAR_REAL(scale_z, 0.5),
 	VAR_REAL(offset_z, 0.0),
-	VAR_REAL(reset_z, 0.0),
+	VAR_REAL(reset_z, 0.0)
 
 );
 

@@ -42,7 +42,6 @@ typedef struct
 	double point_thickness;
 	double _point_thickness;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "htree_js_"
@@ -55,7 +54,7 @@ APO_VARIABLES(
 	VAR_REAL(line_thickness, 0.5),
 	VAR_REAL(show_lines, 1),
 	VAR_REAL(show_points, 0),
-	VAR_REAL(point_thickness, 3.0),
+	VAR_REAL(point_thickness, 3.0)
 
 );
 

@@ -41,7 +41,6 @@ typedef struct
 	double _wobble_dat[9];
 	double _wrap_dat[9];
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "mandala_"
@@ -49,6 +48,7 @@ typedef struct
 
 APO_PLUGIN("mandala");
 APO_VARIABLES(
+
 
 );
 

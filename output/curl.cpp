@@ -30,7 +30,6 @@ typedef struct
 	double c1;
 	double c2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "curl_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("curl");
 APO_VARIABLES(
 	VAR_REAL(c1, 0.1),
-	VAR_REAL(c2, 0),
+	VAR_REAL(c2, 0)
 
 );
 

@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(xamp, 0.25),
 	VAR_REAL(yamp, 0.5),
 	VAR_REAL(xlength, 1.0),
-	VAR_REAL(ylength, 1.0),
+	VAR_REAL(ylength, 1.0)
 
 );
 

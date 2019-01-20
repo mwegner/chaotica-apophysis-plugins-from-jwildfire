@@ -29,7 +29,6 @@ typedef struct
 {
 	double n;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "svf_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("svf");
 APO_VARIABLES(
-	VAR_REAL(n, 2.0),
+	VAR_REAL(n, 2.0)
 
 );
 

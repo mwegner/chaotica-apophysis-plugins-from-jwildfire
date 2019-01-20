@@ -37,6 +37,7 @@ typedef struct
 APO_PLUGIN("woggle_js");
 APO_VARIABLES(
 
+
 );
 
 

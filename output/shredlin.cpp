@@ -32,7 +32,6 @@ typedef struct
 	double ydistance;
 	double ywidth;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "shredlin_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(xdistance, 1.0),
 	VAR_REAL(xwidth, 0.5),
 	VAR_REAL(ydistance, 1.0),
-	VAR_REAL(ywidth, 0.5),
+	VAR_REAL(ywidth, 0.5)
 
 );
 

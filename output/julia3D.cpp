@@ -33,7 +33,6 @@ typedef struct
 	double _sina = 0.0;
 	double _cosa = 0.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "julia3D_"
@@ -41,7 +40,7 @@ typedef struct
 
 APO_PLUGIN("julia3D");
 APO_VARIABLES(
-	VAR_INTEGER(power, 0),
+	VAR_INTEGER(power, 0)
 
 );
 

@@ -53,7 +53,7 @@ APO_VARIABLES(
 	VAR_REAL(spread, 1.0),
 	VAR_REAL(discrete_spread, 1.0),
 	VAR_REAL(spread2, 0.0),
-	VAR_REAL(offset2, 1.0),
+	VAR_REAL(offset2, 1.0)
 
 );
 

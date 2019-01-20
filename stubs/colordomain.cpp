@@ -42,6 +42,7 @@ typedef struct
 APO_PLUGIN("colordomain");
 APO_VARIABLES(
 
+
 );
 
 

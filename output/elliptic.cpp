@@ -29,7 +29,6 @@ typedef struct
 {
 	double _v;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "elliptic_"
@@ -37,6 +36,7 @@ typedef struct
 
 APO_PLUGIN("elliptic");
 APO_VARIABLES(
+
 
 );
 

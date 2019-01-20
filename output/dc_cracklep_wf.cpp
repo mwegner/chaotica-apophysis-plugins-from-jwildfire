@@ -1,4 +1,5 @@
 #define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
+#define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
 /*
     Apophysis Plugin: dc_cracklep_wf
 
@@ -37,7 +38,7 @@ typedef struct
 
 APO_PLUGIN("dc_cracklep_wf");
 APO_VARIABLES(
-	VAR_INTEGER(preset, 0),
+	VAR_INTEGER(preset, 0)
 
 );
 

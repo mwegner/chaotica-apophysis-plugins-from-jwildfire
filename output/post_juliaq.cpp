@@ -33,7 +33,6 @@ typedef struct
 	double _inv_power;
 	double _inv_power_2pi;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "post_juliaq_"
@@ -42,7 +41,7 @@ typedef struct
 APO_PLUGIN("post_juliaq");
 APO_VARIABLES(
 	VAR_INTEGER(power, 0),
-	VAR_INTEGER(divisor, 2),
+	VAR_INTEGER(divisor, 2)
 
 );
 

@@ -40,7 +40,7 @@ APO_VARIABLES(
 	VAR_REAL(power, 7.00),
 	VAR_REAL(dist, 0.20),
 	VAR_REAL(count, 2.0),
-	VAR_REAL(angle, 0.30),
+	VAR_REAL(angle, 0.30)
 
 );
 

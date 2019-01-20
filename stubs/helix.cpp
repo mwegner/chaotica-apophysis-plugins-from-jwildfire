@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("helix");
 APO_VARIABLES(
 	VAR_REAL(frequency, 1.0),
-	VAR_REAL(width, 0.5),
+	VAR_REAL(width, 0.5)
 
 );
 

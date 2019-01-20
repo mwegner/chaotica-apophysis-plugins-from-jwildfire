@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("tanh");
 APO_VARIABLES(
 
+
 );
 
 

@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("whitney_umbrella");
 APO_VARIABLES(
 
+
 );
 
 

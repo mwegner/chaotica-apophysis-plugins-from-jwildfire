@@ -35,7 +35,6 @@ typedef struct
 	int zero;
 	double _cA;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "spherecrop_"
@@ -48,7 +47,7 @@ APO_VARIABLES(
 	VAR_REAL(y, 0.0),
 	VAR_REAL(z, 0.0),
 	VAR_REAL(scatter_area, 0.0),
-	VAR_INTEGER(zero, 1),
+	VAR_INTEGER(zero, 1)
 
 );
 

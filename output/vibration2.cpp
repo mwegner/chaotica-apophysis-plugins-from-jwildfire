@@ -54,7 +54,6 @@ typedef struct
 	double a2m;
 	double a2mfreq;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "vibration2_"
@@ -87,7 +86,7 @@ APO_VARIABLES(
 	VAR_REAL(f2m, 0.0),
 	VAR_REAL(f2mfreq, 0.1),
 	VAR_REAL(a2m, 0.0),
-	VAR_REAL(a2mfreq, 0.1),
+	VAR_REAL(a2mfreq, 0.1)
 
 );
 

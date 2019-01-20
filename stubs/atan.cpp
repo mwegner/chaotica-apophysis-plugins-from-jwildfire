@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("atan");
 APO_VARIABLES(
 	VAR_INTEGER(Mode, 0),
-	VAR_REAL(Stretch, 1.0),
+	VAR_REAL(Stretch, 1.0)
 
 );
 

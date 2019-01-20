@@ -35,7 +35,6 @@ typedef struct
 	double _tileSize;
 	int _numberTiles;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "arctruchet_"
@@ -46,7 +45,7 @@ APO_VARIABLES(
 	VAR_INTEGER(seed, 10000),
 	VAR_REAL(thickness, 0.025),
 	VAR_INTEGER(TilesPerRow, 10),
-	VAR_INTEGER(TilesPerColumn, 10),
+	VAR_INTEGER(TilesPerColumn, 10)
 
 );
 

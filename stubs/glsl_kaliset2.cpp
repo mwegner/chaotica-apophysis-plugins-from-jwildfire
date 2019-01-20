@@ -45,7 +45,7 @@ typedef struct
 
 APO_PLUGIN("glsl_kaliset2");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 5000),
+	VAR_INTEGER(Seed, 5000)
 
 );
 

@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("deltaA");
 APO_VARIABLES(
 
+
 );
 
 

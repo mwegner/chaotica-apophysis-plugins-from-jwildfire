@@ -74,7 +74,7 @@ APO_VARIABLES(
 	VAR_REAL(n3_1, 1.0),
 	VAR_REAL(n3_2, 1.0),
 	VAR_REAL(spiral, 0.0),
-	VAR_INTEGER(toroidmap, 0),
+	VAR_INTEGER(toroidmap, 0)
 
 );
 

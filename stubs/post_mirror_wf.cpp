@@ -54,7 +54,7 @@ APO_VARIABLES(
 	VAR_REAL(yscale, 1.0),
 	VAR_REAL(xcolorshift, 0.0),
 	VAR_REAL(ycolorshift, 0.0),
-	VAR_REAL(zcolorshift, 0.0),
+	VAR_REAL(zcolorshift, 0.0)
 
 );
 

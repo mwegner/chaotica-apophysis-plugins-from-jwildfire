@@ -65,6 +65,7 @@ typedef struct
 APO_PLUGIN("ducks");
 APO_VARIABLES(
 
+
 );
 
 

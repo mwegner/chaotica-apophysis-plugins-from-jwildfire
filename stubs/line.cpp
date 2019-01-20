@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("line");
 APO_VARIABLES(
 
+
 );
 
 

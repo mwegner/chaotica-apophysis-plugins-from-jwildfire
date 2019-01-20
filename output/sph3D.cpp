@@ -31,7 +31,6 @@ typedef struct
 	double y;
 	double z;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "sph3D_"
@@ -41,7 +40,7 @@ APO_PLUGIN("sph3D");
 APO_VARIABLES(
 	VAR_REAL(x, 1.0),
 	VAR_REAL(y, 1.0),
-	VAR_REAL(z, 1.0),
+	VAR_REAL(z, 1.0)
 
 );
 

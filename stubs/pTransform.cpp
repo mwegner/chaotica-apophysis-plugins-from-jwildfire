@@ -42,7 +42,7 @@ APO_VARIABLES(
 	VAR_INTEGER(power, 1),
 	VAR_REAL(move, 0.0),
 	VAR_REAL(split, 0.0),
-	VAR_INTEGER(use_log, 1),
+	VAR_INTEGER(use_log, 1)
 
 );
 

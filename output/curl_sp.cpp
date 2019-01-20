@@ -38,7 +38,6 @@ typedef struct
 	double _power_inv;
 	double _power;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "curl_sp_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(c2, 0.03),
 	VAR_REAL(sx, 0.0),
 	VAR_REAL(sy, 0.0),
-	VAR_REAL(dc, 0.0),
+	VAR_REAL(dc, 0.0)
 
 );
 

@@ -68,7 +68,7 @@ APO_VARIABLES(
 	VAR_INTEGER(a4, 0),
 	VAR_REAL(f4, 0),
 	VAR_INTEGER(p4, 0),
-	VAR_REAL(d4, 0),
+	VAR_REAL(d4, 0)
 
 );
 

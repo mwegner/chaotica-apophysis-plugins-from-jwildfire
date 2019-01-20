@@ -41,7 +41,6 @@ typedef struct
 	double _speedcolor = 1.0;
 	double _outlinecolor = 0.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "gpattern_"
@@ -57,7 +56,7 @@ APO_VARIABLES(
 	VAR_REAL(angle, 0.0),
 	VAR_REAL(randPos, 0.0),
 	VAR_REAL(randSize, 0.0),
-	VAR_INTEGER(ouline, 0),
+	VAR_INTEGER(ouline, 0)
 
 );
 

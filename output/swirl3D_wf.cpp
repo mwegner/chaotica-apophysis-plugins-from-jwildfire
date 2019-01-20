@@ -29,7 +29,6 @@ typedef struct
 {
 	double n;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "swirl3D_wf_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("swirl3D_wf");
 APO_VARIABLES(
-	VAR_REAL(n, 0),
+	VAR_REAL(n, 0)
 
 );
 

@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("hadamard_js");
 APO_VARIABLES(
 
+
 );
 
 

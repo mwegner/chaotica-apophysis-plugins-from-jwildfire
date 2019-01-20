@@ -48,7 +48,7 @@ APO_VARIABLES(
 	VAR_REAL(scale, 0.5),
 	VAR_REAL(x, 0.125),
 	VAR_REAL(y, 0.125),
-	VAR_REAL(blur, 1.0),
+	VAR_REAL(blur, 1.0)
 
 );
 

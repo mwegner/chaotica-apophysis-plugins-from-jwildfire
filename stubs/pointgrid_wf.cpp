@@ -50,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(ymax, 3.0),
 	VAR_INTEGER(ycount, 32),
 	VAR_REAL(distortion, 2.3),
-	VAR_INTEGER(seed, 1234),
+	VAR_INTEGER(seed, 1234)
 
 );
 

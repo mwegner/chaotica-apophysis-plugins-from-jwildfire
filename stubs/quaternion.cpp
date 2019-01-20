@@ -217,7 +217,7 @@ APO_VARIABLES(
 	VAR_REAL(tanhqy1, 1.0),
 	VAR_REAL(tanhqy2, 1.0),
 	VAR_REAL(tanhqz1, 1.0),
-	VAR_REAL(tanhqz2, 1.0),
+	VAR_REAL(tanhqz2, 1.0)
 
 );
 

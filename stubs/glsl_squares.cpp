@@ -43,7 +43,7 @@ typedef struct
 
 APO_PLUGIN("glsl_squares");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 5000),
+	VAR_INTEGER(Seed, 5000)
 
 );
 

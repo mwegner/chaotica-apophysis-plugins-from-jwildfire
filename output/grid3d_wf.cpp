@@ -45,7 +45,6 @@ typedef struct
 	int _random_seed = 123;
 	bool _doRotate;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "grid3d_wf_"
@@ -67,7 +66,7 @@ APO_VARIABLES(
 	VAR_REAL(c3, 0.3),
 	VAR_REAL(c4, 0.4),
 	VAR_REAL(c5, 0.5),
-	VAR_REAL(c6, 0.6),
+	VAR_REAL(c6, 0.6)
 
 );
 

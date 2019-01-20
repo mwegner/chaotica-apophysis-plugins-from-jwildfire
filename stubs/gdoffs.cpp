@@ -57,7 +57,7 @@ APO_VARIABLES(
 	VAR_REAL(center_x, 0),
 	VAR_REAL(center_y, 0),
 	VAR_INTEGER(gamma, 1),
-	VAR_INTEGER(square, 0),
+	VAR_INTEGER(square, 0)
 
 );
 

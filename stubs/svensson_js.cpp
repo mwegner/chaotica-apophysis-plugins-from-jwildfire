@@ -38,6 +38,7 @@ typedef struct
 APO_PLUGIN("svensson_js");
 APO_VARIABLES(
 
+
 );
 
 

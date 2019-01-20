@@ -56,7 +56,7 @@ APO_VARIABLES(
 	VAR_REAL(q_ode09, 0),
 	VAR_REAL(q_ode10, 0),
 	VAR_REAL(q_ode11, 0),
-	VAR_REAL(q_ode12, 0),
+	VAR_REAL(q_ode12, 0)
 
 );
 

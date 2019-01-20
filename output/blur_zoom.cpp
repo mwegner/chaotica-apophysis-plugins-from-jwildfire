@@ -31,7 +31,6 @@ typedef struct
 	double x;
 	double y;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "blur_zoom_"
@@ -41,7 +40,7 @@ APO_PLUGIN("blur_zoom");
 APO_VARIABLES(
 	VAR_REAL(length, 0.0),
 	VAR_REAL(x, 0.0),
-	VAR_REAL(y, 0.0),
+	VAR_REAL(y, 0.0)
 
 );
 

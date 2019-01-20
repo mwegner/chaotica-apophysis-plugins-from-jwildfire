@@ -34,7 +34,6 @@ typedef struct
 	double y;
 	double _sqrvvar;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "fourth_"
@@ -46,7 +45,7 @@ APO_VARIABLES(
 	VAR_REAL(space, 0.0),
 	VAR_REAL(twist, 0.0),
 	VAR_REAL(x, 0.0),
-	VAR_REAL(y, 0.0),
+	VAR_REAL(y, 0.0)
 
 );
 

@@ -52,7 +52,7 @@ APO_VARIABLES(
 	VAR_REAL(checker_color2, 0),
 	VAR_REAL(side_color, 0),
 	VAR_REAL(checker_size, 0),
-	VAR_INTEGER(with_sides, 1),
+	VAR_INTEGER(with_sides, 1)
 
 );
 

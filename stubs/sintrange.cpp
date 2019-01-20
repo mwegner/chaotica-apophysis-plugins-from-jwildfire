@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("sintrange");
 APO_VARIABLES(
-	VAR_REAL(w, 1.0),
+	VAR_REAL(w, 1.0)
 
 );
 

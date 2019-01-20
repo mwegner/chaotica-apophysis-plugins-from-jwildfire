@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("invsquircular");
 APO_VARIABLES(
 
+
 );
 
 

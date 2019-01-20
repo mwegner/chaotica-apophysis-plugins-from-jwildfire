@@ -41,7 +41,6 @@ typedef struct
 	int _xcentre=0,ycentre=0;
 	int _direction=1;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "curliecue_"
@@ -49,6 +48,7 @@ typedef struct
 
 APO_PLUGIN("curliecue");
 APO_VARIABLES(
+
 
 );
 

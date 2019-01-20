@@ -37,7 +37,6 @@ typedef struct
 	double _gamma;
 	double _absPow;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glynnSim3_"
@@ -48,7 +47,7 @@ APO_VARIABLES(
 	VAR_REAL(radius, 1.0),
 	VAR_REAL(thickness, 0.1),
 	VAR_REAL(contrast, 0.5),
-	VAR_REAL(pow, 1.5),
+	VAR_REAL(pow, 1.5)
 
 );
 

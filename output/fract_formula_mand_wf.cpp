@@ -29,7 +29,6 @@ typedef struct
 {
 	int power;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "fract_formula_mand_wf_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("fract_formula_mand_wf");
 APO_VARIABLES(
-	VAR_INTEGER(power, 0),
+	VAR_INTEGER(power, 0)
 
 );
 

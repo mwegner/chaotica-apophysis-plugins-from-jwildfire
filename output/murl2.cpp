@@ -40,7 +40,6 @@ typedef struct
 	double c;
 	int power;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "murl2_"
@@ -49,7 +48,7 @@ typedef struct
 APO_PLUGIN("murl2");
 APO_VARIABLES(
 	VAR_REAL(c, 0.1),
-	VAR_INTEGER(power, 3),
+	VAR_INTEGER(power, 3)
 
 );
 

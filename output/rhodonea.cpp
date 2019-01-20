@@ -48,7 +48,6 @@ typedef struct
 	double _cycles; // 1 cycle = 2*PI
 	double _cycles_to_close;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "rhodonea_"
@@ -70,7 +69,7 @@ APO_VARIABLES(
 	VAR_REAL(cycle_offset, 0),
 	VAR_REAL(metacycle_expansion, 0),
 	VAR_REAL(metacycles, 1),
-	VAR_REAL(fill, 0),
+	VAR_REAL(fill, 0)
 
 );
 

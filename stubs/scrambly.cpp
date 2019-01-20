@@ -45,7 +45,7 @@ APO_VARIABLES(
 	VAR_INTEGER(l, 3),
 	VAR_INTEGER(seed, 51),
 	VAR_INTEGER(byrows, 0),
-	VAR_REAL(cellsize, 0.1),
+	VAR_REAL(cellsize, 0.1)
 
 );
 

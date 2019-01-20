@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("helicoid");
 APO_VARIABLES(
-	VAR_REAL(frequency, 1.0),
+	VAR_REAL(frequency, 1.0)
 
 );
 

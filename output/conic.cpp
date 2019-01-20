@@ -30,7 +30,6 @@ typedef struct
 	double eccentricity;
 	double holes;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "conic_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("conic");
 APO_VARIABLES(
 	VAR_REAL(eccentricity, 1.0),
-	VAR_REAL(holes, 0.0),
+	VAR_REAL(holes, 0.0)
 
 );
 

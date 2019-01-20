@@ -30,7 +30,6 @@ typedef struct
 	double scale;
 	double angle;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "eScale_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("eScale");
 APO_VARIABLES(
 	VAR_REAL(scale, 1.0),
-	VAR_REAL(angle, 0.0),
+	VAR_REAL(angle, 0.0)
 
 );
 

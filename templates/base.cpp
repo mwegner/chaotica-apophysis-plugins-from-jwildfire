@@ -28,7 +28,6 @@
 typedef struct
 {
 %struct%
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "%name%_"

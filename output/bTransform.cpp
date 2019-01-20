@@ -32,7 +32,6 @@ typedef struct
 	double move;
 	double split;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bTransform_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(rotate, 0.0),
 	VAR_INTEGER(power, 1),
 	VAR_REAL(move, 0.0),
-	VAR_REAL(split, 0.0),
+	VAR_REAL(split, 0.0)
 
 );
 

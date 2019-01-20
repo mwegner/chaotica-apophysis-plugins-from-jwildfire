@@ -32,7 +32,6 @@ typedef struct
 	double _zoom = 4.0;
 	int _gradient = 1;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_code_"
@@ -40,6 +39,7 @@ typedef struct
 
 APO_PLUGIN("glsl_code");
 APO_VARIABLES(
+
 
 );
 

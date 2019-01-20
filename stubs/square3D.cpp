@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("square3D");
 APO_VARIABLES(
 
+
 );
 
 

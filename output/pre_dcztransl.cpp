@@ -36,7 +36,6 @@ typedef struct
 	double _x1;
 	double _x1_m_x0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pre_dcztransl_"
@@ -48,7 +47,7 @@ APO_VARIABLES(
 	VAR_REAL(x1, 1.0),
 	VAR_REAL(factor, 1.0),
 	VAR_INTEGER(overwrite, 1),
-	VAR_INTEGER(clamp, 0),
+	VAR_INTEGER(clamp, 0)
 
 );
 

@@ -39,7 +39,7 @@ APO_PLUGIN("dc_linear");
 APO_VARIABLES(
 	VAR_REAL(offset, 0.0),
 	VAR_REAL(angle, 0.3),
-	VAR_REAL(scale, 0.8),
+	VAR_REAL(scale, 0.8)
 
 );
 

@@ -41,7 +41,6 @@ typedef struct
 	double _s2y;
 	double _s2z;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "poincare3D_"
@@ -51,7 +50,7 @@ APO_PLUGIN("poincare3D");
 APO_VARIABLES(
 	VAR_REAL(r, 0),
 	VAR_REAL(a, 0),
-	VAR_REAL(b, 0),
+	VAR_REAL(b, 0)
 
 );
 

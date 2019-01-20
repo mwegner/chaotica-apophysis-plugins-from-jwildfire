@@ -52,6 +52,7 @@ typedef struct
 APO_PLUGIN("post_heat");
 APO_VARIABLES(
 
+
 );
 
 

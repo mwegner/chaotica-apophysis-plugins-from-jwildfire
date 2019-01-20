@@ -31,7 +31,6 @@ typedef struct
 	double thickness;
 	double holes;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "epispiral_"
@@ -41,7 +40,7 @@ APO_PLUGIN("epispiral");
 APO_VARIABLES(
 	VAR_REAL(n, 6.0),
 	VAR_REAL(thickness, 0.0),
-	VAR_REAL(holes, 1.0),
+	VAR_REAL(holes, 1.0)
 
 );
 

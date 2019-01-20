@@ -38,7 +38,7 @@ APO_PLUGIN("pie3D");
 APO_VARIABLES(
 	VAR_REAL(slices, 7),
 	VAR_REAL(rotation, 0.0),
-	VAR_REAL(thickness, 0.5),
+	VAR_REAL(thickness, 0.5)
 
 );
 

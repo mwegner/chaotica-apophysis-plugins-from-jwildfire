@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("arcsech2");
 APO_VARIABLES(
 
+
 );
 
 

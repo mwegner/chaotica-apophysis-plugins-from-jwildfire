@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("gaussian_blur");
 APO_VARIABLES(
 
+
 );
 
 

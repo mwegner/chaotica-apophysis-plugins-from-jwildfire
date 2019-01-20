@@ -32,7 +32,6 @@ typedef struct
 	double _vsin;
 	double _vfcos;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "perspective_"
@@ -41,7 +40,7 @@ typedef struct
 APO_PLUGIN("perspective");
 APO_VARIABLES(
 	VAR_REAL(angle, 0.62),
-	VAR_REAL(dist, 2.2),
+	VAR_REAL(dist, 2.2)
 
 );
 

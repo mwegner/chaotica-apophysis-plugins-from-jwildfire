@@ -38,6 +38,7 @@ typedef struct
 APO_PLUGIN("siercarpet_js");
 APO_VARIABLES(
 
+
 );
 
 

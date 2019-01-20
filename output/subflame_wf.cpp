@@ -43,7 +43,6 @@ typedef struct
 	int color_mode; // CM_OFF
 	int _frame;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "subflame_wf_"
@@ -57,7 +56,7 @@ APO_VARIABLES(
 	VAR_REAL(offset_y, 0.0),
 	VAR_REAL(offset_z, 0.0),
 	VAR_REAL(colorscale_z, 0.0),
-	VAR_INTEGER(color_mode, CM_OFF),
+	VAR_INTEGER(color_mode, CM_OFF)
 
 );
 

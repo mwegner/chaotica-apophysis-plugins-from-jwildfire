@@ -32,7 +32,6 @@ typedef struct
 	int Seed;
 	double _time = 200.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_grid3D_"
@@ -40,7 +39,7 @@ typedef struct
 
 APO_PLUGIN("glsl_grid3D");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 10000),
+	VAR_INTEGER(Seed, 10000)
 
 );
 

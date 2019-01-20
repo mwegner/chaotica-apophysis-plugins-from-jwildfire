@@ -45,7 +45,7 @@ APO_VARIABLES(
 	VAR_REAL(space, 0.0),
 	VAR_REAL(gain, 2.0),
 	VAR_REAL(inner_twist, 0.0),
-	VAR_REAL(outer_twist, 0.0),
+	VAR_REAL(outer_twist, 0.0)
 
 );
 

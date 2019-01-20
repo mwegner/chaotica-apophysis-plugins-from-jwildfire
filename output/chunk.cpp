@@ -35,7 +35,6 @@ typedef struct
 	double f; // -1.0
 	int mode;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "chunk_"
@@ -49,7 +48,7 @@ APO_VARIABLES(
 	VAR_REAL(d, 0.0),
 	VAR_REAL(e, 0.0),
 	VAR_REAL(f, -1.0),
-	VAR_INTEGER(mode, 0),
+	VAR_INTEGER(mode, 0)
 
 );
 

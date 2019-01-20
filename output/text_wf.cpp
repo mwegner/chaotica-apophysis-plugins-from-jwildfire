@@ -38,7 +38,6 @@ typedef struct
 	int baseline;
 	vector <point> _points;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "text_wf_"
@@ -52,7 +51,7 @@ APO_VARIABLES(
 	VAR_REAL(scale_y, 1.0),
 	VAR_REAL(offset_x, 0.0),
 	VAR_REAL(offset_y, 0.0),
-	VAR_INTEGER(baseline, 0),
+	VAR_INTEGER(baseline, 0)
 
 );
 

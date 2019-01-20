@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("sechq");
 APO_VARIABLES(
 
+
 );
 
 

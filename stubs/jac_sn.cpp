@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("jac_sn");
 APO_VARIABLES(
-	VAR_REAL(k, 0.5),
+	VAR_REAL(k, 0.5)
 
 );
 

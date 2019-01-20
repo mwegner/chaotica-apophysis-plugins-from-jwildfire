@@ -40,7 +40,7 @@ typedef struct
 APO_PLUGIN("pressure_wave");
 APO_VARIABLES(
 	VAR_REAL(x_freq, 1.0),
-	VAR_REAL(y_freq, 1.0),
+	VAR_REAL(y_freq, 1.0)
 
 );
 

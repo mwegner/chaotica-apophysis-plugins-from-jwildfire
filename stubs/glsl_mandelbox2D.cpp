@@ -39,6 +39,7 @@ typedef struct
 APO_PLUGIN("glsl_mandelbox2D");
 APO_VARIABLES(
 
+
 );
 
 

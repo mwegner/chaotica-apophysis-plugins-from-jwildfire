@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("sech");
 APO_VARIABLES(
 
+
 );
 
 

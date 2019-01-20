@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("butterfly3D");
 APO_VARIABLES(
 
+
 );
 
 

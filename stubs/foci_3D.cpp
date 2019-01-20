@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("foci_3D");
 APO_VARIABLES(
 
+
 );
 
 

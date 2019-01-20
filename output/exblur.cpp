@@ -35,7 +35,6 @@ typedef struct
 	int _n;
 	double _r[4];
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "exblur_"
@@ -47,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(r, 0.00),
 	VAR_REAL(x_origin, 0.00),
 	VAR_REAL(y_origin, 0.00),
-	VAR_REAL(z_origin, 0.00),
+	VAR_REAL(z_origin, 0.00)
 
 );
 

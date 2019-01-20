@@ -43,7 +43,7 @@ APO_VARIABLES(
 	VAR_REAL(twist, 0.0),
 	VAR_INTEGER(n_of_sp, 1),
 	VAR_REAL(size, 0),
-	VAR_REAL(tightness, 0),
+	VAR_REAL(tightness, 0)
 
 );
 

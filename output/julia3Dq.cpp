@@ -34,7 +34,6 @@ typedef struct
 	double _half_inv_power;
 	double _inv_power_2pi;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "julia3Dq_"
@@ -43,7 +42,7 @@ typedef struct
 APO_PLUGIN("julia3Dq");
 APO_VARIABLES(
 	VAR_INTEGER(power, 0),
-	VAR_INTEGER(divisor, 2),
+	VAR_INTEGER(divisor, 2)
 
 );
 

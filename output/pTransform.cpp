@@ -33,7 +33,6 @@ typedef struct
 	double split;
 	int use_log;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "pTransform_"
@@ -45,7 +44,7 @@ APO_VARIABLES(
 	VAR_INTEGER(power, 1),
 	VAR_REAL(move, 0.0),
 	VAR_REAL(split, 0.0),
-	VAR_INTEGER(use_log, 1),
+	VAR_INTEGER(use_log, 1)
 
 );
 

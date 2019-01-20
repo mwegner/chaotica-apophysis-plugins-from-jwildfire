@@ -33,7 +33,6 @@ typedef struct
 	double center_y;
 	double _s2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "post_rblur_"
@@ -44,7 +43,7 @@ APO_VARIABLES(
 	VAR_REAL(strength, 1.0),
 	VAR_REAL(offset, 1.0),
 	VAR_REAL(center_x, 0.0),
-	VAR_REAL(center_y, 1.0),
+	VAR_REAL(center_y, 1.0)
 
 );
 

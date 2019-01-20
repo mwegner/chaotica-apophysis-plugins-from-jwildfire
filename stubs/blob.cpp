@@ -38,7 +38,7 @@ APO_PLUGIN("blob");
 APO_VARIABLES(
 	VAR_REAL(low, 0.3),
 	VAR_REAL(high, 1.2),
-	VAR_REAL(waves, 6),
+	VAR_REAL(waves, 6)
 
 );
 

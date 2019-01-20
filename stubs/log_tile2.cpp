@@ -38,7 +38,7 @@ APO_PLUGIN("log_tile2");
 APO_VARIABLES(
 	VAR_REAL(spreadx, 2.0),
 	VAR_REAL(spready, 2.0),
-	VAR_REAL(spreadz, 0.0),
+	VAR_REAL(spreadz, 0.0)
 
 );
 

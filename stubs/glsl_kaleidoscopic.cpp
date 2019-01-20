@@ -43,7 +43,7 @@ typedef struct
 
 APO_PLUGIN("glsl_kaleidoscopic");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 10000),
+	VAR_INTEGER(Seed, 10000)
 
 );
 

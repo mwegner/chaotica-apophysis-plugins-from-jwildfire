@@ -29,7 +29,6 @@ typedef struct
 {
 	double rotate;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "eRotate_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("eRotate");
 APO_VARIABLES(
-	VAR_REAL(rotate, 0.0),
+	VAR_REAL(rotate, 0.0)
 
 );
 

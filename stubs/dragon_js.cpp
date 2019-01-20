@@ -37,7 +37,7 @@ typedef struct
 APO_PLUGIN("dragon_js");
 APO_VARIABLES(
 	VAR_INTEGER(level, 2),
-	VAR_REAL(line_thickness, 0.5),
+	VAR_REAL(line_thickness, 0.5)
 
 );
 

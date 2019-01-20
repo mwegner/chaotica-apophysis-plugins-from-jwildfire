@@ -38,7 +38,7 @@ APO_PLUGIN("ePush");
 APO_VARIABLES(
 	VAR_REAL(push, 0.0),
 	VAR_REAL(dist, 1.0),
-	VAR_REAL(rotate, 0.0),
+	VAR_REAL(rotate, 0.0)
 
 );
 

@@ -54,7 +54,7 @@ APO_VARIABLES(
 	VAR_REAL(ytilesize, 0.50),
 	VAR_REAL(ymod1, 0.30),
 	VAR_REAL(ymod2, 1.0),
-	VAR_REAL(ywidth, 0.50),
+	VAR_REAL(ywidth, 0.50)
 
 );
 

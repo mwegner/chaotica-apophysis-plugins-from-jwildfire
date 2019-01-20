@@ -40,7 +40,7 @@ APO_VARIABLES(
 	VAR_REAL(freqx, 2.0),
 	VAR_REAL(freqy, 2.0),
 	VAR_REAL(scalex, 1.0),
-	VAR_REAL(scaley, 1.0),
+	VAR_REAL(scaley, 1.0)
 
 );
 

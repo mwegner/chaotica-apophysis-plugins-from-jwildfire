@@ -36,6 +36,7 @@ typedef struct
 APO_PLUGIN("pre_blur");
 APO_VARIABLES(
 
+
 );
 
 

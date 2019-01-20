@@ -35,7 +35,6 @@ typedef struct
 	double _ncx;
 	double _ncy;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "checks_"
@@ -46,7 +45,7 @@ APO_VARIABLES(
 	VAR_REAL(x, 5.0),
 	VAR_REAL(y, 5.0),
 	VAR_REAL(size, 5.0),
-	VAR_REAL(rnd, 0.0),
+	VAR_REAL(rnd, 0.0)
 
 );
 

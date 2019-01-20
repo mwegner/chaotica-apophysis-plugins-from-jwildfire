@@ -28,7 +28,6 @@ const double R_PI = 0.31830989;
 typedef struct
 {
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "polar_"
@@ -36,6 +35,7 @@ typedef struct
 
 APO_PLUGIN("polar");
 APO_VARIABLES(
+
 
 );
 

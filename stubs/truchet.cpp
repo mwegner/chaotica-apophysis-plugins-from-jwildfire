@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(rotation, 0.0),
 	VAR_REAL(size, 1.0),
 	VAR_REAL(seed, 50.0),
-	VAR_INTEGER(direct_color, 0),
+	VAR_INTEGER(direct_color, 0)
 
 );
 

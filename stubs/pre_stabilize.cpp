@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_INTEGER(n, 4),
 	VAR_INTEGER(seed, 0),
 	VAR_REAL(p, 0.1),
-	VAR_INTEGER(dc, 0),
+	VAR_INTEGER(dc, 0)
 
 );
 

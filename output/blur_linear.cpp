@@ -32,7 +32,6 @@ typedef struct
 	double _s = 0.0;
 	double _c = 1.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "blur_linear_"
@@ -41,7 +40,7 @@ typedef struct
 APO_PLUGIN("blur_linear");
 APO_VARIABLES(
 	VAR_REAL(length, 1.0),
-	VAR_REAL(angle, 0.5),
+	VAR_REAL(angle, 0.5)
 
 );
 

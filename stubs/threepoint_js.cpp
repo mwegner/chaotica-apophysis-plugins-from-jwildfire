@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("threepoint_js");
 APO_VARIABLES(
 
+
 );
 
 

@@ -32,7 +32,6 @@ typedef struct
 	int _absPower;
 	double _cPower;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "juliascope_"
@@ -41,7 +40,7 @@ typedef struct
 APO_PLUGIN("juliascope");
 APO_VARIABLES(
 	VAR_INTEGER(power, 0),
-	VAR_REAL(dist, 1),
+	VAR_REAL(dist, 1)
 
 );
 

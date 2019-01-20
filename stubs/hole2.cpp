@@ -44,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(c, 1.0),
 	VAR_REAL(d, 1.0),
 	VAR_INTEGER(inside, 0),
-	VAR_INTEGER(shape, 0),
+	VAR_INTEGER(shape, 0)
 
 );
 

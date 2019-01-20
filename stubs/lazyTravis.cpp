@@ -40,7 +40,7 @@ APO_PLUGIN("lazyTravis");
 APO_VARIABLES(
 	VAR_REAL(spin_in, 1.0),
 	VAR_REAL(spin_out, 0.5),
-	VAR_REAL(space, M_PI / 2),
+	VAR_REAL(space, M_PI / 2)
 
 );
 

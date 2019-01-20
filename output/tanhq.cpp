@@ -28,7 +28,6 @@
 typedef struct
 {
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "tanhq_"
@@ -36,6 +35,7 @@ typedef struct
 
 APO_PLUGIN("tanhq");
 APO_VARIABLES(
+
 
 );
 

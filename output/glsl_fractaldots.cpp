@@ -42,7 +42,6 @@ typedef struct
 	double _circleSize; // dotsize / (3.0 * Math.pow(2.0
 	double _(double) maxiterations));
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_fractaldots_"
@@ -50,6 +49,7 @@ typedef struct
 
 APO_PLUGIN("glsl_fractaldots");
 APO_VARIABLES(
+
 
 );
 

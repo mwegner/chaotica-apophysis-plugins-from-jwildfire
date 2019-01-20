@@ -36,7 +36,6 @@ typedef struct
 	double im_c;
 	double im_d;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "prepost_mobius_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(im_a, 0),
 	VAR_REAL(im_b, 0),
 	VAR_REAL(im_c, 0),
-	VAR_REAL(im_d, 0),
+	VAR_REAL(im_d, 0)
 
 );
 

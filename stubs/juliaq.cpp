@@ -39,7 +39,7 @@ typedef struct
 APO_PLUGIN("juliaq");
 APO_VARIABLES(
 	VAR_INTEGER(power, 0),
-	VAR_INTEGER(divisor, 2),
+	VAR_INTEGER(divisor, 2)
 
 );
 

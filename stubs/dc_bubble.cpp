@@ -41,7 +41,7 @@ APO_VARIABLES(
 	VAR_REAL(centerx, 0.0),
 	VAR_REAL(centery, 0.0),
 	VAR_REAL(scale, 1.0),
-	VAR_INTEGER(invert, 1),
+	VAR_INTEGER(invert, 1)
 
 );
 

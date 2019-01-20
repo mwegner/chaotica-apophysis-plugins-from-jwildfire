@@ -46,7 +46,7 @@ APO_VARIABLES(
 	VAR_REAL(scale, 0.02),
 	VAR_REAL(angle, 180.0),
 	VAR_REAL(color, 0),
-	VAR_INTEGER(invert, 0),
+	VAR_INTEGER(invert, 0)
 
 );
 

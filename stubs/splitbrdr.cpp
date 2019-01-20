@@ -40,7 +40,7 @@ APO_VARIABLES(
 	VAR_REAL(x, 0.25),
 	VAR_REAL(y, 0.25),
 	VAR_REAL(px, 0.0),
-	VAR_REAL(py, 0.0),
+	VAR_REAL(py, 0.0)
 
 );
 

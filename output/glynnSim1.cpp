@@ -38,7 +38,6 @@ typedef struct
 	double _absPow;
 	Point _toolPoint; // POINT(0,0,0)
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glynnSim1_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_REAL(phi1, 110.0),
 	VAR_REAL(thickness, 0.1),
 	VAR_REAL(pow, 1.5),
-	VAR_REAL(contrast, 0.5),
+	VAR_REAL(contrast, 0.5)
 
 );
 

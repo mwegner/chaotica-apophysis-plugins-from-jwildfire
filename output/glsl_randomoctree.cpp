@@ -42,7 +42,6 @@ typedef struct
 	double _subdivisions = 0.95; //should be higher than emptycells
 	int _detail = 5;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_randomoctree_"
@@ -50,7 +49,7 @@ typedef struct
 
 APO_PLUGIN("glsl_randomoctree");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 10000),
+	VAR_INTEGER(Seed, 10000)
 
 );
 

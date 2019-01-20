@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("fract_dragon_wf");
 APO_VARIABLES(
 	VAR_REAL(xseed, 0),
-	VAR_REAL(yseed, 0),
+	VAR_REAL(yseed, 0)
 
 );
 

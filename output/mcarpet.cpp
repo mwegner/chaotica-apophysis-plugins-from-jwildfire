@@ -32,7 +32,6 @@ typedef struct
 	double twist;
 	double tilt;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "mcarpet_"
@@ -43,7 +42,7 @@ APO_VARIABLES(
 	VAR_REAL(x, 1.0),
 	VAR_REAL(y, 1.0),
 	VAR_REAL(twist, 0.0),
-	VAR_REAL(tilt, 0.0),
+	VAR_REAL(tilt, 0.0)
 
 );
 

@@ -33,7 +33,6 @@ typedef struct
 	double _time = 0.0;
 	int _gradient;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_apollonian_"
@@ -41,7 +40,7 @@ typedef struct
 
 APO_PLUGIN("glsl_apollonian");
 APO_VARIABLES(
-	VAR_INTEGER(seed, 10000),
+	VAR_INTEGER(seed, 10000)
 
 );
 

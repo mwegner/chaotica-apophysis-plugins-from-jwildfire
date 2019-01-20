@@ -36,7 +36,7 @@ typedef struct
 APO_PLUGIN("linearT");
 APO_VARIABLES(
 	VAR_REAL(powX, 1.2),
-	VAR_REAL(powY, 1.2),
+	VAR_REAL(powY, 1.2)
 
 );
 

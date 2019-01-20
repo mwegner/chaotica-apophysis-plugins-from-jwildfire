@@ -36,7 +36,6 @@ typedef struct
 	double _im_min = 0.0; // -1.0
 	double _im_max = 1.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "colordomain_"
@@ -44,6 +43,7 @@ typedef struct
 
 APO_PLUGIN("colordomain");
 APO_VARIABLES(
+
 
 );
 

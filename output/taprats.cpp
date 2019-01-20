@@ -39,7 +39,6 @@ typedef struct
 	double width;
 	double gap;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "taprats_"
@@ -51,7 +50,7 @@ APO_VARIABLES(
 	VAR_INTEGER(style, 2),
 	VAR_INTEGER(fill, 0),
 	VAR_REAL(width, 0.06),
-	VAR_REAL(gap, 0.08),
+	VAR_REAL(gap, 0.08)
 
 );
 

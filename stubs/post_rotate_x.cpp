@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("post_rotate_x");
 APO_VARIABLES(
 
+
 );
 
 

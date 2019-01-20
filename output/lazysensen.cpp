@@ -31,7 +31,6 @@ typedef struct
 	double scale_y;
 	double scale_z;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "lazysensen_"
@@ -41,7 +40,7 @@ APO_PLUGIN("lazysensen");
 APO_VARIABLES(
 	VAR_REAL(scale_x, 1),
 	VAR_REAL(scale_y, 1),
-	VAR_REAL(scale_z, 0),
+	VAR_REAL(scale_z, 0)
 
 );
 

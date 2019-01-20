@@ -145,7 +145,7 @@ APO_VARIABLES(
 	VAR_REAL(meta_max_step, 45),
 	VAR_INTEGER(cosets_mode, 0),
 	VAR_REAL(irrationalize, 0),
-	VAR_INTEGER(randomize, 1),
+	VAR_INTEGER(randomize, 1)
 
 );
 

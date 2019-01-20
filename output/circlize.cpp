@@ -29,7 +29,6 @@ typedef struct
 {
 	double hole;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "circlize_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("circlize");
 APO_VARIABLES(
-	VAR_REAL(hole, 0.40),
+	VAR_REAL(hole, 0.40)
 
 );
 

@@ -38,6 +38,7 @@ typedef struct
 APO_PLUGIN("seashell3D");
 APO_VARIABLES(
 
+
 );
 
 

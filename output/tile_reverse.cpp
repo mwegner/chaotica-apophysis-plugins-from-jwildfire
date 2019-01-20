@@ -32,7 +32,6 @@ typedef struct
 	int vertical;
 	double _rev = 0.0; // -1
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "tile_reverse_"
@@ -42,7 +41,7 @@ APO_PLUGIN("tile_reverse");
 APO_VARIABLES(
 	VAR_REAL(space, 1.0),
 	VAR_REAL(reversal, 1.0),
-	VAR_INTEGER(vertical, 0),
+	VAR_INTEGER(vertical, 0)
 
 );
 

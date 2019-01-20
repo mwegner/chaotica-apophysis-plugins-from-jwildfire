@@ -36,7 +36,6 @@ typedef struct
 	double _top_crop = 0.0;
 	double _stretch = 1.0;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "onion2_"
@@ -44,6 +43,7 @@ typedef struct
 
 APO_PLUGIN("onion2");
 APO_VARIABLES(
+
 
 );
 

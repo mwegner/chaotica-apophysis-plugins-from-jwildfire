@@ -30,7 +30,6 @@ typedef struct
 	double width;
 	double height;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "parabola_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("parabola");
 APO_VARIABLES(
 	VAR_REAL(width, 1.0),
-	VAR_REAL(height, 0.5),
+	VAR_REAL(height, 0.5)
 
 );
 

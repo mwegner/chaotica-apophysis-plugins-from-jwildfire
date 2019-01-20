@@ -45,7 +45,6 @@ typedef struct
 	int _petx;
 	int _pety;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bwrands_"
@@ -64,7 +63,7 @@ APO_VARIABLES(
 	VAR_REAL(loonie_chance, 0.50),
 	VAR_REAL(petals_chance, 0.50),
 	VAR_INTEGER(minpetals, 3),
-	VAR_INTEGER(maxpetals, 20),
+	VAR_INTEGER(maxpetals, 20)
 
 );
 

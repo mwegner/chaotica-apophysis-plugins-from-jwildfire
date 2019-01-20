@@ -43,7 +43,7 @@ APO_VARIABLES(
 	VAR_REAL(distort, 1.0),
 	VAR_REAL(offset_xy, 0.0),
 	VAR_REAL(offset_x2, 0.0),
-	VAR_REAL(offset_y2, 0.0),
+	VAR_REAL(offset_y2, 0.0)
 
 );
 

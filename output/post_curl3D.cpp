@@ -41,7 +41,6 @@ typedef struct
 	double _cz2;
 	double _c_2;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "post_curl3D_"
@@ -51,7 +50,7 @@ APO_PLUGIN("post_curl3D");
 APO_VARIABLES(
 	VAR_REAL(cx, 0),
 	VAR_REAL(cy, 0),
-	VAR_REAL(cz, 0),
+	VAR_REAL(cz, 0)
 
 );
 

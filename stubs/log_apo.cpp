@@ -35,7 +35,7 @@ typedef struct
 
 APO_PLUGIN("log_apo");
 APO_VARIABLES(
-	VAR_REAL(base, 2.71828182845905),
+	VAR_REAL(base, 2.71828182845905)
 
 );
 

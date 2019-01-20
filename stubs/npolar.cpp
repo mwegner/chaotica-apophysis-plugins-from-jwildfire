@@ -42,7 +42,7 @@ typedef struct
 APO_PLUGIN("npolar");
 APO_VARIABLES(
 	VAR_INTEGER(parity, 0),
-	VAR_INTEGER(n, 1),
+	VAR_INTEGER(n, 1)
 
 );
 

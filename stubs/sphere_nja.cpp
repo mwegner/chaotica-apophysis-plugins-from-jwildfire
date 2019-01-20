@@ -44,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(shift_x, 0.0),
 	VAR_REAL(shift_y, 0.0),
 	VAR_REAL(shift_z, 0.0),
-	VAR_REAL(stretch, 1.0),
+	VAR_REAL(stretch, 1.0)
 
 );
 

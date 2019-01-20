@@ -34,7 +34,6 @@ typedef struct
 	double _pi_n;
 	double _cospi_n;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "prepost_circlize_"
@@ -44,7 +43,7 @@ APO_PLUGIN("prepost_circlize");
 APO_VARIABLES(
 	VAR_INTEGER(n, 4),
 	VAR_REAL(rotation, 45),
-	VAR_INTEGER(reverse, 0),
+	VAR_INTEGER(reverse, 0)
 
 );
 

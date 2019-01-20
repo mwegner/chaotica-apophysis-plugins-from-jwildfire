@@ -36,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("radial_blur");
 APO_VARIABLES(
-	VAR_REAL(angle, 0.5),
+	VAR_REAL(angle, 0.5)
 
 );
 

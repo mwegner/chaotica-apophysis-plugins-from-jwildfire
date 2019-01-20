@@ -37,7 +37,6 @@ typedef struct
 	int _n4;
 	int _numberTiles; // numberTilesPerRow * numberTilesPerColumn
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "triantruchet_"
@@ -48,7 +47,7 @@ APO_VARIABLES(
 	VAR_INTEGER(seed, 10000),
 	VAR_REAL(Size, 2.0),
 	VAR_INTEGER(TilesPerRow, 10),
-	VAR_INTEGER(TilesPerColumn, 10),
+	VAR_INTEGER(TilesPerColumn, 10)
 
 );
 

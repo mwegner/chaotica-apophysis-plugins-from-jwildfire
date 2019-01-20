@@ -43,7 +43,6 @@ typedef struct
 	double _oldy = 0.0;
 	double _ldcs;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "recurrenceplot_"
@@ -51,6 +50,7 @@ typedef struct
 
 APO_PLUGIN("recurrenceplot");
 APO_VARIABLES(
+
 
 );
 

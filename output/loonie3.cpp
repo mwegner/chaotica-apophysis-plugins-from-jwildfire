@@ -29,7 +29,6 @@ typedef struct
 {
 	double _sqrvvar;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "loonie3_"
@@ -37,6 +36,7 @@ typedef struct
 
 APO_PLUGIN("loonie3");
 APO_VARIABLES(
+
 
 );
 

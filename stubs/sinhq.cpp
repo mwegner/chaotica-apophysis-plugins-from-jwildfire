@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("sinhq");
 APO_VARIABLES(
 
+
 );
 
 

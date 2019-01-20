@@ -37,6 +37,7 @@ typedef struct
 APO_PLUGIN("sattractor_js");
 APO_VARIABLES(
 
+
 );
 
 

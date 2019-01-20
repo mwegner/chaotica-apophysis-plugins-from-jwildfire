@@ -30,7 +30,6 @@ typedef struct
 	double shift;
 	double stretch;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "hypershift_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("hypershift");
 APO_VARIABLES(
 	VAR_REAL(shift, 2.0),
-	VAR_REAL(stretch, 1.0),
+	VAR_REAL(stretch, 1.0)
 
 );
 

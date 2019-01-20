@@ -33,7 +33,6 @@ typedef struct
 	double min;
 	double max;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "r_circleblur_"
@@ -45,7 +44,7 @@ APO_VARIABLES(
 	VAR_REAL(seed, 0.0),
 	VAR_REAL(dist, 0.5),
 	VAR_REAL(min, 0.1),
-	VAR_REAL(max, 1.0),
+	VAR_REAL(max, 1.0)
 
 );
 

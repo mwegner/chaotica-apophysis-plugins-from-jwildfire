@@ -28,7 +28,6 @@
 typedef struct
 {
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "blade3D_"
@@ -36,6 +35,7 @@ typedef struct
 
 APO_PLUGIN("blade3D");
 APO_VARIABLES(
+
 
 );
 

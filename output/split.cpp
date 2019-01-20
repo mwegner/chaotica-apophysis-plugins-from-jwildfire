@@ -30,7 +30,6 @@ typedef struct
 	double xsize;
 	double ysize;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "split_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("split");
 APO_VARIABLES(
 	VAR_REAL(xsize, 0.40),
-	VAR_REAL(ysize, 0.60),
+	VAR_REAL(ysize, 0.60)
 
 );
 

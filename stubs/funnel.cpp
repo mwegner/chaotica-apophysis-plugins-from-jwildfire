@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("funnel");
 APO_VARIABLES(
-	VAR_INTEGER(effect, 8),
+	VAR_INTEGER(effect, 8)
 
 );
 

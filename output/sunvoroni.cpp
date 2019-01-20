@@ -36,7 +36,6 @@ typedef struct
 	int fill;
 	double _outlinecolor = 0.5;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "sunvoroni_"
@@ -48,7 +47,7 @@ APO_VARIABLES(
 	VAR_INTEGER(Iters, 3),
 	VAR_REAL(angle, 180.0),
 	VAR_INTEGER(outline, 0),
-	VAR_INTEGER(fill, 1),
+	VAR_INTEGER(fill, 1)
 
 );
 

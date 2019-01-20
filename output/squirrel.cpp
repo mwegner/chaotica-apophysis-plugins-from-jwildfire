@@ -30,7 +30,6 @@ typedef struct
 	double a;
 	double b;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "squirrel_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("squirrel");
 APO_VARIABLES(
 	VAR_REAL(a, 1.0),
-	VAR_REAL(b, 1.0),
+	VAR_REAL(b, 1.0)
 
 );
 

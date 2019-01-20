@@ -34,7 +34,7 @@ typedef struct
 
 APO_PLUGIN("epispiral_wf");
 APO_VARIABLES(
-	VAR_REAL(waves, 4.0),
+	VAR_REAL(waves, 4.0)
 
 );
 

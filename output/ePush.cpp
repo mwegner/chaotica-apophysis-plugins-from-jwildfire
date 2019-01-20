@@ -31,7 +31,6 @@ typedef struct
 	double dist;
 	double rotate;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "ePush_"
@@ -41,7 +40,7 @@ APO_PLUGIN("ePush");
 APO_VARIABLES(
 	VAR_REAL(push, 0.0),
 	VAR_REAL(dist, 1.0),
-	VAR_REAL(rotate, 0.0),
+	VAR_REAL(rotate, 0.0)
 
 );
 

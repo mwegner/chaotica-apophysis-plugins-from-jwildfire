@@ -38,7 +38,7 @@ APO_PLUGIN("jac_asn");
 APO_VARIABLES(
 	VAR_REAL(kr, 0.5),
 	VAR_REAL(ki, 0.0),
-	VAR_INTEGER(type, 1),
+	VAR_INTEGER(type, 1)
 
 );
 

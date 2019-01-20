@@ -47,7 +47,6 @@ typedef struct
 	int _gdog;
 	int _gdos;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "gdoffs_"
@@ -62,7 +61,7 @@ APO_VARIABLES(
 	VAR_REAL(center_x, 0),
 	VAR_REAL(center_y, 0),
 	VAR_INTEGER(gamma, 1),
-	VAR_INTEGER(square, 0),
+	VAR_INTEGER(square, 0)
 
 );
 

@@ -30,7 +30,6 @@ typedef struct
 	double base;
 	double _denom;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "log_apo_"
@@ -38,7 +37,7 @@ typedef struct
 
 APO_PLUGIN("log_apo");
 APO_VARIABLES(
-	VAR_REAL(base, 2.71828182845905),
+	VAR_REAL(base, 2.71828182845905)
 
 );
 

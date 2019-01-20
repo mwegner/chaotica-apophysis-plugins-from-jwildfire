@@ -65,7 +65,7 @@ APO_VARIABLES(
 	VAR_INTEGER(eq2, 0),
 	VAR_INTEGER(depth, 0),
 	VAR_INTEGER(depth1, 0),
-	VAR_INTEGER(depth2, 0),
+	VAR_INTEGER(depth2, 0)
 
 );
 

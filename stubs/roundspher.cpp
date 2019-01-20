@@ -34,6 +34,7 @@ typedef struct
 APO_PLUGIN("roundspher");
 APO_VARIABLES(
 
+
 );
 
 

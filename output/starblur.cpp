@@ -32,7 +32,6 @@ typedef struct
 	double _starblur_alpha;
 	double _starblur_length;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "starblur_"
@@ -41,7 +40,7 @@ typedef struct
 APO_PLUGIN("starblur");
 APO_VARIABLES(
 	VAR_INTEGER(power, 5),
-	VAR_REAL(range, 0.40162283177245455973959534526548),
+	VAR_REAL(range, 0.40162283177245455973959534526548)
 
 );
 

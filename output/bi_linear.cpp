@@ -28,7 +28,6 @@
 typedef struct
 {
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bi_linear_"
@@ -36,6 +35,7 @@ typedef struct
 
 APO_PLUGIN("bi_linear");
 APO_VARIABLES(
+
 
 );
 

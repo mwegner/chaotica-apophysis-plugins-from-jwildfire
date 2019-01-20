@@ -33,7 +33,6 @@ typedef struct
 	double _re;
 	double _im;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "hypertile_"
@@ -43,7 +42,7 @@ APO_PLUGIN("hypertile");
 APO_VARIABLES(
 	VAR_INTEGER(p, 3),
 	VAR_INTEGER(q, 7),
-	VAR_INTEGER(n, 1),
+	VAR_INTEGER(n, 1)
 
 );
 

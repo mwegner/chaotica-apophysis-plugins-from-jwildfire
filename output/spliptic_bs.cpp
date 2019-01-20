@@ -31,7 +31,6 @@ typedef struct
 	double y;
 	double _v;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "spliptic_bs_"
@@ -40,7 +39,7 @@ typedef struct
 APO_PLUGIN("spliptic_bs");
 APO_VARIABLES(
 	VAR_REAL(x, 0.05),
-	VAR_REAL(y, 0.05),
+	VAR_REAL(y, 0.05)
 
 );
 

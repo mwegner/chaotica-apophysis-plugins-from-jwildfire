@@ -40,7 +40,7 @@ APO_VARIABLES(
 	VAR_REAL(angle, 0.20),
 	VAR_REAL(hole, 0.20),
 	VAR_REAL(count, 2.0),
-	VAR_REAL(swirl, 0.30),
+	VAR_REAL(swirl, 0.30)
 
 );
 

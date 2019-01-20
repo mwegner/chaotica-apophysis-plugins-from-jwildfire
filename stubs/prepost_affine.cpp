@@ -68,7 +68,7 @@ APO_VARIABLES(
 	VAR_REAL(roll, 0),
 	VAR_REAL(move_x, 0),
 	VAR_REAL(move_y, 0),
-	VAR_REAL(move_z, 0),
+	VAR_REAL(move_z, 0)
 
 );
 

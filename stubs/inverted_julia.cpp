@@ -43,7 +43,7 @@ typedef struct
 APO_PLUGIN("inverted_julia");
 APO_VARIABLES(
 	VAR_REAL(power, 0.25),
-	VAR_REAL(center, 3.14),
+	VAR_REAL(center, 3.14)
 
 );
 

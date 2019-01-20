@@ -48,6 +48,7 @@ typedef struct
 APO_PLUGIN("glsl_fractaldots");
 APO_VARIABLES(
 
+
 );
 
 

@@ -29,7 +29,6 @@ typedef struct
 {
 	double frequency;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "helicoid_"
@@ -37,7 +36,7 @@ typedef struct
 
 APO_PLUGIN("helicoid");
 APO_VARIABLES(
-	VAR_REAL(frequency, 1.0),
+	VAR_REAL(frequency, 1.0)
 
 );
 

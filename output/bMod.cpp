@@ -30,7 +30,6 @@ typedef struct
 	double radius;
 	double distance;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "bMod_"
@@ -39,7 +38,7 @@ typedef struct
 APO_PLUGIN("bMod");
 APO_VARIABLES(
 	VAR_REAL(radius, 1.0),
-	VAR_REAL(distance, 0.0),
+	VAR_REAL(distance, 0.0)
 
 );
 

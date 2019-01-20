@@ -35,6 +35,7 @@ typedef struct
 APO_PLUGIN("hyperbolicellipse");
 APO_VARIABLES(
 
+
 );
 
 

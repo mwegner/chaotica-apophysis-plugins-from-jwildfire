@@ -43,7 +43,6 @@ typedef struct
 	double _FB = 1.0;
 	int _gradient;
 
-    int ___warning;
 } Variables;
 
 #define APO_VARIABLE_PREFIX "glsl_acrilic_"
@@ -51,7 +50,7 @@ typedef struct
 
 APO_PLUGIN("glsl_acrilic");
 APO_VARIABLES(
-	VAR_INTEGER(Seed, 10000),
+	VAR_INTEGER(Seed, 10000)
 
 );
 

@@ -63,7 +63,7 @@ APO_VARIABLES(
 	VAR_REAL(cy, 0.0),
 	VAR_INTEGER(max_points, -1),
 	VAR_INTEGER(seed, 1234),
-	VAR_REAL(rnd_z_range, 0.0),
+	VAR_REAL(rnd_z_range, 0.0)
 
 );
 

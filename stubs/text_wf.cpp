@@ -47,7 +47,7 @@ APO_VARIABLES(
 	VAR_REAL(scale_y, 1.0),
 	VAR_REAL(offset_x, 0.0),
 	VAR_REAL(offset_y, 0.0),
-	VAR_INTEGER(baseline, 0),
+	VAR_INTEGER(baseline, 0)
 
 );
 

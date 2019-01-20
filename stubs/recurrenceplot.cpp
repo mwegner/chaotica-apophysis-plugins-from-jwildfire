@@ -49,6 +49,7 @@ typedef struct
 APO_PLUGIN("recurrenceplot");
 APO_VARIABLES(
 
+
 );
 
 

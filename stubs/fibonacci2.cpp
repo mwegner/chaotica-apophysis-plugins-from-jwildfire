@@ -40,7 +40,7 @@ typedef struct
 APO_PLUGIN("fibonacci2");
 APO_VARIABLES(
 	VAR_REAL(sc, 1.0),
-	VAR_REAL(sc2, 1.0),
+	VAR_REAL(sc2, 1.0)
 
 );
 
