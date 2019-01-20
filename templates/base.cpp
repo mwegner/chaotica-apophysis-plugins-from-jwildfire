@@ -1,9 +1,8 @@
+#define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
 /*
     Apophysis Plugin: %name%
 
     Port of: https://github.com/thargor6/JWildfire/blob/master/src/org/jwildfire/create/tina/variation/%java%
-
-    This is a shim plugin in case of compilation failure.  Does nothing.
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -38,7 +37,6 @@ typedef struct
 APO_PLUGIN("%name%");
 APO_VARIABLES(
 %variables%
-    { "WARNING_modified_for_JW_workflow", INTEGER, OFFSET(___warning), 0, 1, 0 },
 );
 
 %functions%

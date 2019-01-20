@@ -27,7 +27,7 @@ C side of the plugin stuff).
 - Matthew / mwegner @ a bunch of places (gmail/twitter/etc)
 */
 
-$files = glob('/Users/matthew/IdeaProjects/JWildfire/src/org/jwildfire/create/tina/variation/*.java', GLOB_BRACE);
+$files = glob('C:\Users\Matthew\Downloads\JWildfire-master/src/org/jwildfire/create/tina/variation/*.java', GLOB_BRACE);
 foreach($files as $file)
 {
     $headers = "";
@@ -96,7 +96,7 @@ foreach($files as $file)
     }
 
     $filename = @$replacements['%name%'];
-    if(empty($filename))
+    if(empty($filename) || substr($filename, 0, 1) == "_")
     {
         continue;
     }
@@ -332,6 +332,20 @@ foreach($files as $file)
         {   
             $p['comment'] = ' // ' . $p['default'];
             $p['default'] = "";
+        }
+
+        // empty out defaults for non-number integers
+         if($p['type'] == "int" && preg_match("/\D/", $p['default'], $match))
+        {   
+            $p['comment'] = ' // ' . $p['default'];
+            $p['default'] = "0";
+        }
+
+        // empty out defaults for non-number doubles
+         if($p['type'] == "double" && preg_match("/[^\d\.]/", $p['default'], $match))
+        {   
+            $p['comment'] = ' // ' . $p['default'];
+            $p['default'] = "0.0";
         }
 
         $struct .= "\t{$p['type']} {$id}";
@@ -789,8 +803,8 @@ DONE;
 
     file_put_contents('output/' . $filename . '.cpp', $template);
 
-    // save out empty shim plugin in case of compile failures
-    $template = file_get_contents("templates/shim.cpp");
+    // save out empty stub plugin in case of compile failures
+    $template = file_get_contents("templates/stub.cpp");
     $search = array();
     $replace = array();
     foreach($replacements as $s => $r)
@@ -812,7 +826,7 @@ DONE;
         $template .= "// {$line}\n";
     }
 
-    file_put_contents('shims/' . $filename . '.cpp', $template);
+    file_put_contents('stubs/' . $filename . '.cpp', $template);
 }
 
 function ReplaceWithVar($text)

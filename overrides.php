@@ -10,9 +10,7 @@ foreach($files as $file)
 {
     $code = file_get_contents($file);
 
-    $code = preg_replace('/^}\sVariables;/m', "\tint ___warning;\n} Variables;", $code);
-    $code = preg_replace('/^\);/m', "\t{ \"WARNING_modified_for_JW_workflow\", INTEGER, OFFSET(___warning), 0, 1, 0 },\n);", $code);
-
+    $code = "#define PLUGIN_WARNING \"NOTE_modded_for_jwildfire_workflow\"\n$code";
 
     $filename = basename($file);
 
