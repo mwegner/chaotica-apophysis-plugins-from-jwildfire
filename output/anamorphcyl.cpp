@@ -59,8 +59,8 @@ int PluginVarCalc(Variation* vp)
 
      */
 
-    double xt = VAR(a) * (FTy + VAR(b)) * cos(k * FTx);
-    double yt = VAR(a) * (FTy + VAR(b)) * sin(k * FTx);
+    double xt = VAR(a) * (FTy + VAR(b)) * cos(VAR(k) * FTx);
+    double yt = VAR(a) * (FTy + VAR(b)) * sin(VAR(k) * FTx);
 
     FPx = xt * VVAR;
     FPy = yt * VVAR;

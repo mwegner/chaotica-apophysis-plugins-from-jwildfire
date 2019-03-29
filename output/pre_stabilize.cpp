@@ -1,4 +1,6 @@
 #define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
+#define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
+
 /*
     Apophysis Plugin: pre_stabilize
 
@@ -41,16 +43,17 @@ typedef struct
 APO_PLUGIN("pre_stabilize");
 APO_VARIABLES(
 	VAR_INTEGER(n, 4),
-	VAR_INTEGER(seed, (int) (random01() * 100000)),
+	VAR_INTEGER(seed, 0),
 	VAR_REAL(p, 0.1),
 	VAR_INTEGER(dc, 0),
 
 );
 
 
-
 int PluginVarPrepare(Variation* vp)
 {
+    VAR(seed) = (int) (random01() * 100000);
+
     if (VAR(n) < 1)
       VAR(n) = 1;
 

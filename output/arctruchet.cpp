@@ -1,4 +1,9 @@
 #define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
+#define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
+
+// note this isn't fully working, just put in here to save progress
+// if anyone sees this, I'm curious if you can spot what's wrong!
+
 /*
     Apophysis Plugin: arctruchet
 
@@ -23,7 +28,11 @@
 
 #include "datahelpers.h"
 
-
+typedef struct {
+    double tilt;
+    double thickness;
+    double radius;
+} Tile;
 
 typedef struct
 {
@@ -34,9 +43,11 @@ typedef struct
 	double _radius = 0.25;
 	double _tileSize;
 	int _numberTiles;
+	int* _tiltArray;
 
 } Variables;
 
+#define LIFETIME_EVENTS
 #define APO_VARIABLE_PREFIX "arctruchet_"
 #include "plugin.h"
 
@@ -49,37 +60,98 @@ APO_VARIABLES(
 
 );
 
+int    PluginVarTerminate(Variation* vp)
+{
+    if (VAR(_tiltArray) && *VAR(_tiltArray)) {
+        free((void*) VAR(_tiltArray));
+        VAR(_tiltArray) = NULL;
+    }
 
+    return TRUE;
+}
+
+int    PluginVarInitialize(Variation* vp)
+{
+    return TRUE;
+}
+
+void arc(Variation* vp, Tile* tile, Point* p, double thickness, double phi1, double phi2)
+{
+    double _phi10, _phi20, _gamma, _delta;
+    double r, Phi, sinPhi, cosPhi;
+
+    _phi10 = M_PI * phi1 / 180.0;
+    _phi20 = M_PI * phi2 / 180.0;
+    _delta = _phi20 - _phi10;
+    _gamma = tile->thickness * (2.0 * tile->radius + tile->thickness) / (tile->radius + tile->thickness);
+    r = tile->radius + tile->thickness - _gamma * GOODRAND_01();
+    Phi = _phi10 + _delta * GOODRAND_01();
+    sinPhi = sin(Phi);
+    cosPhi = cos(Phi);
+    double xp, yp;
+    xp = r * cosPhi;
+    yp = r * sinPhi;
+    double ang = tile->tilt * M_PI / 180.0;
+    p->x = (float) (xp * cos(ang) + yp * sin(ang));
+    p->y = (float) (-xp * sin(ang) + yp * cos(ang));
+
+    double radio = tile->radius;
+
+    if (floor(phi2) == 270)
+        radio = -tile->radius;
+
+    p->x = (float) (radio * cos(ang) + radio * sin(ang));
+    p->y = (float) (-radio * sin(ang) + radio * cos(ang));
+}
 
 int PluginVarPrepare(Variation* vp)
 {
-   VAR(_radius) = 0.25;
+    VAR(_radius) = 0.25;
     GOODRAND_SEED(VAR(seed));
-    GOODRAND_01();
 
     //VAR(_tileSize) = (float) size / VAR(TilesPerRow) ;
     VAR(_tileSize) = 2.0 * VAR(_radius);
     VAR(_numberTiles) = VAR(TilesPerRow) * VAR(TilesPerColumn);
-    tiltArray = new int[VAR(_numberTiles)];
+
+    if (VAR(_tiltArray) && *VAR(_tiltArray)) {
+        free((void*) VAR(_tiltArray));
+        VAR(_tiltArray) = NULL;
+    }
+
+    VAR(_tiltArray) = (int*) malloc(VAR(_numberTiles) * sizeof(int));
 
     for (int i = 0; i < VAR(TilesPerRow); i++)
       for (int j = 0; j < VAR(TilesPerColumn); j++)
-        tiltArray[j * VAR(TilesPerRow) + i] = (int) (GOODRAND_01() * 4);
+        VAR(_tiltArray)[j * VAR(TilesPerRow) + i] = GOODRAND_0X(4);
 
     return TRUE;
 }
 
 int PluginVarCalc(Variation* vp)
 {
+    int i = GOODRAND_0X(VAR(TilesPerRow));
+    int j = GOODRAND_0X(VAR(TilesPerColumn));
+    float x = (float) ((float) i * VAR(_tileSize) + VAR(_tileSize) / 2.0);
+    float y = (float) ((float) j * VAR(_tileSize) + VAR(_tileSize) / 2.0);
 
-    int i = (int) (GOODRAND_01() * VAR(TilesPerRow));
-    int j = (int) (GOODRAND_01() * VAR(TilesPerColumn));
-    float x = (float) (i * VAR(_tileSize) + VAR(_tileSize) / 2);
-    float y = (float) (j * VAR(_tileSize) + VAR(_tileSize) / 2);
-    Tile tile = new Tile(randomize, VAR(thickness), VAR(_radius));
-    tile.rotate(tiltArray[j * VAR(TilesPerRow) + i]);
+    Tile tile;
+    tile.thickness = VAR(thickness);
+    tile.radius = VAR(_radius);
 
-    Point p = tile.display(vp);
+    //tile.rotate(tiltArray[j * VAR(TilesPerRow) + i]);
+    tile.tilt = VAR(_tiltArray)[j * VAR(TilesPerRow) + i] * 90.0;
+
+    Point p;
+
+    if(GOODRAND_01() < 0.5)
+    {
+        arc(vp, &tile, &p, VAR(thickness), 0.0, 90.0);
+    }
+    else
+    {
+        arc(vp, &tile, &p, VAR(thickness), 180.0, 270.0);
+    }
+
     FPx += VVAR * (p.x + x - VAR(_tileSize) * VAR(TilesPerRow) / 2.0);
     FPy += VVAR * (p.y + y - VAR(_tileSize) * VAR(TilesPerColumn) / 2.0);
     if (true /* pContext\.isPreserveZCoordinate() */) {

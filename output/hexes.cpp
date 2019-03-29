@@ -1,4 +1,5 @@
 #define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
+#define PLUGIN_WARNING "NOTE_modded_for_jwildfire_workflow"
 /*
     Apophysis Plugin
 
@@ -17,15 +18,10 @@
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
 
-// "Hexes" variation breaks plane into hexagonal cells and applies same
-//    power, scaling, rotation.
+// This implements some basic 2D vector routines that assist with Voronoi
+// cell calculations.
 
-// voronoi is additional, not required in all Apophysis plugins
 #define VORONOI_MAXPOINTS 25
-
-double vratio( double P[2], double Q[2], double U[2] );
-int closest( double P[VORONOI_MAXPOINTS][2], int n, double U[2] );
-double voronoi( double P[VORONOI_MAXPOINTS][2], int n, int q, double U[2] );
 
 // Cheap and cheerful vector definitions for 3D :-)
 // They just make reading vector code based on arrays
@@ -35,57 +31,9 @@ double voronoi( double P[VORONOI_MAXPOINTS][2], int n, int q, double U[2] );
 #define _y_ 1
 #define _z_ 2
 
-// Must define this structure before we include apoplugin.h
-typedef struct
-{
-	double hexes_cellsize;
-	double hexes_power;
-	double hexes_rotate;
-	double hexes_scale;
-	// P is a working list of points
-	double P[VORONOI_MAXPOINTS][2];
 
-	double rotSin;
-	double rotCos;
-} Variables;
-
-#define _USE_MATH_DEFINES
-#include "apoplugin.h"
-
-// Set the name of this plugin
-APO_PLUGIN("hexes");
-
-// Define the Variables
-APO_VARIABLES(
-    VAR_REAL(hexes_cellsize, 1.0),
-    VAR_REAL(hexes_power, 1.0),
-    VAR_REAL(hexes_rotate, 0.166),
-    VAR_REAL(hexes_scale, 1.0)
-);
-
-// Following are pre-calculated fixed multipliers for converting
-// between "Hex" co-ordinates and "Original" co-ordinates.
-
-// Xh = (Xo + sqrt(3) * Yo) / (3 * l)
-static const double AXhXo = 1.0/3.0;
-static const double AXhYo = 1.7320508075688772935/3.0;
-// Now:  Xh = ( AXhXo * Xo + AXhYo * Yo ) / l;
-
-// Yh = (-Xo + sqrt(3) * Yo) / (3 * l)
-static const double AYhXo = -1.0/3.0;
-static const double AYhYo = 1.7320508075688772935/3.0;
-// Now:  Yh = ( AYhXo * Xo + AYhYo * Yo ) / l;
-
-// Xo = 3/2 * l * (Xh - Yh)
-static const double AXoXh = 1.5;
-static const double AXoYh = -1.5;
-// Now:  Xo = ( AXoXh * Xh + AXoYh * Yh ) * l;
-
-// Yo = sqrt(3)/2 * l * (Xh + Yh)
-static const double AYoXh = 1.7320508075688772935/2.0;
-static const double AYoYh = 1.7320508075688772935/2.0;
-// Now:  Yo = ( AYoXh * Xh + AYoYh * Yh ) * l;
-
+// Distance between U and P compared to U and Q. If U is at P, then the value is 0, if it is
+// equally far to Q and P then the value is 1.0
 double vratio( double P[2], double Q[2], double U[2] ) {
 	double PmQx, PmQy;
 
@@ -142,15 +90,81 @@ double voronoi( double P[VORONOI_MAXPOINTS][2], int n, int q, double U[2] ) {
 	return ratiomax;
 }
 
+// Following are pre-calculated fixed multipliers for converting
+// between "Hex" co-ordinates and "Original" co-ordinates.
+
+// This is, in fact, an affine transform. So we'll use same notation
+// as for Apophysis transforms:
+// x_hex = a_hex * x_cartesian + b_hex * y_cartesian
+// y_hex = c_hex * x_cartesian + d_hex * y_cartesian
+//  . . . and the reverse:
+// x_cartesian =  a_cart * x_hex + b_cart * y_hex
+// y_cartesian =  c_cart * x_hex + d_cart * y_hex
+// Values for e and f are 0.0 in both cases, so not required.
+
+// Xh = (Xo + sqrt(3) * Yo) / (3 * l)
+static const double a_hex = 1.0/3.0;
+static const double b_hex = 1.7320508075688772935/3.0;
+// Now:  Xh = ( a_hex * Xo + b_hex * Yo ) / l;
+
+// Yh = (-Xo + sqrt(3) * Yo) / (3 * l)
+static const double c_hex = -1.0/3.0;
+static const double d_hex = 1.7320508075688772935/3.0;
+// Now:  Yh = ( c_hex * Xo + d_hex * Yo ) / l;
+
+// Xo = 3/2 * l * (Xh - Yh)
+static const double a_cart = 1.5;
+static const double b_cart = -1.5;
+// Now:  Xo = ( a_cart * Xh + b_cart * Yh ) * l;
+
+// Yo = sqrt(3)/2 * l * (Xh + Yh)
+static const double c_cart = 1.7320508075688772935/2.0;
+static const double d_cart = 1.7320508075688772935/2.0;
+// Now:  Yo = ( c_cart * Xh + d_cart * Yh ) * l;
+
+static int cell_choice[9][2] = { { -1, -1}, { -1, 0}, { -1, 1}, { 0, -1}, { 0, 0}, { 0, 1}, { 1, -1}, { 1, 0}, { 1, 1} };
+
+// centre gives centre co-ordinates either from cache,
+// or calculated from scratch if needed
+void cell_centre( int x, int y, double s, double V[2] ) {
+	V[_x_] = (a_cart * x + b_cart * y ) * s;
+	V[_y_] = (c_cart * x + d_cart * y ) * s;
+}
+
+// Must define this structure before we include apoplugin.h
+typedef struct
+{
+	double hexes_cellsize;
+	double hexes_power;
+	double hexes_rotate;
+	double hexes_scale;
+
+	// P is a working list of points
+	double P[VORONOI_MAXPOINTS][2];
+	double rotSin;
+	double rotCos;
+} Variables;
+
+#include "apoplugin.h"
+
+// Set the name of this plugin
+APO_PLUGIN("hexes");
+
+// Define the Variables
+APO_VARIABLES(
+		VAR_REAL(hexes_cellsize, 1.0),
+		VAR_REAL(hexes_power, 1.0),
+		VAR_REAL(hexes_rotate, 0.166),
+		VAR_REAL(hexes_scale, 1.0),
+);
 
 // You must call the argument "vp".
 int PluginVarPrepare(Variation* vp)
 {
 	// Pre-calculate rotation matrix, to save time later . . .
-    VAR(rotSin) = sin( VAR(hexes_rotate) * 2 * M_PI );
-    VAR(rotCos) = cos( VAR(hexes_rotate) * 2 * M_PI );
-
-    return TRUE; // Always return TRUE.
+	VAR(rotSin) = sin( VAR(hexes_rotate) * 2 * M_PI );
+	VAR(rotCos) = cos( VAR(hexes_rotate) * 2 * M_PI );
+	return TRUE; // Always return TRUE.
 }
 
 // You must call the argument "vp".
@@ -158,73 +172,55 @@ int PluginVarCalc(Variation* vp)
 {
 	double XCh, YCh, XCo, YCo, DXo, DYo, L, L1, L2, R, R1, R2, s, trgL, Vx, Vy;
 	double U[2];
+	int Hx, Hy;
 
 	// For speed/convenience
 	s = VAR(hexes_cellsize);
 
 	// Infinite number of small cells? No effect . . .
-    if ( 0.0 == s ) {
-		return TRUE;
-	}
+	if ( 0.0 == s ) { return TRUE; }
 
-	// Get co-ordinates, and convert to hex co-ordinates
-    U[_x_] = FTx;
-    U[_y_] = FTy;
+	// Get cartesian co-ordinates, and convert to hex co-ordinates
+	U[_x_] = FTx;
+	U[_y_] = FTy;
 
-    XCh = floor( ( AXhXo * U[_x_] + AXhYo * U[_y_] ) / s );
-    YCh = floor( ( AYhXo * U[_x_] + AYhYo * U[_y_] ) / s );
+	Hx = (int) floor( ( a_hex * U[_x_] + b_hex * U[_y_] ) / s );
+	Hy = (int) floor( ( c_hex * U[_x_] + d_hex * U[_y_] ) / s );
 
-	// Get a set of 4 hex centre points, based around the one above
+	// Get a set of 9 hex centre points, based around the one above
 	int i = 0;
-	double di, dj;
-	for (di = XCh; di < XCh + 1.1; di += 1.0) {
-		for (dj = YCh; dj < YCh + 1.1; dj += 1.0) {
-			VAR(P)[i][_x_] = (AXoXh * di + AXoYh * dj ) * s;
-			VAR(P)[i][_y_] = (AYoXh * di + AYoYh * dj ) * s;
+	int di, dj;
+	for (di = -1; di < 2; di++) {
+		for (dj = -1; dj < 2; dj++) {
+			cell_centre( Hx + di, Hy + dj, s, VAR(P)[i] );
 			i++;
 		}
 	}
 
-	int q = closest( VAR(P), 4, U );
-
-	double offset[4][2] = { {  0.0, 0.0}, {  0.0, 1.0},
-							{  1.0, 0.0}, {  1.0, 1.0}
-						 };
+	int q = closest( VAR(P), 9, U );
 
 	// Remake list starting from chosen hex, ensure it is completely surrounded (total 7 points)
 
 	// First adjust centres according to which one was found to be closest
-	XCh += offset[q][_x_];
-	YCh += offset[q][_y_];
+	Hx += cell_choice[q][_x_];
+	Hy += cell_choice[q][_y_];
 
 	// First point is central/closest
+	cell_centre( Hx, Hy, VAR(hexes_cellsize), VAR(P)[0] );
 
-	XCo = (AXoXh * XCh + AXoYh * YCh ) * s;
-	YCo = (AYoXh * XCh + AYoYh * YCh ) * s;
-	VAR(P)[0][_x_] = XCo;
-	VAR(P)[0][_y_] = YCo;
+	XCo = VAR(P)[0][_x_];
+	YCo = VAR(P)[0][_y_];
 
 	// Next six points are based on hex graph (6 hexes around centre). As long as
 	// centre points are not too distorted from simple hex, this defines all possible edges
 
 	// In hex co-ords, offsets are: (0,1) (1,1) (1,0) (0,-1) (-1,-1) (-1, 0)
-	VAR(P)[1][_x_] = XCo + ( AXoYh ) * s;
-	VAR(P)[1][_y_] = YCo + ( AYoYh ) * s;
-
-	VAR(P)[2][_x_] = XCo + ( AXoXh + AXoYh ) * s;
-	VAR(P)[2][_y_] = YCo + ( AYoXh + AYoYh ) * s;
-
-	VAR(P)[3][_x_] = XCo + ( AXoXh ) * s;
-	VAR(P)[3][_y_] = YCo + ( AYoXh ) * s;
-
-	VAR(P)[4][_x_] = XCo - AXoYh * s;
-	VAR(P)[4][_y_] = YCo - AYoYh * s;
-
-	VAR(P)[5][_x_] = XCo - ( AXoXh + AXoYh ) * s;
-	VAR(P)[5][_y_] = YCo - ( AYoXh + AYoYh ) * s;
-
-	VAR(P)[6][_x_] = XCo - AXoXh * s;
-	VAR(P)[6][_y_] = YCo - AYoXh * s;
+	cell_centre( Hx    , Hy + 1, s, VAR(P)[1] );
+	cell_centre( Hx + 1, Hy + 1, s, VAR(P)[2] );
+	cell_centre( Hx + 1, Hy    , s, VAR(P)[3] );
+	cell_centre( Hx    , Hy - 1, s, VAR(P)[4] );
+	cell_centre( Hx - 1, Hy - 1, s, VAR(P)[5] );
+	cell_centre( Hx - 1, Hy    , s, VAR(P)[6] );
 
 	L1 = voronoi( VAR(P), 7, 0, U );
 
@@ -240,7 +236,7 @@ int PluginVarCalc(Variation* vp)
 
 	// Rotate
 	Vx = DXo * VAR(rotCos) + DYo * VAR(rotSin);
-    Vy = -DXo * VAR(rotSin) + DYo * VAR(rotCos);
+	Vy = -DXo * VAR(rotSin) + DYo * VAR(rotCos);
 
 	//////////////////////////////////////////////////////////////////
 	// Measure voronoi distance again
@@ -254,14 +250,14 @@ int PluginVarCalc(Variation* vp)
 	// we are to the edge
 
 	// Code here attempts to remove the "rosette" effect caused by
-	// scaling between
+	// scaling difference between corners and closer edges
 
 	// L is maximum of L1 or L2 . . .
 	// When L = 0.8 or higher . . . match trgL/L2 exactly
 	// When L = 0.5 or less . . . match trgL/L1 exactly
 
-    R1 = trgL / ( L1 + 1e-100 );
-    R2 = trgL / ( L2 + 1e-100 );
+	R1 = trgL / ( L1 + 1e-100 );
+	R2 = trgL / ( L2 + 1e-100 );
 
 	L = ( L1 > L2 ) ? L1 : L2;
 
@@ -279,8 +275,8 @@ int PluginVarCalc(Variation* vp)
 	Vy *= R;
 
 	// Add cell centre co-ordinates back in
-    Vx += VAR(P)[0][_x_];
-    Vy += VAR(P)[0][_y_];
+	Vx += VAR(P)[0][_x_];
+	Vy += VAR(P)[0][_y_];
 
 	// Finally add values in
 	FPx += VVAR * Vx;

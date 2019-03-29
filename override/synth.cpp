@@ -155,16 +155,29 @@ int PluginVarPrepare(Variation* vp)
 #define MODE_SHIFTX 9
 #define MODE_SHIFTY 10
 #define MODE_SHIFTXY 11
-#define MODE_SINUSOIDAL 12
-#define MODE_SWIRL 13
-#define MODE_HYPERBOLIC 14
-#define MODE_JULIA 15
-#define MODE_DISC 16
-#define MODE_RINGS 17
-#define MODE_CYLINDER 18
-#define MODE_BLUR_RING 19
-#define MODE_BLUR_RING2 20
-#define MODE_SHIFTTHETA 21
+#define MODE_BLUR_RING 12
+#define MODE_BLUR_RING2 13
+#define MODE_SHIFTNSTRETCH 14
+#define MODE_SHIFTTANGENT 15
+#define MODE_SHIFTTHETA 16
+#define MODE_XMIRROR 17
+#define MODE_XYMIRROR 18
+#define MODE_SPHERICAL2 19
+
+// Ideas:
+// Rectangle
+// Grid
+// Spiral grid
+// Ortho?
+
+// Failed experiments (were 12-18)
+#define MODE_SINUSOIDAL 1001
+#define MODE_SWIRL 1002
+#define MODE_HYPERBOLIC 1003
+#define MODE_JULIA 1004
+#define MODE_DISC 1005
+#define MODE_RINGS 1006
+#define MODE_CYLINDER 1007
 
 // -------------------------------------------------------------
 // Wave types
@@ -868,6 +881,40 @@ int PluginVarCalc(Variation* vp)
             FPy += VVAR * radius * c;
             break;
 
+        case MODE_SHIFTNSTRETCH: // Power YES, Smooth NO
+            // Use (adjusted) radius to move point around circle
+            Vx = FTx;
+            Vy = FTy;
+
+            radius = pow(Vx * Vx + Vy * Vy + EPS, VAR(synth_power) / 2.0);
+
+            theta = atan2(Vx, Vy) - 1.0 + synth_value(vp, radius);
+
+            fsincos(theta, &s, &c);
+
+            // Write to running totals for transform
+            FPx += VVAR * radius * s;
+            FPy += VVAR * radius * c;
+            break;
+
+        case MODE_SHIFTTANGENT: // Power YES, Smooth NO
+            // Use (adjusted) radius to move point tangentially to circle
+            Vx = FTx;
+            Vy = FTy;
+
+            radius = pow(Vx * Vx + Vy * Vy + EPS, VAR(synth_power) / 2.0);
+
+            theta = atan2(Vx, Vy) - 1.0 + synth_value(vp, radius);
+
+            // Adjust  Vx and Vy directly
+            mu = synth_value(vp, radius) - 1.0;
+            Vx += mu * c;
+            Vy -= mu * s;
+
+            // Write to running totals for transform
+            FPx += VVAR * Vx;
+            FPy += VVAR * Vy;
+            break;
 
 	    case MODE_SHIFTTHETA:  // Power YES, Smooth NO
             // Use (adjusted) radius to move point around circle
@@ -1049,6 +1096,51 @@ int PluginVarCalc(Variation* vp)
             FPx += VVAR * radius * s;
             FPy += VVAR * radius * Vy;
 
+            break;
+
+        case MODE_XMIRROR: // Power NO, Smooth NO
+            Vx = FTx;
+            Vy = FTy;
+
+            // Modified sine only used here
+            mu = synth_value(vp, Vx) - 1.0;
+            Vy = 2.0 * mu - Vy;
+
+            FPx += VVAR * Vx;
+            FPy += VVAR * Vy;
+
+            break;
+
+        case MODE_XYMIRROR: // Power NO, Smooth NO
+            Vx = FTx;
+            Vy = FTy;
+
+            // radius sneakily being used to represent something completely different, sorry!
+            mu = synth_value(vp, Vx) - 1.0;
+            radius = synth_value(vp, Vy) - 1.0;
+            Vy = 2.0 * mu - Vy;
+            Vx = 2.0 * radius - Vx;
+
+            FPx += VVAR * Vx;
+            FPy += VVAR * Vy;
+
+            break;
+
+        case MODE_SPHERICAL2: // Power YES, Smooth YES
+            Vx = FTx;
+            Vy = FTy;
+            radius = sqrt(Vx * Vx + Vy * Vy);
+
+            // Get angle and angular factor
+            theta = atan2(Vx, Vy);
+            theta_factor = synth_value(vp, theta);
+            radius = interpolate(radius, theta_factor, VAR(synth_smooth));
+            radius = pow(radius, VAR(synth_power));
+            fsincos(theta, &s, &c);
+
+            // Write to running totals for transform
+            FPx += VVAR * radius * s;
+            FPy += VVAR * radius * c;
             break;
 	}
 
