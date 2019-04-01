@@ -40,6 +40,11 @@ foreach($files as $file)
     $java = str_replace('new DoubleWrapper()', '0.0', $java);
     $java = str_replace('DoubleWrapper', 'double', $java);
 
+    $java = str_replace('new doubleWF()', '0.0', $java);
+    $java = str_replace('doubleWF', 'double', $java);
+    
+
+
     $original = explode("\n", $java);
     $lines = explode("\n", $java);
 

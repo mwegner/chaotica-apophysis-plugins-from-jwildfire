@@ -253,7 +253,7 @@ int PluginVarCalc(Variation* vp)
 // */
 // package org.jwildfire.create.tina.variation;
 // 
-// import odk.lang.double;
+// import org.jwildfire.base.mathlib.double;
 // import org.jwildfire.base.Tools;
 // import org.jwildfire.base.mathlib.GfxMathLib;
 // import org.jwildfire.base.mathlib.MathLib;

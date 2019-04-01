@@ -234,10 +234,7 @@ int PluginVarCalc(Variation* vp)
 //       List<Flame> flames;
 //       String filename = getCurrFlameFilename(pContext);
 // 
-//       if (filename != null && !filename.isEmpty()) {
-//         if (!new File(filename).exists()) {
-//           throw new RuntimeException("Flame <" + filename + "> not found");
-//         }
+//       if (filename != null && !filename.isEmpty() && new File(filename).exists()) {
 //         flames = new FlameReader(Prefs.getPrefs()).readFlames(filename);
 //       } else {
 //         flames = new FlameReader(Prefs.getPrefs()).readFlamesfromXML(flameXML);
@@ -248,9 +245,9 @@ int PluginVarCalc(Variation* vp)
 //       }
 //     } catch (Throwable ex) {
 //       System.out.println("##############################################################");
-//       System.out.println(flameXML);
+//       System.out.println(ex.getMessage());
 //       System.out.println("##############################################################");
-//       throw new RuntimeException(ex);
+//       flame = null;
 //     }
 //   }
 // 
@@ -276,6 +273,10 @@ int PluginVarCalc(Variation* vp)
 //   protected void prefuseIter(FlameTransformationContext pContext) {
 //     if (flame != null) {
 //       Layer layer = flame.getFirstLayer();
+//       // a compatibility quirk: default for subflame final xforms is DIFFUSION
+//       for (XForm xForm: layer.getFinalXForms()) {
+//         if (xForm.getColorType() == ColorType.UNSET) xForm.setColorType(ColorType.DIFFUSION);
+//       }
 //       layer.refreshModWeightTables(pContext);
 //       xf = layer.getXForms().get(0);
 //       p = new XYZPoint();
@@ -356,16 +357,16 @@ int PluginVarCalc(Variation* vp)
 //             pVarTP.color = q.color;
 //             break;
 //           case CM_RED:
-//             pVarTP.color = pVarTP.redColor / 255.0;
+//             pVarTP.color = q.redColor / 255.0;
 //             break;
 //           case CM_GREEN:
-//             pVarTP.color = pVarTP.greenColor / 255.0;
+//             pVarTP.color = q.greenColor / 255.0;
 //             break;
 //           case CM_BLUE:
-//             pVarTP.color = pVarTP.blueColor / 255.0;
+//             pVarTP.color = q.blueColor / 255.0;
 //             break;
 //           case CM_BRIGHTNESS:
-//             pVarTP.color = (0.2990 * pVarTP.redColor + 0.5880 * pVarTP.greenColor + 0.1130 * pVarTP.blueColor) / 255.0;
+//             pVarTP.color = (0.2990 * q.redColor + 0.5880 * q.greenColor + 0.1130 * q.blueColor) / 255.0;
 //             break;
 //         }
 //       }
@@ -413,7 +414,7 @@ int PluginVarCalc(Variation* vp)
 // 
 //   @Override
 //   public byte[][] getRessourceValues() {
-//     return new byte[][]{(flameXML != null ? flameXML.getBytes() : null), (flame_filename != null ? flame_filename.getBytes() : null)};
+//     return new byte[][]{(flameXML != null ? flameXML.getBytes() : null), (flame_is_sequence == SEQ_FILES && flame_filename != null ? flame_filename.getBytes() : null)};
 //   }
 // 
 //   @Override
@@ -430,12 +431,17 @@ int PluginVarCalc(Variation* vp)
 //   public void setRessource(String pName, byte[] pValue) {
 //     if (RESSOURCE_FLAME.equalsIgnoreCase(pName)) {
 //       flameXML = pValue != null ? new String(pValue) : "";
-//       if (flameXML != null && !flameXML.isEmpty()) {
-//         flame_filename = null;
-//       }
 //     } else if (RESSOURCE_FLAME_FILENAME.equalsIgnoreCase(pName)) {
 //       flame_filename = pValue != null ? new String(pValue) : "";
-//     } else
+//       if (!flame_filename.isEmpty()) {
+//         try {
+//           flameXML = Tools.readUTF8Textfile(flame_filename);
+//         }
+//         catch (Exception ex) {
+//           throw new RuntimeException(ex);
+//         }
+//       }
+//      } else
 //       throw new IllegalArgumentException(pName);
 //   }
 // 
@@ -456,8 +462,31 @@ int PluginVarCalc(Variation* vp)
 //       return baseFilename + number + fileExt;
 // 
 //     } else {
-//       return flame_filename;
+//       return null;
 //     }
+//   }
+//   
+//   /* Override makeCopy to avoid raising exception if specified file doesn't exist when copy is made */
+// 
+//   public SubFlameWFFunc makeCopy() {
+//     SubFlameWFFunc varCopy = (SubFlameWFFunc) VariationFuncList.getVariationFuncInstance(this.getName());
+//     // params (safe to copy automatically)
+//     String[] paramNames = this.getParameterNames();
+//     if (paramNames != null) {
+//       for (int i = 0; i < paramNames.length; i++) {
+//         Object val = this.getParameterValues()[i];
+//         if (val instanceof Number) {
+//           varCopy.setParameter(paramNames[i], ((Number) val).doubleValue());
+//         } else {
+//           throw new IllegalStateException();
+//         }
+//       }
+//     }
+//     // ressources (copy manually; don't try to read file)
+//     varCopy.flameXML = flameXML;
+//     varCopy.flame_filename = flame_filename;
+// 
+//     return varCopy;
 //   }
 // 
 // }
